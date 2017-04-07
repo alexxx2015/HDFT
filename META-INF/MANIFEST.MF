@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Agent-Class: edu.tum.uc.jvm.UcAgent
+Premain-Class: edu.tum.uc.jvm.UcAgent
+Provide-Package: edu.tum.uc.jvm,
+ edu.tum.uc.jvm.shrift

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Agent-Class: edu.tum.uc.jvm.UcAgent
+Premain-Class: edu.tum.uc.jvm.UcAgent
+Main-Class: edu.tum.uc.jvm.UcAgent
+Boot-Class-Path: CommunicationBase-1.0.jar guava-17.0.jar ThriftStubs-1.0.jar ThriftDefinitions-1.0.jar libthrift-0.9.1.jar java-pep-asm-2.3.jar
+Class-Path: CommunicationBase-1.0.jar guava-17.0.jar ThriftStubs-1.0.jar ThriftDefinitions-1.0.jar libthrift-0.9.1.jar java-pep-asm-2.3.jar
+Provide-Package: edu.tum.uc.jvm, edu.tum.uc.jvm.asm

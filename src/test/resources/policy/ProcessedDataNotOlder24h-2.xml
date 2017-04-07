@@ -1,0 +1,54 @@
+<?xml version='1.0' standalone='yes' ?>
+<policy     
+    xmlns="http://www22.in.tum.de/enforcementLanguage"
+    xmlns:tns="http://www22.in.tum.de/enforcementLanguage" 
+    xmlns:a="http://www22.in.tum.de/action"
+    xmlns:e="http://www22.in.tum.de/event" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+	name="ProcessDataNotOlderThan24h">
+
+	<initialRepresentations>
+		<container name="Source36">
+			<dataId>Source36</dataId>
+		</container>
+	</initialRepresentations>
+
+
+	<preventiveMechanism name="ProcessedDataNotOlderThan24h">
+		<description>Processed Data must not be older than 24h</description>
+		<timestep amount="3" unit="HOURS" />
+		<trigger action="Source" tryEvent="true">
+			<paramMatch name="calleeObjectClass" value="java.util.Map" />
+			<paramMatch name="calleeMethod" value="get" />
+			<paramMatch name="javaMapIdentifier" value="Source36"
+				cmpOp="dataInContainer" /><!-- pid X memAddr X key -->
+		</trigger>
+
+		<condition>
+			<!--<true/>-->			
+			<occurMinEvent amount="24" unit="HOURS" limit="1">
+				<event action="Source" tryEvent="false">
+					<paramMatch name="calleeObjectClass" value="com.restfb.DefaultFacebookClient" />
+					<paramMatch name="calleeMethod" value="fetchObject" />
+					<paramMatch name="javaMapIdentifier" value="Source36" cmpOp="dataInContainer" />
+				</event>
+			</occurMinEvent>
+		</condition>
+		<authorizationAction name="default">
+			<allow>
+				<!--<modify name="" value="" type="">-->
+				<modify>
+<!--					<parameter name="userid" value="4711"/>-->
+					<parameter name="name" value="Max"/>
+					<parameter name="firstname" value="Max"/>
+					<parameter name="lastname" value="Mustermann"/>
+					<parameter name="gender" value="MW"/>
+					<parameter name="agerange" value="9999"/>
+					<parameter name="link" value="www.xyz.com"/>
+					<parameter name="birthday" value="2015/05/15"/>
+				</modify>
+			</allow>
+		</authorizationAction>
+	</preventiveMechanism>
+</policy>

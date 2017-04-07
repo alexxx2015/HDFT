@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="SMULService" targetNamespace="http://mul.service.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://mul.service.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+  <import namespace="http://mul.service.com/" schemaLocation="smul_schema1.xsd"/>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="mulResponse">
+    <wsdl:part name="parameters" element="tns:mulResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="mul">
+    <wsdl:part name="parameters" element="tns:mul">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="SMULSEI">
+    <wsdl:operation name="mul">
+      <wsdl:input name="mul" message="tns:mul">
+    </wsdl:input>
+      <wsdl:output name="mulResponse" message="tns:mulResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SMULServiceSoapBinding" type="tns:SMULSEI">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="mul">
+      <soap:operation soapAction="urn:Mul" style="document"/>
+      <wsdl:input name="mul">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="mulResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SMULService">
+    <wsdl:port name="SMULPort" binding="tns:SMULServiceSoapBinding">
+      <soap:address location="http://localhost:9090/ServiceMul/services/SMULPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

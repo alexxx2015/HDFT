@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Agent-Class: uca4jvm
+Premain-Class: uca4jvm
+Main-Class: uca4jvm
+Boot-Class-Path: uc4jvm.jar asm_4_1.jar pef.jar
+Class-Path: asm_4_1.jar pef.jar

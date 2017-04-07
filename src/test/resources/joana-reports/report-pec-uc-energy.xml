@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="124990">
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>org.pec.uc.energy.PecUcEnergyUi.drawChart()V:132</location>
+      <possible-signatures>
+        <signature>org.pec.uc.energy.PecUcEnergyUi.getCon(Ljava/lang/String;J)Ljava/util/HashMap;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>org.pec.uc.energy.PecUcEnergyUi.drawChart()V:284</location>
+      <possible-signatures>
+        <signature>org.pec.uc.energy.PecUcEnergyUi.sendData2Remote(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites/>
+  <flows>
+    <sink id="Sink0">
+      <source id="Source0"/>
+    </sink>
+  </flows>
+</mapping>

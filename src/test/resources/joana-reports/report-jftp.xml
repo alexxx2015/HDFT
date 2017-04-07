@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="219515">
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>JFTP.FTPCmdServer.getFile(Ljava/lang/String;Ljava/lang/String;)Z:174</location>
+      <possible-signatures>
+        <signature>java.io.FilterInputStream.read()I</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source1</id>
+      <location>JFTP.FTPCmdServer.putFile(Ljava/lang/String;)Z:119</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.read()I</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source2</id>
+      <location>JFTP.FTPCmdServer.readCtrl()Ljava/lang/String;:12</location>
+      <possible-signatures>
+        <signature>java.io.InputStreamReader.read()I</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source3</id>
+      <location>JFTP.FTPCmdServer.readData()Ljava/lang/String;:9</location>
+      <possible-signatures>
+        <signature>java.io.InputStreamReader.read()I</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source4</id>
+      <location>JFTP.FTPCmdServer.readData()Ljava/lang/String;:40</location>
+      <possible-signatures>
+        <signature>java.io.InputStreamReader.read()I</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source5</id>
+      <location>JFTP.StdIn.readLine()Ljava/lang/String;:4</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source6</id>
+      <location>JFTP.StdIn.readLine()Ljava/lang/String;:4</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </source>
+    <source>
+      <id>Source7</id>
+      <location>JFTP.StdIn.readPasswd()Ljava/lang/String;:53</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source8</id>
+      <location>JFTP.StdIn.readPasswd()Ljava/lang/String;:53</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>JFTP.CommandLineParser.parse(Ljava/lang/String;)V:1051</location>
+      <possible-signatures>
+        <signature>java.lang.System.exit(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink1</id>
+      <location>JFTP.CommandLineParser.parse(Ljava/lang/String;)V:1134</location>
+      <possible-signatures>
+        <signature>java.lang.System.exit(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink2</id>
+      <location>JFTP.FTPCmdServer.createLocalDir(Ljava/lang/String;)Z:41</location>
+      <possible-signatures>
+        <signature>java.io.File.mkdir()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink3</id>
+      <location>JFTP.FTPCmdServer.getFile(Ljava/lang/String;Ljava/lang/String;)Z:162</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink4</id>
+      <location>JFTP.FTPCmdServer.getFile(Ljava/lang/String;Ljava/lang/String;)Z:162</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink5</id>
+      <location>JFTP.FTPCmdServer.getFile(Ljava/lang/String;Ljava/lang/String;)Z:178</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.write(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink6</id>
+      <location>JFTP.FTPCmdServer.getLocalDirListArray()[Ljava/lang/String;:15</location>
+      <possible-signatures>
+        <signature>java.io.File.list()[Ljava/lang/String;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink7</id>
+      <location>JFTP.FTPCmdServer.getLocalLongDirList()Ljava/lang/String;:20</location>
+      <possible-signatures>
+        <signature>java.io.File.listFiles()[Ljava/io/File;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink8</id>
+      <location>JFTP.FTPCmdServer.getLocalLongDirList()Ljava/lang/String;:20</location>
+      <possible-signatures>
+        <signature>java.io.File.listFiles()[Ljava/io/File;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink9</id>
+      <location>JFTP.FTPCmdServer.getLocalLongDirList()Ljava/lang/String;:40</location>
+      <possible-signatures>
+        <signature>java.io.File.isDirectory()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink10</id>
+      <location>JFTP.FTPCmdServer.getLocalLongDirList()Ljava/lang/String;:67</location>
+      <possible-signatures>
+        <signature>java.io.File.canRead()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink11</id>
+      <location>JFTP.FTPCmdServer.getLocalLongDirList()Ljava/lang/String;:132</location>
+      <possible-signatures>
+        <signature>java.io.File.canWrite()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink12</id>
+      <location>JFTP.FTPCmdServer.getLocalShortDirList()Ljava/lang/String;:18</location>
+      <possible-signatures>
+        <signature>java.io.File.list()[Ljava/lang/String;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink13</id>
+      <location>JFTP.FTPCmdServer.putFile(Ljava/lang/String;)Z:93</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink14</id>
+      <location>JFTP.FTPCmdServer.putFile(Ljava/lang/String;)Z:93</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink15</id>
+      <location>JFTP.FTPCmdServer.putFile(Ljava/lang/String;)Z:123</location>
+      <possible-signatures>
+        <signature>java.io.DataOutputStream.write(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink16</id>
+      <location>JFTP.FTPCmdServer.removeLocalDir(Ljava/lang/String;)Z:47</location>
+      <possible-signatures>
+        <signature>java.io.File.delete()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink17</id>
+      <location>JFTP.JFTP.parseArgs([Ljava/lang/String;)V:217</location>
+      <possible-signatures>
+        <signature>java.lang.System.exit(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink18</id>
+      <location>JFTP.JFTP.parseArgs([Ljava/lang/String;)V:674</location>
+      <possible-signatures>
+        <signature>java.lang.Throwable.printStackTrace()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink19</id>
+      <location>JFTP.JFTP.showHelp()V:144</location>
+      <possible-signatures>
+        <signature>java.lang.System.exit(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink20</id>
+      <location>JFTP.JFTPSuper.&lt;init&gt;()V:126</location>
+      <possible-signatures>
+        <signature>java.net.InetAddress.getByName(Ljava/lang/String;)Ljava/net/InetAddress;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink21</id>
+      <location>JFTP.JFTPSuper.&lt;init&gt;()V:126</location>
+      <possible-signatures>
+        <signature>java.net.InetAddress.getByName(Ljava/lang/String;)Ljava/net/InetAddress;</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink22</id>
+      <location>JFTP.JFTPSuper.&lt;init&gt;()V:141</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink23</id>
+      <location>JFTP.JFTPSuper.&lt;init&gt;()V:141</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink24</id>
+      <location>JFTP.JFTPSuper.setCurrentWorkingDir(Ljava/lang/String;)Z:19</location>
+      <possible-signatures>
+        <signature>java.io.File.exists()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink25</id>
+      <location>JFTP.JFTPSuper.setCurrentWorkingDir(Ljava/lang/String;)Z:170</location>
+      <possible-signatures>
+        <signature>java.io.File.exists()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink26</id>
+      <location>JFTP.JFTPSuper.setCurrentWorkingDir(Ljava/lang/String;)Z:258</location>
+      <possible-signatures>
+        <signature>java.io.File.exists()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink27</id>
+      <location>JFTP.JFTPSuper.setServerTo(Ljava/lang/String;)Z:2</location>
+      <possible-signatures>
+        <signature>java.net.InetAddress.getByName(Ljava/lang/String;)Ljava/net/InetAddress;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink28</id>
+      <location>JFTP.JFTPSuper.setServerTo(Ljava/lang/String;)Z:2</location>
+      <possible-signatures>
+        <signature>java.net.InetAddress.getByName(Ljava/lang/String;)Ljava/net/InetAddress;</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink29</id>
+      <location>JFTP.NetWriter.write(Ljava/lang/String;)V:33</location>
+      <possible-signatures>
+        <signature>java.io.OutputStream.write(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink30</id>
+      <location>JFTP.NetWriter.write(Ljava/lang/String;)V:105</location>
+      <possible-signatures>
+        <signature>java.io.OutputStream.write(I)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink31</id>
+      <location>JFTP.Progressbar.show()V:176</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink32</id>
+      <location>JFTP.Progressbar.show()V:176</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink33</id>
+      <location>JFTP.Progressbar.show()V:232</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink34</id>
+      <location>JFTP.Progressbar.show()V:232</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink35</id>
+      <location>JFTP.StdErr.println(Ljava/lang/Object;)V:19</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink36</id>
+      <location>JFTP.StdErr.println(Ljava/lang/Object;)V:19</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink37</id>
+      <location>JFTP.StdIn.readPasswd()Ljava/lang/String;:46</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink38</id>
+      <location>JFTP.StdIn.readPasswd()Ljava/lang/String;:46</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink39</id>
+      <location>JFTP.StdIn.readPasswd()Ljava/lang/String;:100</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink40</id>
+      <location>JFTP.StdIn.readPasswd()Ljava/lang/String;:100</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink41</id>
+      <location>JFTP.StdOut.print(C)V:13</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(C)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink42</id>
+      <location>JFTP.StdOut.print(C)V:13</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(C)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink43</id>
+      <location>JFTP.StdOut.print(Ljava/lang/Object;)V:13</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink44</id>
+      <location>JFTP.StdOut.print(Ljava/lang/Object;)V:13</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink45</id>
+      <location>JFTP.StdOut.println(Ljava/lang/Object;)V:34</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink46</id>
+      <location>JFTP.StdOut.println(Ljava/lang/Object;)V:34</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.print(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink47</id>
+      <location>JFTP.StdOut.println(Ljava/lang/Object;)V:44</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink48</id>
+      <location>JFTP.StdOut.println(Ljava/lang/Object;)V:44</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites/>
+  <flows>
+    <sink id="Sink0"/>
+    <sink id="Sink1"/>
+    <sink id="Sink2">
+      <source id="Source5"/>
+    </sink>
+    <sink id="Sink3"/>
+    <sink id="Sink4">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+    </sink>
+    <sink id="Sink5">
+      <source id="Source0"/>
+    </sink>
+    <sink id="Sink6"/>
+    <sink id="Sink7"/>
+    <sink id="Sink8"/>
+    <sink id="Sink9"/>
+    <sink id="Sink10"/>
+    <sink id="Sink11"/>
+    <sink id="Sink12"/>
+    <sink id="Sink13"/>
+    <sink id="Sink14">
+      <source id="Source5"/>
+    </sink>
+    <sink id="Sink15">
+      <source id="Source1"/>
+    </sink>
+    <sink id="Sink16">
+      <source id="Source5"/>
+    </sink>
+    <sink id="Sink17"/>
+    <sink id="Sink18"/>
+    <sink id="Sink19"/>
+    <sink id="Sink20">
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink21"/>
+    <sink id="Sink22">
+      <source id="Source2"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink23"/>
+    <sink id="Sink24">
+      <source id="Source5"/>
+    </sink>
+    <sink id="Sink25"/>
+    <sink id="Sink26">
+      <source id="Source5"/>
+    </sink>
+    <sink id="Sink27">
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink28">
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink29">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink30"/>
+    <sink id="Sink31">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink32">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+    </sink>
+    <sink id="Sink33">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink34">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+    </sink>
+    <sink id="Sink35">
+      <source id="Source2"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink36">
+      <source id="Source2"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink37">
+      <source id="Source2"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink38"/>
+    <sink id="Sink39">
+      <source id="Source2"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink40"/>
+    <sink id="Sink41">
+      <source id="Source2"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink42">
+      <source id="Source2"/>
+    </sink>
+    <sink id="Sink43">
+      <source id="Source2"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink44">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+    </sink>
+    <sink id="Sink45">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink46">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink47">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+    <sink id="Sink48">
+      <source id="Source2"/>
+      <source id="Source3"/>
+      <source id="Source4"/>
+      <source id="Source5"/>
+      <source id="Source6"/>
+      <source id="Source7"/>
+      <source id="Source8"/>
+    </sink>
+  </flows>
+</mapping>

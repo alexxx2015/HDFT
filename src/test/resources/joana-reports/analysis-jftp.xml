@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<analysises>
+	<analysis name="jftp">
+		<mode value="build"/>
+		<classpath value="examples/classes/bin"/>
+		<stubs value="JRE_14"/>
+		<entrypoint value="JavaFTP.JFTP.main([Ljava/lang/String;)V"/>
+		<ignoreIndirectFlows value="true"/>
+		<points-to policy="OBJECT_SENSITIVE">
+			<include-classes value="LJavaFTP/.*"/>
+			<include-classes value="Ljava/io/.*"/>
+		</points-to>
+		<multithreaded value="false"/>
+		<sdgfile value="jftp.pdg"/>
+		<cgfile value="jftp.cg"/>
+		<reportfile value="report.xml"/>
+		<statistics value="stats.txt"/>
+		<logFile value="jftp.log"/>
+		<computeChops value="false"/>
+		<systemout value="false"/>
+		<objectsensitivenes value="false"/>
+		<sourcesandsinks>
+			<file value="./sourcesandsinks.xml"/>
+		</sourcesandsinks>
+	</analysis>
+</analysises>

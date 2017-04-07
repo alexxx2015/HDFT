@@ -1,0 +1,5 @@
+grant codeBase "file:/Users/ladmin/Documents/workspace/uc4cloud/edu.tum.www22.uc4jvm/bin/*" {
+//grant {
+    permission java.io.FilePermission "/Users/ladmin/MyRepo/*", "read,write";
+};
+

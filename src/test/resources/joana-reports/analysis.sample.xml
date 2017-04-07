@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<analyses>
+	<!--  specify a list of analyses which are performed in sequence -->
+	<analysis>
+		<!-- where to find the application code - can be a directory or a jar
+		     It is also possible to specify multiple paths here - just separate them with '::']-->
+		<classpath value="examples/classes/bin"/>
+		<!-- where to find code for third-party libraries - can be a directory or a jar
+		     It is also possible to specify multiple paths here - just separate them with '::'] -->
+		<thirdPartyLibs value="fancylib.jar"/>
+		<!--  stubs to use as model for the java standard library 
+		      Please note: 
+		      - Handling of multiple threads currently only works with JRE_14
+		      - Java Swing is not contatined in JRE_14
+		-->
+		<stubs value="JRE_14|JRE_15|NO_STUBS"/>
+		<!-- main method in which the program is started -->
+		<entrypoint value="fileio.ObjectSens1a.main([Ljava/lang/String;)V"/>
+		<!-- whether a new PDG shall be built ('build') or an existing PDG shall be loaded ('load') -->
+		<mode value="load|build"/>
+		<!-- in mode 'build': denotes the file to which the PDG shall be written
+			 Note: this item is optional. If it is ommitted, the PDG is not written to any file 
+		     in mode 'load': denotes the file from which the PDG shall be loaded -->
+		<sdgfile value="objsens1a.pdg"/>
+		<!--  in mode 'build': denotes the file to which the unpruned WALA call graph shall be written
+			  Note: this item is optional, but it is an error to omit it, if an sdg file was specified
+	    	  in mode 'load': denotes the file from which the unpruned WALA call graph shall be loaded
+	    -->
+		<cgfile value="objsens1a.cg"/>
+		<!--  whether the analysis shall consider multiple threads of the given program -->
+		<multithreaded value="true|false"/>
+
+		<!-- specify points-to precision. For possible values of <policy>, refer to edu.kit.joana.wala.core.SDGBuilder.PointsToPrecision 
+		<!-- Special behaviour for <policy>=OBJECT_SENSITIVE:
+			 - handle classes object-sensitively, whose name match one of the java-style regexes given in the <include-classes> tags and
+			 none of the regexes given in the <exclude-classes> tags
+			 - specify fallback callstring depth using 'fallback' attribute
+		-->
+		<points-to policy="<policy>" fallback="1">
+			<include-classes value="LJZip/.*"/>
+			<include-classes value="Ljava/util/*"/>
+			<include-classes value="Ljava/io/ZipOutputStream"/>
+			<exclude-classes value="Ljava/util/LinkedList"/>
+		</points-to>
+		<!--  specify whether indirect flows resulting from control dependencies shall be ignored
+			  This setting may be omitted. In that case, control dependencies are not ignored 
+		-->
+		<ignoreIndirectFlows value="true|false"/>
+		<!--specify whether actual information flow analysis shall be performed.
+			If set to true, no information flow analysis is performed and the
+			report only contains the sources and sinks.
+			this setting may be ommitted. In that case, information flow analysis is performed.
+		-->
+		<omitIFC value="true|false"/>
+		<!-- where the report shall be written to -->
+		<reportfile value="report-objsens1a.xml"/>
+		<!-- file to write statistics about sizes and durations to; if omitted, stats are dumped to stdout -->
+		<statistics value="stats.txt"/>
+		<!-- shall the report also be written to standard output -->
+		<systemout value="true|false"/>
+		<!-- compute also a chop for each found violation? -->
+		<computechops value="false"/>
+
+		<objectsensitivenes value="true"/>
+
+		<!-- source and sink specification -->
+		<sourcesandsinks>
+			<!-- 
+			  source/sink: declare parameters of methods, which are considered sources/sinks
+			  class: declaring class of the method
+			  selector: selector of the method (bytecode notation!)
+			  params: comma-separated list of parameters which shall be considered source/sink
+			  	- use 1,...,n for the normal parameters of the methods
+			  	- use "this" for the this-pointer
+			  	- use "ret" for the return value
+			  includeSubclasses: if set to 'true', consider not only the method itself as source/sink method,
+			  but also every method which overrides this method
+			  indirectCalls: if set to 'true', consider not only the method itself as source/sink method,
+			  but also every method which may call this method transitively
+			 -->
+			<source class="Ljava/io/InputStream" selector="read()I"
+				params="ret" includeSubclasses="true|false" indirectCalls="true|false" />
+			<!--  source/sinks can also be specified in a separate file -->
+			<file value="./sourcesandsinks.xml"/>
+		</sourcesandsinks>
+	</analysis>
+</analyses>

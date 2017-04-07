@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping>
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>test.TestProgram11.read([B)V:12</location>
+      <signature>java.io.FileInputStream.read([B)I</signature>
+      <return/>
+    </source>
+    <source>
+      <id>Source1</id>
+      <location>test.TestProgram11.read([B)V:12</location>
+      <signature>java.io.FileInputStream.read([B)I</signature>
+      <param index="1"/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>test.TestProgram11.write([B)V:12</location>
+      <signature>java.io.FileOutputStream.write([B)V</signature>
+      <param index="1"/>
+    </sink>
+  </sinks>
+  <flows>
+    <sink id="Sink0">
+      <source id="Source1">Source1</source>
+    </sink>
+    <chop>
+      <chopNode byteCodeIndex="278" label="v41 = v38[v43]" operation="REFERENCE" ownerMethod="java.lang.System.arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V"/>
+      <chopNode byteCodeIndex="279" label="v39[v43] = v41" operation="MODIFY" ownerMethod="java.lang.System.arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V"/>
+      <chopNode byteCodeIndex="13" label="arraycopy(p1, #(0), v6, #(0), v8)" operation="CALL" ownerMethod="test.TestProgram11.dosth([B)[B"/>
+      <chopNode byteCodeIndex="12" label="read(v4)" operation="CALL" ownerMethod="test.TestProgram11.main([Ljava/lang/String;)V"/>
+      <chopNode byteCodeIndex="16" label="v9 = dosth(v4)" operation="CALL" ownerMethod="test.TestProgram11.main([Ljava/lang/String;)V"/>
+      <chopNode byteCodeIndex="23" label="v11 = v9[#(55)]" operation="REFERENCE" ownerMethod="test.TestProgram11.main([Ljava/lang/String;)V"/>
+      <chopNode byteCodeIndex="25" label="if (v11 &lt;= #(4)) goto 37" operation="IF" ownerMethod="test.TestProgram11.main([Ljava/lang/String;)V"/>
+      <chopNode byteCodeIndex="34" label="v14 = v4[#(25)]" operation="REFERENCE" ownerMethod="test.TestProgram11.main([Ljava/lang/String;)V"/>
+      <chopNode byteCodeIndex="35" label="v9[#(55)] = v14" operation="MODIFY" ownerMethod="test.TestProgram11.main([Ljava/lang/String;)V"/>
+      <chopNode byteCodeIndex="37" label="write(v9)" operation="CALL" ownerMethod="test.TestProgram11.main([Ljava/lang/String;)V"/>
+      <chopNode byteCodeIndex="12" label="v7 = v3.read(p1)" operation="CALL" ownerMethod="test.TestProgram11.read([B)V"/>
+      <chopNode byteCodeIndex="12" label="v3.write(p1)" operation="CALL" ownerMethod="test.TestProgram11.write([B)V"/>
+    </chop>
+  </flows>
+</mapping>

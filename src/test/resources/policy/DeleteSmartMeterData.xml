@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy xmlns="http://www.iese.fhg.de/pef/1.0/enforcementLanguage"
+    xmlns:tns="http://www.iese.fhg.de/pef/1.0/enforcementLanguage"
+    xmlns:a="http://www.iese.fhg.de/pef/1.0/action"
+    xmlns:e="http://www.iese.fhg.de/pef/1.0/event"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	name="SmartGridPolicy">
+	<!--
+	<actionDescriptions>
+		<actionDescription name="java/io/OutputStreamWriter/write">
+			<parameterDescription name="java/io/OutputStreamWriter/write/1" />
+		</actionDescription>
+	</actionDescriptions>	
+	-->
+	<preventiveMechanism name="DeleteSmartMeterReading">
+		<description>Delete Smart Meter Values</description>
+	    	<timestep amount="1" unit="SECONDS"/>		
+		<trigger/>
+		<condition><true/></condition>
+		<authorizationAction name="default">
+			<allow/>
+		</authorizationAction>
+
+	  <executeAsyncAction name="DELETEMR" processor="PXP" id="JAVAPXP" >
+		<parameter name="OLDERTHAN" value="30" type="T" />
+		<parameter name="UNIT" value="sec" type="D" />
+	  </executeAsyncAction>		
+	</preventiveMechanism>
+	
+</policy>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="15073">
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:29</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.read([B)I</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>8</context>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:5</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>8</context>
+    </sink>
+    <sink>
+      <id>Sink1</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:5</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>8</context>
+    </sink>
+    <sink>
+      <id>Sink2</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:14</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>8</context>
+    </sink>
+    <sink>
+      <id>Sink3</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:14</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>8</context>
+    </sink>
+    <sink>
+      <id>Sink4</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:37</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.write([B)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>8</context>
+    </sink>
+    <sink>
+      <id>Sink5</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:57</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>8</context>
+    </sink>
+    <sink>
+      <id>Sink6</id>
+      <location>fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V:57</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>8</context>
+    </sink>
+    <sink>
+      <id>Sink7</id>
+      <location>fileduplicator.FileDuplicator.main([Ljava/lang/String;)V:36</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink8</id>
+      <location>fileduplicator.FileDuplicator.main([Ljava/lang/String;)V:36</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites>
+    <creation-site>
+      <id>8</id>
+      <location>fileduplicator.FileDuplicator.main([Ljava/lang/String;)V:10</location>
+    </creation-site>
+  </creation-sites>
+  <flows>
+    <sink id="Sink0"/>
+    <sink id="Sink1"/>
+    <sink id="Sink2"/>
+    <sink id="Sink3"/>
+    <sink id="Sink4">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="29" label="v12 = v5.read(v10)" operation="call" ownerMethod="fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="37" label="v7.write(v10)" operation="call" ownerMethod="fileduplicator.FileDuplicator.dupeFile(Ljava/lang/String;Ljava/lang/String;)V"/>
+      </chop>
+    </sink>
+    <sink id="Sink5"/>
+    <sink id="Sink6"/>
+    <sink id="Sink7"/>
+    <sink id="Sink8"/>
+  </flows>
+</mapping>

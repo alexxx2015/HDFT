@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="310349">
+  <sources>
+    <source>
+      <id>Source9</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:219</location>
+      <possible-signatures>
+        <signature>java.io.FilterInputStream.read([B)I</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink49</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:213</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipOutputStream.write([BII)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites/>
+  <flows>
+    <sink id="Sink49">
+      <source id="Source9"/>
+      <chop>
+        <chopNode byteCodeIndex="213" label="v17.write(v11, #(0), v65)" operation="call" ownerMethod="jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="219" label="v65 = v62.read(v11)" operation="call" ownerMethod="jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V"/>
+      </chop>
+    </sink>
+  </flows>
+</mapping>

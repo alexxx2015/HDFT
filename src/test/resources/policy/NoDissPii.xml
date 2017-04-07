@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy xmlns="http://www22.in.tum.de/enforcementLanguage"
+	xmlns:tns="http://www22.in.tum.de/enforcementLanguage" xmlns:a="http://www22.in.tum.de/action"
+	xmlns:e="http://www22.in.tum.de/event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	name="PII Inhibit">
+
+	<initialRepresentations>
+		<container name="OwnerP_47">
+			<dataId>D47</dataId>
+		</container>
+	</initialRepresentations>
+
+	<preventiveMechanism name="DontDisseminatePii">
+		<description>Do not disseminate PII</description>
+		<timestep amount="3" unit="SECONDS" />
+		<trigger action="Sink" tryEvent="true">
+			<paramMatch name="Source" value="http://localhost:8080/ppl-rest/pii/getPii" />
+			<!-- <paramMatch name="pii" value="{piiId}" />-->
+		</trigger>
+		<condition>
+			<not>
+				<stateBasedFormula operator="isNotIn" param1="D47"
+					param2="Sink0"/>
+			</not>
+		</condition>
+		<authorizationAction name="default">
+			<inhibit />
+		</authorizationAction>
+		<!-- <authorizationAction name="default">
+			<modify>
+			    <parameter name="param2" value="null"/>
+			</modify>
+		</authorizationAction>
+		-->
+	</preventiveMechanism>
+</policy>

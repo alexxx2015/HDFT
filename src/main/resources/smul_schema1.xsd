@@ -1,0 +1,20 @@
+<xs:schema xmlns:tns="http://mul.service.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://mul.service.com/" version="1.0">
+
+  <xs:element name="mul" type="tns:mul"/>
+
+  <xs:element name="mulResponse" type="tns:mulResponse"/>
+
+  <xs:complexType name="mul">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:float"/>
+      <xs:element name="arg1" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="mulResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

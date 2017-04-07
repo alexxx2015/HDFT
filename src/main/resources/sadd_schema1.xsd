@@ -1,0 +1,20 @@
+<xs:schema xmlns:tns="http://add.service.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://add.service.com/" version="1.0">
+
+  <xs:element name="add" type="tns:add"/>
+
+  <xs:element name="addResponse" type="tns:addResponse"/>
+
+  <xs:complexType name="add">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:float"/>
+      <xs:element name="arg1" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="addResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

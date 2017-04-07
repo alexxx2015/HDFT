@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="338796">
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;:94</location>
+      <possible-signatures>
+        <signature>com.sun.jersey.api.client.WebResource$Builder.get(Ljava/lang/Class;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;:163</location>
+      <possible-signatures>
+        <signature>com.sun.jersey.api.client.WebResource$Builder.put(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <param index="2"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites/>
+  <flows>
+    <sink id="Sink0">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="0" label="v5 = new java.lang.StringBuilder" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="declaration" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="4" label="v5.&lt;init&gt;()" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="call" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="9" label="v8 = readFile(p1)" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="call" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="20" label="v9.printStackTrace()" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="call" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="24" label="v14 = searchFile(p2)" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="call" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="30" label="v15 = this.client" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="reference" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="36" label="v17 = v12.toString()" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="call" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="44" label="v21 = v15.sendPii(v14, v17, v18, #(null))" local2Vn="5:3,8:3,9:4,14:4,21:5" operation="call" ownerMethod="sap.ExampleAppRetransmit.deployPolicyAndPii(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="32" label="v13 = v11.getPii(v3)" local2Vn="3:1" operation="call" ownerMethod="sap.ExampleAppRetransmit.fetchPii()Ljava/io/File;"/>
+        <chopNode byteCodeIndex="35" label="return v13" local2Vn="3:1" operation="compound" ownerMethod="sap.ExampleAppRetransmit.fetchPii()Ljava/io/File;"/>
+        <chopNode byteCodeIndex="9" label="v6 = v3.fetchPii()" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="14" label="v8 = v6.getAbsolutePath()" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="17" label="v10 = readFile(v8)" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="21" label="v11 = java.lang.System.out" local2Vn="3:1,6:2,10:3,25:4" operation="reference" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="24" label="v12 = new java.lang.StringBuilder" local2Vn="3:1,6:2,10:3,25:4" operation="declaration" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="30" label="v12.&lt;init&gt;(#(Fetched data from PII '))" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="34" label="v16 = v10.toString()" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="37" label="v18 = v12.append(v16)" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="42" label="v21 = v18.append(#('))" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="45" label="v23 = v21.toString()" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="48" label="v11.println(v23)" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="51" label="v25 = new java.io.File" local2Vn="3:1,6:2,10:3,25:4" operation="declaration" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="57" label="v25.&lt;init&gt;(#(sample_ppl_policy-per...))" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="65" label="v29 = v25.getName()" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="69" label="v31 = v6.getAbsolutePath()" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="72" label="v3.deployPolicyAndPii(v29, v31)" local2Vn="3:1,6:2,10:3,25:4" operation="call" ownerMethod="sap.ExampleAppRetransmit.main([Ljava/lang/String;)V"/>
+
+        <chopNode byteCodeIndex="0" label="v44 = catch &lt;exc&gt;" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="assign" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="94" label="v42 = v39.get(v40)" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="97" label="v43 = CHECKCAST v42 exc 108" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="assign" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="108" label="v44.printStackTrace()" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="112" label="v49 = v47.getStatus()" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="115" label="switch v49" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="IF" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="149" label="v70 = metadata &lt;Application,Ljava/io/File&gt;-&gt;&lt;Primordial,Ljava/lang/Class&gt;" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="assign" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="151" label="v72 = v47.getEntity(v70)" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="154" label="v73 = CHECKCAST v72" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="assign" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="157" label="return v73" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="compound" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="158" label="v66 = sap.PPLClient.LOGGER" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="reference" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="161" label="v67 = java.util.logging.Level.INFO" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="reference" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="167" label="v66.log(v67, #(PPLClient.getPii: Req...))" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="171" label="return #(null)" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="compound" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="172" label="v62 = sap.PPLClient.LOGGER" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="reference" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="175" label="v63 = java.util.logging.Level.SEVERE" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="reference" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="181" label="v62.log(v63, #(PPLClient.getPii: Inv...))" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="185" label="return #(null)" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="compound" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="186" label="v50 = sap.PPLClient.LOGGER" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="reference" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="189" label="v51 = java.util.logging.Level.SEVERE" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="reference" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="192" label="v52 = new java.lang.StringBuilder" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="declaration" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="199" label="v52.&lt;init&gt;(#(PPLClient.getPii: Error: ))" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="203" label="v56 = v47.getStatus()" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="206" label="v58 = v52.append(v56)" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="209" label="v60 = v58.toString()" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="212" label="v50.log(v51, v60)" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="call" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="216" label="return #(null)" local2Vn="4:3,5:5,14:2,26:4,43:3,44:6" operation="compound" ownerMethod="sap.PPLClient.getPii(Ltypes/DelegateRequest;)Ljava/io/File;"/>
+
+        <chopNode byteCodeIndex="0" label="v7 = sap.PPLClient.LOGGER" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="reference" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="3" label="v8 = new java.lang.StringBuilder" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="declaration" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="9" label="v8.&lt;init&gt;(#(Sending file ))" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="13" label="v12 = p1.getName()" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="16" label="v14 = v8.append(v12)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="21" label="v17 = v14.append(#( to enforcement backend))" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="24" label="v19 = v17.toString()" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="27" label="v7.info(v19)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="30" label="v21 = sap.PPLClient.LOGGER" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="reference" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="33" label="v22 = new java.lang.StringBuilder" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="declaration" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="v22.&lt;init&gt;(#(Server Endpoint: ))" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="43" label="v25 = this.serverUrl" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="reference" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="46" label="v27 = v22.append(v25)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="49" label="v29 = v27.toString()" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="52" label="v21.info(v29)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="55" label="v32 = create()" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="60" label="v33 = new com.sun.jersey.multipart.FormDataMultiPart" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="declaration" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="123" label="v50 = new java.lang.StringBuilder" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="declaration" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="128" label="v51 = this.serverUrl" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="reference" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="131" label="v53 = valueOf(v51)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="134" label="v50.&lt;init&gt;(v53)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="140" label="v57 = v50.append(#(/pii/createPiiFile))" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="143" label="v59 = v57.toString()" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="146" label="v61 = v32.resource(v59)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="156" label="v64 = v61.type(#(multipart/form-data))" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="159" label="v65 = metadata &lt;Application,Lcom/sun/jersey/api/client/ClientResponse&gt;-&gt;&lt;Primordial,Ljava/lang/Class&gt; exc 280" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="assign" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="163" label="v67 = v64.put(v65, v33)" local2Vn="32:5,33:6,61:7,68:8,75:9,76:10,106:5" operation="call" ownerMethod="sap.PPLClient.sendPii(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"/>
+        
+	<chopNode byteCodeIndex="0" label="v3 = new java.lang.StringBuilder" local2Vn="3:1,6:2,8:3,13:4" operation="declaration" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="4" label="v3.&lt;init&gt;()" local2Vn="3:1,6:2,8:3,13:4" operation="call" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="9" label="v6 = searchFile(p1)" local2Vn="3:1,6:2,8:3,13:4" operation="call" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="14" label="if (v6 == #(null)) goto 54" local2Vn="3:1,6:2,8:3,13:4" operation="IF" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="17" label="v8 = new java.io.BufferedReader" local2Vn="3:1,6:2,8:3,13:4" operation="declaration" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="21" label="v9 = new java.io.FileReader" local2Vn="3:1,6:2,8:3,13:4" operation="declaration" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="26" label="v9.&lt;init&gt;(v6)" local2Vn="3:1,6:2,8:3,13:4" operation="call" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="29" label="v8.&lt;init&gt;(v9)" local2Vn="3:1,6:2,8:3,13:4" operation="call" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="39" label="v15 = v3.append(v13)" local2Vn="3:1,6:2,8:3,13:4" operation="call" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="44" label="v13 = v8.readLine()" local2Vn="3:1,6:2,8:3,13:4" operation="call" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="50" label="if (v13 != #(null)) goto 39" local2Vn="3:1,6:2,8:3,13:4" operation="IF" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="54" label="return v3" local2Vn="3:1,6:2,8:3,13:4" operation="compound" ownerMethod="types.Utility.readFile(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="0" label="v3 = new java.io.File" local2Vn="3:1,14:2,15:1,16:1" operation="declaration" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="5" label="v3.&lt;init&gt;(p1)" local2Vn="3:1,14:2,15:1,16:1" operation="call" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="10" label="v6 = v3.exists()" local2Vn="3:1,14:2,15:1,16:1" operation="call" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="13" label="if (v6 != #(0)) goto 51" local2Vn="3:1,14:2,15:1,16:1" operation="IF" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="16" label="v8 = metadata &lt;Application,Ltypes/Utility&gt;-&gt;&lt;Primordial,Ljava/lang/Class&gt;" local2Vn="3:1,14:2,15:1,16:1" operation="assign" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="18" label="v10 = v8.getClassLoader()" local2Vn="3:1,14:2,15:1,16:1" operation="call" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="22" label="v12 = v3.getName()" local2Vn="3:1,14:2,15:1,16:1" operation="call" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="25" label="v14 = v10.getResource(v12)" local2Vn="3:1,14:2,15:1,16:1" operation="call" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="30" label="if (v14 != #(null)) goto 38" local2Vn="3:1,14:2,15:1,16:1" operation="IF" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="38" label="v16 = new java.io.File" local2Vn="3:1,14:2,15:1,16:1" operation="declaration" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="43" label="v18 = v14.getFile()" local2Vn="3:1,14:2,15:1,16:1" operation="call" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="46" label="v16.&lt;init&gt;(v18)" local2Vn="3:1,14:2,15:1,16:1" operation="call" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+        <chopNode byteCodeIndex="51" label="return v20" local2Vn="3:1,14:2,15:1,16:1" operation="compound" ownerMethod="types.Utility.searchFile(Ljava/lang/String;)Ljava/io/File;"/>
+      </chop>
+    </sink>
+  </flows>
+</mapping>

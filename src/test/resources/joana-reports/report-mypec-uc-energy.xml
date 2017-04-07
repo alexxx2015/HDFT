@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="130054">
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>test.MyPecUcEnergyUi.getResponse(Ljava/lang/String;)Lorg/json/simple/JSONObject;:50</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>test.MyPecUcEnergyUi.writeConsumption(Lorg/json/simple/JSONObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V:206</location>
+      <possible-signatures>
+        <signature>java.io.FileWriter.write(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites/>
+  <flows>
+    <sink id="Sink0">
+      <source id="Source0"/>
+    </sink>
+  </flows>
+</mapping>

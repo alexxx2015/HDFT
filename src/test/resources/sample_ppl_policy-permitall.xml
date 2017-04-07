@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns5:StickyPolicy xmlns="http://www.primelife.eu/ppl" xmlns:ns6="urn:oasis:names:tc:xacml:2.0:policy:schema:os" xmlns:ns5="http://www.primelife.eu/ppl/stickypolicy" xmlns:ns7="http://www.primelife.eu/ppl/credential" xmlns:ns2="http://www.primelife.eu/ppl/obligation" xmlns:ns4="http://www.primelife.eu/ppl/obligation/mismatch" xmlns:ns3="http://www.primelife.eu/ppl/authorization/mismatch">
+    <ns5:Attribute>
+        
+        <AuthorizationsSet>
+            <AuthzDownstreamUsage allowed="true">
+                <ns6:Policy PolicyId="policy-e043800f-1843-4bbd-881d-524dc957d039" RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides">
+                    <ns6:Target />
+                    <ns6:Rule RuleId="rule-60edc26b-b82f-4a9b-a4c2-fd895321d3c9" Effect="Permit"/>
+                </ns6:Policy>
+            </AuthzDownstreamUsage>
+        </AuthorizationsSet>
+        
+        <ns2:ObligationsSet>
+            
+            <ns2:Obligation>
+                <ns2:TriggersSet>
+                    <ns2:TriggerAtTime>
+                        <ns2:Start>
+                            <ns2:StartNow/>
+                        </ns2:Start>
+                        <ns2:MaxDelay>
+                            <ns2:Duration>P0Y0M0DT0H1M0S</ns2:Duration>
+                        </ns2:MaxDelay>
+                    </ns2:TriggerAtTime>
+                </ns2:TriggersSet>
+                <ns2:ActionDeletePersonalData/>
+            </ns2:Obligation>
+            
+        </ns2:ObligationsSet>
+        
+    </ns5:Attribute>
+</ns5:StickyPolicy>

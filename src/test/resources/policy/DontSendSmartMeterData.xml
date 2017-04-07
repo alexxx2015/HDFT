@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy xmlns="http://www.iese.fhg.de/pef/1.0/enforcementLanguage"
+    xmlns:tns="http://www.iese.fhg.de/pef/1.0/enforcementLanguage"
+    xmlns:a="http://www.iese.fhg.de/pef/1.0/action"
+    xmlns:e="http://www.iese.fhg.de/pef/1.0/event"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	name="SmartGridPolicy">
+	
+	<preventiveMechanism name="DontSendSmartMeterData">
+		<description>Don't send sensitive smart meter data</description>
+	    	<timestep amount="3" unit="SECONDS"/>		
+		<trigger action="org.pec.uc.energy.PecUcEnergyUi.sendData2Remote" tryEvent="true" />
+		<condition>
+		  <not><stateBasedFormula operator="isNotIn" 
+		    param1="D1"
+		    param2="snk_org.pec.uc.energy.PecUcEnergyUi.sendData2Remote(Ljava/lang/String;)V" 
+		 	param3 = "3"/></not>
+  	</condition>
+	<authorizationAction name="default">
+		<inhibit/>
+	</authorizationAction>
+	</preventiveMechanism>
+	
+</policy>

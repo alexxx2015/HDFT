@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="3856">
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:42</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source1</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:42</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </source>
+    <source>
+      <id>Source2</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:66</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:21</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink1</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:21</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink2</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:57</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink3</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:57</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <param index="2"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink4</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:78</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink5</id>
+      <location>restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V:78</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/Object;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites/>
+  <flows>
+    <sink id="Sink0"/>
+    <sink id="Sink1"/>
+    <sink id="Sink2">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="42" label="v15 = v10.readLine()" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="57" label="v19 = v3.put(v15, v16)" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+      </chop>
+    </sink>
+    <sink id="Sink3"/>
+    <sink id="Sink4"/>
+    <sink id="Sink5">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="42" label="v15 = v10.readLine()" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="57" label="v19 = v3.put(v15, v16)" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="66" label="v21 = v3.get(v15)" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="78" label="v22.println(v21)" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+      </chop>
+      <source id="Source2"/>
+      <chop>
+        <chopNode byteCodeIndex="66" label="v21 = v3.get(v15)" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="78" label="v22.println(v21)" operation="call" ownerMethod="restfb.test.RestFbFakeDB.main([Ljava/lang/String;)V"/>
+      </chop>
+    </sink>
+  </flows>
+</mapping>

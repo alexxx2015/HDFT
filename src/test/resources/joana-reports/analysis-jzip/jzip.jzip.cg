@@ -1,0 +1,2090 @@
+< Primordial, Ljava/util/HashMap$Values, <init>(Ljava/util/HashMap;)V > 524
+< Primordial, Ljava/util/TimeZone, getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone; > 632
+< Primordial, Ljava/util/NoSuchElementException, <init>(Ljava/lang/String;)V > 870
+< Primordial, Ljava/lang/String, substring(II)Ljava/lang/String; > 41
+< Primordial, Ljava/io/OutputStream, flush()V > 742
+< Primordial, Ljava/lang/StringBuffer, setShared()V > 520
+< Primordial, Ljava/io/PrintStream, newLine()V > 229
+< Primordial, Ljava/util/Hashtable$Enumerator, <init>(Ljava/util/Hashtable;IZ)V > 454
+< Primordial, Ljava/lang/Integer, valueOf(Ljava/lang/String;)Ljava/lang/Integer; > 989
+< Primordial, Ljava/lang/IllegalArgumentException, <init>()V > 504
+< Primordial, Ljava/io/File, isDirectory()Z > 235
+< Primordial, Ljava/lang/String, trim()Ljava/lang/String; > 18
+< Primordial, Ljava/util/Properties, <init>(Ljava/util/Properties;)V > 171
+< Primordial, Ljava/io/BufferedOutputStream, write(I)V > 799
+< Primordial, Ljava/io/FileOutputStream, <init>(Ljava/io/File;Z)V > 213
+< Primordial, Ljava/io/PrintWriter, flush()V > 107
+< Primordial, Ljava/util/Date, getHours()I > 479
+< Primordial, Ljava/util/Hashtable, keys()Ljava/util/Enumeration; > 221
+< Extension, Lorg/apache/commons/cli/OptionBuilder, hasArg()Lorg/apache/commons/cli/OptionBuilder; > 30
+< Primordial, Ljava/text/DateFormatSymbols, initializeData(Ljava/util/Locale;)V > 538
+< Primordial, Ljava/io/Win32FileSystem, <init>()V > 276
+< Primordial, Ljava/io/BufferedReader, ensureOpen()V > 96
+< Primordial, Ljava/util/Hashtable, getEnumeration(I)Ljava/util/Enumeration; > 349
+< Primordial, Ljava/text/DecimalFormatSymbols, getPerMill()C > 757
+< Primordial, Ljava/io/FilterInputStream, read([B)I > 135
+< Primordial, Ljava/io/Writer, <init>(Ljava/lang/Object;)V > 337
+< Primordial, Ljava/util/Date, <init>(J)V > 341
+< Extension, Lorg/apache/commons/cli/OptionValidator, isValidOpt(C)Z > 293
+< Primordial, Ljava/text/NumberFormat, setMaximumIntegerDigits(I)V > 697
+< Extension, Lorg/apache/commons/cli/Parser, processProperties(Ljava/util/Properties;)V > 200
+< Primordial, Ljava/text/DecimalFormatSymbols, getCurrencySymbol()Ljava/lang/String; > 759
+< Primordial, Ljava/io/ObjectStreamField, <init>(Ljava/lang/String;Ljava/lang/Class;)V > 459
+< Primordial, Ljava/lang/CharacterData, getProperties(C)I > 572
+< Primordial, Ljava/util/LinkedList$ListItr, previous()Ljava/lang/Object; > 846
+< Primordial, Ljava/lang/Throwable, printStackTraceAsCause(Ljava/io/PrintStream;[Ljava/lang/StackTraceElement;)V > 810
+< Primordial, Ljava/lang/FDBigInt, mult(I)Ljava/lang/FDBigInt; > 701
+< Primordial, Ljava/util/zip/Deflater, initIDs()V > 365
+< Primordial, Ljava/io/UnixFileSystem, hashCode(Ljava/io/File;)I > 1045
+< Primordial, Ljava/util/Vector, elements()Ljava/util/Enumeration; > 499
+< Primordial, Ljava/util/HashMap, eq(Ljava/lang/Object;Ljava/lang/Object;)Z > 162
+< Primordial, Ljava/io/ObjectStreamClass, getClassSignature(Ljava/lang/Class;)Ljava/lang/String; > 598
+< Primordial, Ljava/lang/Math, log(D)D > 665
+< Primordial, Ljava/util/Hashtable, <init>()V > 243
+< Primordial, Ljava/text/NumberFormat$Field, <clinit>()V > 965
+< Primordial, Ljava/util/zip/Inflater, initIDs()V > 398
+< Primordial, Ljava/util/Locale, toUpperCase(Ljava/lang/String;)Ljava/lang/String; > 535
+< Primordial, Ljava/lang/String, <init>()V > 546
+< Primordial, Ljava/lang/Thread, currentThread()Ljava/lang/Thread; > 167
+< Primordial, Ljava/text/DecimalFormat, setMaximumIntegerDigits(I)V > 669
+< Primordial, Ljava/text/DecimalFormatSymbols, clone()Ljava/lang/Object; > 644
+< Primordial, Ljava/lang/System, arraycopy([Ljava/lang/Object;I[Ljava/lang/Object;II)V > 165
+< Primordial, Ljava/util/zip/ZipInputStream, getUTF8String([BII)Ljava/lang/String; > 403
+< Primordial, Ljava/io/UnixFileSystem, <init>()V > 278
+< Primordial, Ljava/io/PrintStream, init(Ljava/io/OutputStreamWriter;)V > 301
+< Primordial, Ljava/lang/FDBigInt, mult(Ljava/lang/FDBigInt;)Ljava/lang/FDBigInt; > 703
+< Primordial, Ljava/util/Locale, convertOldISOCodes(Ljava/lang/String;)Ljava/lang/String; > 534
+< Extension, Lorg/apache/commons/cli/CommandLine, hasOption(Ljava/lang/String;)Z > 328
+< Primordial, Ljava/util/Random, setSeed(J)V > 553
+< Primordial, Ljava/util/zip/ZipInputStream, readLOC()Ljava/util/zip/ZipEntry; > 288
+< Extension, Lorg/apache/commons/cli/Option, setArgName(Ljava/lang/String;)V > 81
+< Extension, Lorg/apache/commons/cli/HelpFormatter, appendOptionGroup(Ljava/lang/StringBuffer;Lorg/apache/commons/cli/OptionGroup;)V > 309
+< Primordial, Ljava/util/zip/Deflater, <clinit>()V > 239
+< Primordial, Ljava/util/Locale, <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V > 443
+< Primordial, Ljava/util/Collections$ReverseComparator, <init>()V > 466
+< Primordial, Ljava/io/BufferedWriter, flushBuffer()V > 351
+< Primordial, Ljava/io/EOFException, <init>(Ljava/lang/String;)V > 560
+< Primordial, Ljava/io/BufferedReader, <init>(Ljava/io/Reader;I)V > 39
+< Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/OutputStream;Z)V > 186
+< Primordial, Ljava/util/GregorianCalendar, floorDivide(II)I > 712
+< Primordial, Ljava/util/AbstractList$ListItr, <init>(Ljava/util/AbstractList;I)V > 865
+< Primordial, Ljava/io/FileOutputStream, initIDs()V > 176
+< Primordial, Ljava/io/PrintWriter, println()V > 426
+< Primordial, Ljava/util/ArrayList, indexOf(Ljava/lang/Object;)I > 71
+< Primordial, Ljava/text/DateFormatSymbols, <init>(Ljava/util/Locale;)V > 446
+< Primordial, Ljava/util/Currency$1, <init>()V > 674
+< Primordial, Ljava/lang/Class, getClassLoader()Ljava/lang/ClassLoader; > 958
+< Primordial, Ljava/io/BufferedInputStream, read1([BII)I > 383
+< Primordial, Ljava/util/HashMap$ValueIterator, <init>(Ljava/util/HashMap;Ljava/util/HashMap$ValueIterator;)V > 956
+< Primordial, Ljava/text/AttributedCharacterIterator$Attribute, toString()Ljava/lang/String; > 1032
+< Primordial, Ljava/lang/String, lastIndexOf(II)I > 959
+< Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > 425
+< Primordial, Ljava/lang/String, valueOf(C)Ljava/lang/String; > 627
+< Primordial, Ljava/util/HashMap, <init>()V > 62
+< Primordial, Ljava/lang/System, setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; > 861
+< Extension, Lorg/apache/commons/cli/OptionValidator, isValidChar(C)Z > 295
+< Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > 88
+< Primordial, Ljava/io/FileOutputStream, openAppend(Ljava/lang/String;)V > 335
+< Primordial, Ljava/util/Random, <init>(J)V > 462
+< Primordial, Ljava/util/GregorianCalendar, <init>(Ljava/util/TimeZone;Ljava/util/Locale;)V > 611
+< Primordial, Ljava/util/Currency, getSymbol(Ljava/util/Locale;)Ljava/lang/String; > 817
+< Extension, Lorg/apache/commons/cli/HelpFormatter, createPadding(I)Ljava/lang/String; > 421
+< Primordial, Ljava/text/NumberFormat, hashCode()I > 1046
+< Primordial, Ljava/util/Calendar, getMinimalDaysInFirstWeek()I > 714
+< Primordial, Ljava/text/DecimalFormat, subformat(Ljava/lang/StringBuffer;Ljava/text/Format$FieldDelegate;ZZ)Ljava/lang/StringBuffer; > 953
+< Primordial, Ljava/util/ArrayList, toArray()[Ljava/lang/Object; > 415
+< Application, Ljzip/JZip, generateFileList(Ljava/io/File;Ljava/lang/String;)V > 121
+< Primordial, Ljava/util/GregorianCalendar, pinDayOfMonth()V > 874
+< Extension, Lorg/apache/commons/cli/GnuParser, <init>()V > 35
+< Primordial, Ljava/util/LinkedList$ListItr, hasNext()Z > 826
+< Application, Ljzip/JZip, loadConfig(Ljava/lang/String;)V > 49
+< Primordial, Ljava/io/File, isFile()Z > 232
+< Extension, Lorg/apache/commons/cli/Options, getRequiredOptions()Ljava/util/List; > 316
+< Primordial, Ljava/lang/SecurityManager, checkRead(Ljava/lang/String;)V > 363
+< Primordial, Ljava/text/NumberFormat, getInstance(Ljava/util/Locale;I)Ljava/text/NumberFormat; > 593
+< Primordial, Ljava/util/Hashtable, <init>(IF)V > 369
+< Primordial, Ljava/lang/System, getSecurityManager()Ljava/lang/SecurityManager; > 144
+< Primordial, Ljava/io/OutputStreamWriter, <init>(Ljava/io/OutputStream;)V > 300
+< Primordial, Ljava/util/zip/Inflater, finished()Z > 487
+< Primordial, Ljava/text/FieldPosition$Delegate, formatted(Ljava/text/Format$Field;Ljava/lang/Object;IILjava/lang/StringBuffer;)V > 977
+< Primordial, Ljava/util/Date, getTime()J > 871
+< Primordial, Ljava/lang/VirtualMachineError, <init>(Ljava/lang/String;)V > 379
+< Primordial, Ljava/util/zip/ZipOutputStream, writeEXT(Ljava/util/zip/ZipEntry;)V > 269
+< Primordial, Ljava/util/Hashtable$Enumerator, next()Ljava/lang/Object; > 1017
+< Primordial, Ljava/util/zip/ZipEntry, getName()Ljava/lang/String; > 809
+< Primordial, Ljava/io/BufferedReader, fill()V > 97
+< Primordial, Ljava/util/HashMap, <clinit>()V > 61
+< Primordial, Ljava/lang/Throwable, getOurStackTrace()[Ljava/lang/StackTraceElement; > 659
+< Primordial, Ljava/util/LinkedList, entry(I)Ljava/util/LinkedList$Entry; > 1029
+< Primordial, Ljava/lang/Object, getClass()Ljava/lang/Class; > 428
+< Primordial, Ljava/lang/String, checkBounds([BII)V > 370
+< Primordial, Ljava/lang/String$CaseInsensitiveComparator, <init>(Ljava/lang/String$CaseInsensitiveComparator;)V > 7
+< Primordial, Ljava/io/FileInputStream, available()I > 384
+< Primordial, Ljava/util/AbstractCollection, toArray([Ljava/lang/Object;)[Ljava/lang/Object; > 813
+< Primordial, Ljava/util/Hashtable, <clinit>()V > 86
+< Primordial, Ljava/lang/Class, access$2(Z)V > 1024
+< Primordial, Ljava/io/Reader, <init>(Ljava/lang/Object;)V > 38
+< Primordial, Ljava/lang/String, equals(Ljava/lang/Object;)Z > 16
+< Primordial, Ljava/util/TimeZone, getSystemGMTOffsetID()Ljava/lang/String; > 450
+< Primordial, Ljava/text/NumberFormat, getMaximumIntegerDigits()I > 951
+< Primordial, Ljava/util/zip/ZipInputStream, readFully([BII)V > 400
+< Primordial, Ljava/io/File, getCanonicalFile()Ljava/io/File; > 146
+< Extension, Lorg/apache/commons/cli/Option, clearValues()V > 858
+< Extension, Lorg/apache/commons/cli/Option, setOptionalArg(Z)V > 77
+< Extension, Lorg/apache/commons/cli/MissingOptionException, <init>(Ljava/lang/String;)V > 438
+< Primordial, Ljava/util/Locale, toLowerCase(Ljava/lang/String;)Ljava/lang/String; > 586
+< Extension, Lorg/apache/commons/cli/HelpFormatter, renderOptions(Ljava/lang/StringBuffer;ILorg/apache/commons/cli/Options;II)Ljava/lang/StringBuffer; > 312
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printHelp(Ljava/lang/String;Lorg/apache/commons/cli/Options;)V > 20
+< Primordial, Ljava/util/Hashtable$EmptyIterator, <init>()V > 170
+< Primordial, Ljava/io/BufferedWriter, ensureOpen()V > 455
+< Primordial, Ljava/lang/System, initializeSystemClass()V > 37
+< Extension, Lorg/apache/commons/cli/HelpFormatter$OptionComparator, <init>(Lorg/apache/commons/cli/HelpFormatter$1;)V > 43
+< Primordial, Ljava/util/Collections, <clinit>()V > 227
+< Primordial, Ljava/lang/Long, toHexString(J)Ljava/lang/String; > 267
+< Primordial, Ljava/lang/Throwable, <init>(Ljava/lang/String;)V > 272
+< Primordial, Ljava/util/Collections$UnmodifiableCollection, size()I > 1019
+< Primordial, Ljava/lang/Integer, toUnsignedString(II)Ljava/lang/String; > 937
+< Primordial, Ljava/text/Format, clone()Ljava/lang/Object; > 928
+< Primordial, Ljava/util/zip/CRC32, reset()V > 270
+< Extension, Lorg/apache/commons/cli/Option, hasValueSeparator()Z > 938
+< Primordial, Ljava/lang/FloatingDecimal, developLongDigits(IJJ)V > 677
+< Primordial, Ljava/text/NumberFormat, setParseIntegerOnly(Z)V > 618
+< Primordial, Ljava/lang/Class, checkMemberAccess(ILjava/lang/ClassLoader;)V > 918
+< Primordial, Ljava/util/zip/ZipException, <init>(Ljava/lang/String;)V > 253
+< Primordial, Ljava/util/LinkedList, set(ILjava/lang/Object;)Ljava/lang/Object; > 1026
+< Primordial, Ljava/lang/ClassLoader, getCallerClassLoader()Ljava/lang/ClassLoader; > 916
+< Primordial, Ljava/io/UnixFileSystem, list(Ljava/io/File;)[Ljava/lang/String; > 836
+< Primordial, Ljava/util/HashMap, <init>(I)V > 531
+< Primordial, Ljava/lang/SecurityManager, getPackages(Ljava/lang/String;)[Ljava/lang/String; > 961
+< Primordial, Ljava/io/UnixFileSystem, <clinit>()V > 277
+< Primordial, Ljava/lang/FDBigInt, <init>(J)V > 680
+< Primordial, Ljava/util/Date, <init>()V > 219
+< Primordial, Ljava/io/File, <init>(Ljava/lang/String;)V > 56
+< Primordial, Ljava/text/FieldPosition, matchesField(Ljava/text/Format$Field;I)Z > 923
+< Primordial, Ljava/text/SimpleDateFormat, <init>(Ljava/lang/String;Ljava/util/Locale;)V > 344
+< Primordial, Ljava/util/Collections$EmptyMap, <init>()V > 465
+< Primordial, Ljava/text/DecimalFormatSymbols, <init>(Ljava/util/Locale;)V > 613
+< Primordial, Ljava/lang/FloatingDecimal, dtoa(IJI)V > 654
+< Primordial, Ljava/text/NumberFormat, setMaximumFractionDigits(I)V > 647
+< Primordial, Ljava/util/AbstractList, <init>()V > 292
+< Primordial, Ljava/lang/Byte, <clinit>()V > 624
+< Primordial, Ljava/io/PushbackInputStream, close()V > 782
+< Primordial, Ljava/text/DigitList, clone()Ljava/lang/Object; > 887
+< Primordial, Ljava/lang/StringBuilder, <init>(Ljava/lang/String;)V > 22
+< Primordial, Ljava/lang/Double, doubleToLongBits(D)J > 512
+< Primordial, Ljava/util/zip/Inflater, getTotalOut()I > 493
+< Primordial, Ljava/util/Stack, <init>()V > 942
+< Primordial, Ljava/lang/String, startsWith(Ljava/lang/String;I)Z > 896
+< Primordial, Ljava/lang/Integer, <clinit>()V > 412
+< Primordial, Ljava/text/NumberFormat, getMaximumFractionDigits()I > 651
+< Primordial, Ljava/text/DecimalFormatSymbols, getExponentialSymbol()C > 761
+< Primordial, Ljava/util/Calendar, updateTime()V > 684
+< Primordial, Ljava/util/HashMap, values()Ljava/util/Collection; > 315
+< Primordial, Ljava/util/GregorianCalendar, julianDayToMillis(J)J > 724
+< Primordial, Ljava/lang/Integer, parseInt(Ljava/lang/String;)I > 688
+< Primordial, Ljava/util/zip/DeflaterOutputStream, deflate()V > 264
+< Primordial, Ljava/util/StringTokenizer, <init>(Ljava/lang/String;Ljava/lang/String;Z)V > 993
+< Primordial, Ljava/lang/Character, digit(CI)I > 726
+< Primordial, Ljava/util/Calendar, getTimeInMillis()J > 872
+< Primordial, Ljava/lang/StringBuffer, append(C)Ljava/lang/StringBuffer; > 143
+< Primordial, Ljava/io/BufferedWriter, write(Ljava/lang/String;II)V > 439
+< Primordial, Ljava/lang/ArrayIndexOutOfBoundsException, <init>()V > 380
+< Extension, Lorg/apache/commons/cli/Parser, parse(Lorg/apache/commons/cli/Options;[Ljava/lang/String;)Lorg/apache/commons/cli/CommandLine; > 48
+< Primordial, Ljava/util/zip/CRC32, <clinit>()V > 244
+< Extension, Lorg/apache/commons/cli/Option, <init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V > 64
+< Primordial, Ljava/io/File, <init>(Ljava/io/File;Ljava/lang/String;)V > 237
+< Primordial, Ljava/util/Collections$EmptyMap, <init>(Ljava/util/Collections$EmptyMap;)V > 358
+< Primordial, Ljava/util/HashMap, transfer([Ljava/util/HashMap$Entry;)V > 409
+< Primordial, Ljava/lang/FloatingDecimal, countBits(J)I > 676
+< Primordial, Ljava/util/GregorianCalendar, computeJulianDay(ZI)J > 723
+< Extension, Lorg/apache/commons/cli/Options, getOptionGroup(Lorg/apache/commons/cli/Option;)Lorg/apache/commons/cli/OptionGroup; > 325
+< Primordial, Ljava/text/DateFormatSymbols, cacheLookup(Ljava/util/Locale;)[Ljava/util/ResourceBundle; > 587
+< Primordial, Ljava/lang/Class, registerNatives()V > 496
+< Primordial, Ljava/util/Currency, getDefaultFractionDigits()I > 819
+< Primordial, Ljava/text/DecimalFormatSymbols, <clinit>()V > 612
+< Primordial, Ljava/io/WinNTFileSystem, initIDs()V > 393
+< Primordial, Ljava/lang/System, getProperty(Ljava/lang/String;)Ljava/lang/String; > 42
+< Primordial, Ljava/util/Collections$SynchronizedCollection, <init>(Ljava/util/Collection;Ljava/lang/Object;)V > 458
+< Primordial, Ljava/util/Calendar, createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar; > 592
+< Primordial, Ljava/io/FileInputStream, <init>(Ljava/io/File;)V > 111
+< Primordial, Ljava/lang/Thread, dumpStack()V > 568
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printUsage(Ljava/io/PrintWriter;ILjava/lang/String;Lorg/apache/commons/cli/Options;)V > 187
+< Primordial, Ljava/util/zip/ZipInputStream, readEnd(Ljava/util/zip/ZipEntry;)V > 386
+< Primordial, Ljava/lang/StringBuffer, append(F)Ljava/lang/StringBuffer; > 474
+< Primordial, Ljava/text/NumberFormat, getMinimumFractionDigits()I > 650
+< Primordial, Ljava/io/PrintStream, ensureOpen()V > 361
+< Primordial, Ljava/lang/String, toString()Ljava/lang/String; > 256
+< Primordial, Ljava/lang/NumberFormatException, <init>(Ljava/lang/String;)V > 725
+< Primordial, Ljava/io/BufferedOutputStream, flush()V > 743
+< Primordial, Ljava/text/DecimalFormatSymbols, getInfinity()Ljava/lang/String; > 970
+< Primordial, Ljava/util/Currency$1, run()Ljava/lang/Object; > 747
+< Primordial, Ljava/util/Arrays$ArrayList, set(ILjava/lang/Object;)Ljava/lang/Object; > 1028
+< Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;)V > 522
+< Primordial, Ljava/lang/Math, min(II)I > 646
+< Primordial, Ljava/io/File, getName()Ljava/lang/String; > 905
+< Primordial, Ljava/lang/NumberFormatException, forInputString(Ljava/lang/String;)Ljava/lang/NumberFormatException; > 727
+< Primordial, Ljava/lang/Throwable, getStackTraceElement(I)Ljava/lang/StackTraceElement; > 687
+< Primordial, Ljava/io/FilterInputStream, read([BII)I > 876
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printHelp(Ljava/io/PrintWriter;ILjava/lang/String;Ljava/lang/String;Lorg/apache/commons/cli/Options;IILjava/lang/String;Z)V > 106
+< Primordial, Ljava/io/BufferedReader, <init>(Ljava/io/Reader;)V > 15
+< Primordial, Ljava/io/InputStreamReader, <init>(Ljava/io/InputStream;Ljava/lang/String;)V > 206
+< Primordial, Ljava/lang/Class, isPrimitive()Z > 778
+< Primordial, Ljava/lang/Character, isWhitespace(C)Z > 575
+< Primordial, Ljava/util/HashMap, <init>(IF)V > 582
+< Primordial, Ljava/util/LinkedList, add(Ljava/lang/Object;)Z > 234
+< Primordial, Ljava/lang/CharacterDataLatin1, toLowerCase(C)C > 580
+< Primordial, Ljava/lang/Math, min(JJ)J > 413
+< Primordial, Ljava/text/DecimalFormat, <clinit>()V > 614
+< Primordial, Ljava/util/zip/CRC32, getValue()J > 266
+< Extension, Lorg/apache/commons/cli/OptionValidator, validateOption(Ljava/lang/String;)V > 158
+< Primordial, Ljava/lang/StackTraceElement, isNativeMethod()Z > 894
+< Primordial, Ljava/lang/Float, toString(F)Ljava/lang/String; > 600
+< Extension, Lorg/apache/commons/cli/HelpFormatter$OptionComparator, compare(Ljava/lang/Object;Ljava/lang/Object;)I > 787
+< Primordial, Ljava/text/FieldPosition$Delegate, <init>(Ljava/text/FieldPosition;Ljava/text/FieldPosition$Delegate;)V > 596
+< Primordial, Ljava/util/GregorianCalendar, yearLength(I)I > 716
+< Extension, Lorg/apache/commons/cli/Options, helpOptions()Ljava/util/List; > 192
+< Primordial, Ljava/lang/String, lastIndexOf(I)I > 945
+< Primordial, Ljava/util/Collections$SynchronizedSet, <init>(Ljava/util/Set;Ljava/lang/Object;)V > 353
+< Extension, Lorg/apache/commons/cli/Option, setArgs(I)V > 78
+< Primordial, Ljava/text/NumberFormat, clone()Ljava/lang/Object; > 886
+< Primordial, Ljava/util/Locale, getLanguage()Ljava/lang/String; > 784
+< Primordial, Ljava/io/File, getAbsoluteFile()Ljava/io/File; > 149
+< Primordial, Ljava/util/LinkedList, size()I > 863
+< Primordial, Ljava/lang/ClassLoader, <clinit>()V > 917
+< Primordial, Ljava/util/ArrayList, RangeCheck(I)V > 164
+< Extension, Lorg/apache/commons/cli/Option, hashCode()I > 1037
+< Primordial, Ljava/lang/NegativeArraySizeException, <init>()V > 577
+< Primordial, Ljava/util/GregorianCalendar, weekNumber(II)I > 717
+< Primordial, Ljava/lang/Class, forName(Ljava/lang/String;)Ljava/lang/Class; > 584
+< Primordial, Ljava/util/zip/Inflater, reset(J)V > 879
+< Primordial, Ljava/io/Win32FileSystem, <clinit>()V > 274
+< Primordial, Ljava/util/Currency, <init>(Ljava/lang/String;I)V > 699
+< Primordial, Ljava/util/LinkedList, remove(Ljava/util/LinkedList$Entry;)V > 1030
+< Application, Ljzip/JZip, setConfigValue(Ljava/lang/String;Ljava/lang/String;)V > 51
+< Primordial, Ljava/text/AttributedCharacterIterator$Attribute, hashCode()I > 1041
+< Primordial, Ljava/util/LinkedList, get(I)Ljava/lang/Object; > 1011
+< Primordial, Ljava/text/AttributedCharacterIterator$Attribute, <init>(Ljava/lang/String;)V > 533
+< Primordial, Ljava/lang/StackTraceElement, getClassName()Ljava/lang/String; > 893
+< Primordial, Ljava/util/HashMap$Entry, <init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Entry;)V > 296
+< Primordial, Ljava/lang/CharacterDataLatin1, getProperties(C)I > 571
+< Primordial, Ljava/util/ArrayList, add(Ljava/lang/Object;)Z > 73
+< Primordial, Ljava/util/Properties, load(Ljava/io/InputStream;)V > 112
+< Primordial, Ljava/text/NumberFormat, getIntegerInstance(Ljava/util/Locale;)Ljava/text/NumberFormat; > 542
+< Primordial, Ljava/lang/FDBigInt, cmp(Ljava/lang/FDBigInt;)I > 753
+< Primordial, Ljava/util/Vector, size()I > 498
+< Primordial, Ljava/util/Arrays, mergeSort([Ljava/lang/Object;[Ljava/lang/Object;IILjava/util/Comparator;)V > 514
+< Extension, Lorg/apache/commons/cli/Option, setValueSeparator(C)V > 80
+< Primordial, Ljava/text/NumberFormat, setMinimumIntegerDigits(I)V > 696
+< Primordial, Ljava/util/Date, getDate()I > 478
+< Primordial, Ljava/io/UnixFileSystem, resolve(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; > 834
+< Primordial, Ljava/util/zip/ZipOutputStream, write([BII)V > 134
+< Primordial, Ljava/util/ArrayList, isEmpty()Z > 785
+< Primordial, Ljava/util/Random, <clinit>()V > 354
+< Primordial, Ljava/text/FieldPosition, toString()Ljava/lang/String; > 1022
+< Primordial, Ljava/util/Hashtable, access$3(Ljava/util/Hashtable;)I > 550
+< Primordial, Ljava/util/Collections$ReverseComparator, <init>(Ljava/util/Collections$ReverseComparator;)V > 359
+< Primordial, Ljava/util/Vector, addElement(Ljava/lang/Object;)V > 255
+< Primordial, Ljava/text/DecimalFormat, setMinimumFractionDigits(I)V > 652
+< Primordial, Ljava/util/zip/Inflater, inflate([BII)I > 491
+< Primordial, Ljava/util/Hashtable$KeySet, iterator()Ljava/util/Iterator; > 890
+< Extension, Lorg/apache/commons/cli/Options, getOption(Ljava/lang/String;)Lorg/apache/commons/cli/Option; > 323
+< Primordial, Ljava/util/TimeZone, getTimeZone(Ljava/lang/String;Z)Ljava/util/TimeZone; > 449
+< Primordial, Ljava/lang/String, intern()Ljava/lang/String; > 536
+< Primordial, Ljava/util/NoSuchElementException, <init>()V > 517
+< Primordial, Ljava/util/StringTokenizer, hasMoreTokens()Z > 996
+< Primordial, Ljava/io/InputStream, <init>()V > 90
+< Primordial, Ljava/util/GregorianCalendar, monthLength(I)I > 733
+< Primordial, Ljava/io/UnixFileSystem, isAbsolute(Ljava/io/File;)Z > 900
+< Primordial, Ljava/util/GregorianCalendar, julianDayToDayOfWeek(J)I > 735
+< Primordial, Ljava/lang/StringBuffer, getValue()[C > 521
+< Primordial, Ljava/util/Hashtable$KeySet, <init>(Ljava/util/Hashtable;Ljava/util/Hashtable$KeySet;)V > 225
+< Primordial, Ljava/text/DecimalFormat, format(JLjava/lang/StringBuffer;Ljava/text/Format$FieldDelegate;)Ljava/lang/StringBuffer; > 927
+< Primordial, Ljava/lang/StringBuffer, getChars(II[CI)V > 591
+< Extension, Lorg/apache/commons/cli/OptionBuilder, create(Ljava/lang/String;)Lorg/apache/commons/cli/Option; > 32
+< Primordial, Ljava/util/GregorianCalendar, computeTime()V > 706
+< Primordial, Ljava/lang/StackTraceElement, equals(Ljava/lang/Object;)Z > 889
+< Extension, Lorg/apache/commons/cli/Option, getDescription()Ljava/lang/String; > 859
+< Primordial, Ljava/lang/InternalError, <init>()V > 570
+< Primordial, Ljava/lang/StringIndexOutOfBoundsException, <init>(Ljava/lang/String;)V > 609
+< Primordial, Ljava/util/zip/Deflater, deflate([BII)I > 790
+< Primordial, Ljava/io/PrintStream, print(Ljava/lang/String;)V > 228
+< Primordial, Ljava/lang/Class, checkInitted()V > 947
+< Primordial, Ljava/text/FieldPosition$Delegate, <init>(Ljava/text/FieldPosition;)V > 621
+< Primordial, Ljava/util/Calendar, getTime()Ljava/util/Date; > 774
+< Application, Ljzip/JZip, start()V > 9
+< Primordial, Ljava/util/HashMap$Values, <init>(Ljava/util/HashMap;Ljava/util/HashMap$Values;)V > 427
+< Primordial, Ljava/io/FileOutputStream, <init>(Ljava/io/File;)V > 113
+< Primordial, Ljava/util/zip/Deflater, setInput([BII)V > 792
+< Extension, Lorg/apache/commons/cli/Option, hasNoValues()Z > 910
+< Primordial, Ljava/util/AbstractList, listIterator()Ljava/util/ListIterator; > 247
+< Primordial, Ljava/io/FileDescriptor, initIDs()V > 332
+< Primordial, Ljava/util/GregorianCalendar, <clinit>()V > 610
+< Primordial, Ljava/text/SimpleDateFormat, zeroPaddingNumber(III)Ljava/lang/String; > 622
+< Primordial, Ljava/io/ObjectStreamClass, initNative()V > 565
+< Extension, Lorg/apache/commons/cli/Option, processValue(Ljava/lang/String;)V > 909
+< Primordial, Ljava/util/zip/ZipInputStream, closeEntry()V > 153
+< Primordial, Ljava/io/File, list()[Ljava/lang/String; > 236
+< Application, Ljzip/JZip, main([Ljava/lang/String;)V > 5
+< Primordial, Ljava/io/FilterOutputStream, close()V > 821
+< Primordial, Ljava/lang/Object, hashCode()I > 750
+< Primordial, Ljava/util/TimeZone$1, run()Ljava/lang/Object; > 746
+< Primordial, Ljava/lang/Object, <init>()V > 4
+< Primordial, Ljava/text/DateFormat$Field, <init>(Ljava/lang/String;I)V > 532
+< Primordial, Ljava/util/zip/ZipOutputStream, <init>(Ljava/io/OutputStream;)V > 124
+< Extension, Lorg/apache/commons/cli/Parser, setOptions(Lorg/apache/commons/cli/Options;)V > 193
+< Primordial, Ljava/io/FileOutputStream, write([BII)V > 151
+< Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > 397
+< Primordial, Lcom/ibm/wala/FakeRootClass, fakeRootMethod()V > 0
+< Extension, Lorg/apache/commons/cli/CommandLine, addOption(Lorg/apache/commons/cli/Option;)V > 327
+< Primordial, Ljava/util/Hashtable, keySet()Ljava/util/Set; > 115
+< Primordial, Ljava/util/Hashtable$Entry, hashCode()I > 1039
+< Primordial, Ljava/lang/NoSuchFieldException, <init>(Ljava/lang/String;)V > 921
+< Primordial, Ljava/lang/StringCoding, encode([CII)[B > 109
+< Primordial, Ljava/io/File, mkdir()Z > 145
+< Primordial, Ljava/util/TimeZone, parseCustomTimeZone(Ljava/lang/String;)Ljava/util/TimeZone; > 545
+< Primordial, Ljava/text/DecimalFormat, expandAffix(Ljava/lang/String;Ljava/lang/StringBuffer;)Ljava/lang/String; > 698
+< Primordial, Ljava/util/GregorianCalendar, getLeastMaximum(I)I > 772
+< Primordial, Ljava/util/AbstractList, listIterator(I)Ljava/util/ListIterator; > 748
+< Primordial, Ljava/lang/StringBuffer, <clinit>()V > 99
+< Primordial, Ljava/io/PrintStream, write(Ljava/lang/String;)V > 360
+< Primordial, Ljava/util/zip/ZipInputStream, <init>(Ljava/io/InputStream;)V > 147
+< Primordial, Ljava/text/FieldPosition, hashCode()I > 1044
+< Primordial, Ljava/io/FileInputStream, initIDs()V > 175
+< Primordial, Ljava/io/File, exists()Z > 57
+< Primordial, Ljava/text/Format, <init>()V > 537
+< Extension, Lorg/apache/commons/cli/CommandLine, addArg(Ljava/lang/String;)V > 198
+< Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > 119
+< Primordial, Ljava/io/File, hashCode()I > 1040
+< Primordial, Ljava/lang/String, indexOf(II)I > 333
+< Primordial, Ljava/util/Properties, writeln(Ljava/io/BufferedWriter;Ljava/lang/String;)V > 217
+< Primordial, Ljava/lang/StringBuffer, setLength(I)V > 718
+< Primordial, Ljava/util/Properties, store(Ljava/io/OutputStream;Ljava/lang/String;)V > 114
+< Primordial, Ljava/lang/StringBuffer, charAt(I)C > 745
+< Extension, Lorg/apache/commons/cli/Option, equals(Ljava/lang/Object;)Z > 857
+< Primordial, Ljava/lang/Long, toUnsignedString(JI)Ljava/lang/String; > 388
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printOptions(Ljava/io/PrintWriter;ILorg/apache/commons/cli/Options;II)V > 190
+< Primordial, Ljava/io/BufferedReader, <clinit>()V > 13
+< Primordial, Ljava/text/DecimalFormat, expandAffix(Ljava/lang/String;)[Ljava/text/FieldPosition; > 987
+< Primordial, Ljava/lang/FDBigInt, lshiftMe(I)V > 704
+< Primordial, Ljava/text/DecimalFormatSymbols, initialize(Ljava/util/Locale;)V > 640
+< Primordial, Ljava/lang/String, split(Ljava/lang/String;)[Ljava/lang/String; > 21
+< Extension, Lorg/apache/commons/cli/Parser, processArgs(Lorg/apache/commons/cli/Option;Ljava/util/ListIterator;)V > 326
+< Primordial, Ljava/lang/Number, <init>()V > 1003
+< Primordial, Ljava/lang/String, <init>([C)V > 45
+< Primordial, Ljava/util/zip/InflaterInputStream, read([BII)I > 385
+< Primordial, Ljava/util/Date, getSeconds()I > 481
+< Primordial, Ljava/lang/Class, getComponentType()Ljava/lang/Class; > 637
+< Primordial, Ljava/util/AbstractCollection, remove(Ljava/lang/Object;)Z > 786
+< Primordial, Ljava/lang/RuntimeException, <init>()V > 178
+< Extension, Lorg/apache/commons/cli/Option, hasOptionalArg()Z > 1008
+< Primordial, Ljava/util/Hashtable$EmptyEnumerator, <init>()V > 169
+< Primordial, Ljava/util/AbstractList$Itr, checkForComodification()V > 516
+< Primordial, Ljava/util/Hashtable$Enumerator, hasMoreElements()Z > 805
+< Primordial, Ljava/util/Calendar, setWeekCountData(Ljava/util/Locale;)V > 661
+< Primordial, Ljava/util/zip/DeflaterOutputStream, <init>(Ljava/io/OutputStream;Ljava/util/zip/Deflater;I)V > 367
+< Primordial, Ljava/util/zip/Inflater, setInput([BII)V > 561
+< Primordial, Ljava/io/PrintStream, println(Ljava/lang/Object;)V > 658
+< Primordial, Ljava/text/NumberFormat, isGroupingUsed()Z > 979
+< Primordial, Ljava/io/InputStreamReader, <init>(Ljava/io/InputStream;)V > 14
+< Primordial, Ljava/io/BufferedInputStream, <init>(Ljava/io/InputStream;I)V > 133
+< Primordial, Ljava/lang/Class$3, run()Ljava/lang/Object; > 1005
+< Primordial, Ljava/lang/Class, searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > 920
+< Primordial, Ljava/util/GregorianCalendar, getMaximum(I)I > 739
+< Primordial, Ljava/io/File, <clinit>()V > 55
+< Primordial, Ljava/lang/String, valueOf(Ljava/lang/Object;)Ljava/lang/String; > 130
+< Extension, Lorg/apache/commons/cli/Option, getValueSeparator()C > 939
+< Primordial, Ljava/util/TimeZone, getDefault()Ljava/util/TimeZone; > 345
+< Primordial, Ljava/lang/Void, <clinit>()V > 626
+< Extension, Lorg/apache/commons/cli/Option, getValues()[Ljava/lang/String; > 848
+< Primordial, Ljava/util/zip/ZipInputStream, createZipEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry; > 404
+< Primordial, Ljava/util/Arrays$ArrayList, <init>([Ljava/lang/Object;)V > 320
+< Primordial, Ljava/util/Hashtable$EmptyEnumerator, hasMoreElements()Z > 804
+< Primordial, Ljava/io/BufferedReader, readLine()Ljava/lang/String; > 17
+< Primordial, Ljava/util/Properties, continueLine(Ljava/lang/String;)Z > 211
+< Primordial, Ljava/util/Calendar, <clinit>()V > 541
+< Primordial, Ljava/lang/Thread, getThreadGroup()Ljava/lang/ThreadGroup; > 599
+< Primordial, Ljava/util/zip/ZipOutputStream, writeShort(I)V > 375
+< Primordial, Ljava/util/Calendar, getInstance(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar; > 540
+< Primordial, Ljava/security/AccessController, checkPermission(Ljava/security/Permission;)V > 502
+< Primordial, Ljava/lang/Double, longBitsToDouble(J)D > 678
+< Primordial, Ljava/util/Date, getMonth()I > 477
+< Application, Ljzip/JZip, <init>()V > 8
+< Primordial, Ljava/io/UnixFileSystem, initIDs()V > 396
+< Extension, Lorg/apache/commons/cli/Option, setLongOpt(Ljava/lang/String;)V > 75
+< Primordial, Ljava/util/ArrayList, set(ILjava/lang/Object;)Ljava/lang/Object; > 1027
+< Primordial, Ljava/text/AttributedCharacterIterator$Attribute, <clinit>()V > 442
+< Primordial, Ljava/lang/CharacterDataLatin1, isWhitespace(C)Z > 604
+< Primordial, Ljava/io/BufferedInputStream, <clinit>()V > 132
+< Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;Z)V > 177
+< Primordial, Ljava/util/Locale, getDefault()Ljava/util/Locale; > 655
+< Primordial, Ljava/util/zip/ZipInputStream, close()V > 154
+< Primordial, Ljava/text/DecimalFormat, getPositivePrefixFieldPositions()[Ljava/text/FieldPosition; > 969
+< Primordial, Ljava/util/TimeZone$1, <init>(Ljava/lang/String;)V > 451
+< Primordial, Ljava/util/Vector$1, hasMoreElements()Z > 770
+< Extension, Lorg/apache/commons/cli/OptionBuilder, withValueSeparator(C)Lorg/apache/commons/cli/OptionBuilder; > 34
+< Primordial, Ljava/io/PrintWriter, newLine()V > 523
+< Primordial, Ljava/util/Currency, getCurrencyCode()Ljava/lang/String; > 818
+< Primordial, Ljava/util/Date, toString()Ljava/lang/String; > 220
+< Primordial, Ljava/lang/CharacterData, toLowerCase(C)C > 581
+< Primordial, Ljava/text/DecimalFormat, setMinimumIntegerDigits(I)V > 667
+< Primordial, Ljava/io/FileOutputStream, close()V > 152
+< Primordial, Ljava/util/Currency, getInstance(Ljava/util/Locale;)Ljava/util/Currency; > 663
+< Primordial, Ljava/util/HashMap, hash(Ljava/lang/Object;)I > 160
+< Primordial, Ljava/util/zip/ZipEntry, <init>(Ljava/lang/String;)V > 128
+< Primordial, Ljava/text/DecimalFormatSymbols, getGroupingSeparator()C > 765
+< Extension, Lorg/apache/commons/cli/HelpFormatter, appendOption(Ljava/lang/StringBuffer;Lorg/apache/commons/cli/Option;Z)V > 310
+< Primordial, Ljava/text/FieldPosition, access$0(Ljava/text/FieldPosition;Ljava/text/Format$Field;)Z > 991
+< Primordial, Ljava/util/zip/Inflater, getTotalIn(J)I > 564
+< Primordial, Ljava/text/DecimalFormatSymbols, getCurrency()Ljava/util/Currency; > 767
+< Primordial, Ljava/util/zip/Deflater, finish()V > 797
+< Primordial, Ljava/util/zip/Inflater, end(J)V > 505
+< Application, Ljzip/JZip, unZipIt(Ljava/lang/String;Ljava/lang/String;)V > 59
+< Primordial, Ljava/lang/StringBuffer, <init>(I)V > 100
+< Primordial, Ljava/lang/Throwable, getLocalizedMessage()Ljava/lang/String; > 866
+< Primordial, Ljava/util/GregorianCalendar, yearLength()I > 715
+< Primordial, Ljava/util/Vector, <init>(I)V > 368
+< Primordial, Ljava/lang/NoClassDefFoundError, <init>(Ljava/lang/String;)V > 585
+< Primordial, Ljava/io/UnixFileSystem, canonicalize(Ljava/lang/String;)Ljava/lang/String; > 831
+< Primordial, Ljava/io/BufferedWriter, newLine()V > 340
+< Primordial, Ljava/text/DigitList, set(DIZ)V > 973
+< Primordial, Ljava/lang/Throwable, <init>()V > 410
+< Primordial, Ljava/text/DecimalFormatSymbols, equals(Ljava/lang/Object;)Z > 934
+< Primordial, Ljava/util/Vector, ensureCapacityHelper(I)V > 378
+< Extension, Lorg/apache/commons/cli/OptionBuilder, reset()V > 82
+< Primordial, Ljava/io/FileInputStream, close()V > 136
+< Primordial, Ljava/util/zip/DeflaterOutputStream, <init>(Ljava/io/OutputStream;Ljava/util/zip/Deflater;)V > 241
+< Extension, Lorg/apache/commons/cli/HelpFormatter, renderWrappedText(Ljava/lang/StringBuffer;IILjava/lang/String;)Ljava/lang/StringBuffer; > 420
+< Primordial, Ljava/lang/StringBuffer, append(Ljava/lang/StringBuffer;)Ljava/lang/StringBuffer; > 590
+< Primordial, Ljava/util/Properties, loadConvert(Ljava/lang/String;)Ljava/lang/String; > 212
+< Extension, Lorg/apache/commons/cli/OptionBuilder, withDescription(Ljava/lang/String;)Lorg/apache/commons/cli/OptionBuilder; > 31
+< Primordial, Ljava/util/Hashtable$EmptyIterator, hasNext()Z > 1014
+< Primordial, Ljava/util/GregorianCalendar, millisToJulianDay(J)J > 709
+< Extension, Lorg/apache/commons/cli/Option, getOpt()Ljava/lang/String; > 854
+< Primordial, Ljava/util/Currency, <clinit>()V > 649
+< Primordial, Ljava/io/BufferedInputStream, ensureOpen()V > 382
+< Primordial, Ljava/util/Calendar, setTime(Ljava/util/Date;)V > 773
+< Primordial, Ljava/util/Collections$UnmodifiableCollection, toArray([Ljava/lang/Object;)[Ljava/lang/Object; > 1018
+< Extension, Lorg/apache/commons/cli/Option, setRequired(Z)V > 76
+< Extension, Lorg/apache/commons/cli/MissingArgumentException, <init>(Ljava/lang/String;)V > 526
+< Primordial, Ljava/text/SimpleDateFormat, encode(IILjava/lang/StringBuffer;)V > 589
+< Primordial, Ljava/lang/CharacterData, isWhitespace(C)Z > 605
+< Primordial, Ljava/io/File, getCanonicalPath()Ljava/lang/String; > 281
+< Primordial, Ljava/io/UnixFileSystem, getBooleanAttributes(Ljava/io/File;)I > 837
+< Primordial, Ljava/util/Date, getYear()I > 476
+< Primordial, Ljava/util/GregorianCalendar, getMinimum(I)I > 732
+< Primordial, Ljava/io/UnixFileSystem, normalize(Ljava/lang/String;)Ljava/lang/String; > 833
+< Primordial, Ljava/lang/String, hashCode()I > 172
+< Primordial, Ljava/lang/Integer, toHexString(I)Ljava/lang/String; > 906
+< Extension, Lorg/apache/commons/cli/CommandLine, getOptionValue(Ljava/lang/String;)Ljava/lang/String; > 845
+< Primordial, Ljava/util/zip/Inflater, init(Z)J > 399
+< Primordial, Ljava/util/zip/CRC32, update([BII)V > 261
+< Primordial, Ljava/text/FieldPosition$Delegate, formatted(ILjava/text/Format$Field;Ljava/lang/Object;IILjava/lang/StringBuffer;)V > 769
+< Primordial, Ljava/util/zip/Inflater, end()V > 405
+< Primordial, Ljava/lang/Class, privateGetDeclaredFields(Z)[Ljava/lang/reflect/Field; > 919
+< Primordial, Ljava/util/zip/Deflater, needsInput()Z > 791
+< Primordial, Ljava/io/PushbackInputStream, read([BII)I > 780
+< Primordial, Ljava/lang/Math, floor(D)D > 679
+< Primordial, Ljava/io/BufferedOutputStream, write([BII)V > 800
+< Primordial, Ljava/text/Format$Field, <init>(Ljava/lang/String;)V > 583
+< Primordial, Ljava/util/ArrayList, size()I > 318
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printUsage(Ljava/io/PrintWriter;ILjava/lang/String;)V > 188
+< Primordial, Ljava/lang/StringBuilder, append(Ljava/lang/String;)Ljava/lang/StringBuilder; > 23
+< Primordial, Ljava/util/AbstractSequentialList, <init>()V > 230
+< Primordial, Ljava/lang/FloatingDecimal, multPow52(Ljava/lang/FDBigInt;II)Ljava/lang/FDBigInt; > 681
+< Primordial, Ljava/util/ArrayList, <init>(I)V > 157
+< Primordial, Ljava/util/HashMap, indexFor(II)I > 161
+< Primordial, Ljava/text/DateFormat$Field, <clinit>()V > 441
+< Primordial, Ljava/util/ArrayList, clear()V > 915
+< Primordial, Ljava/util/zip/Deflater, finished()Z > 796
+< Primordial, Ljava/util/Dictionary, <init>()V > 471
+< Primordial, Ljava/util/zip/ZipInputStream, getNextEntry()Ljava/util/zip/ZipEntry; > 148
+< Primordial, Ljava/util/zip/ZipEntry, setTime(J)V > 252
+< Primordial, Ljava/lang/StackTraceElement, eq(Ljava/lang/Object;Ljava/lang/Object;)Z > 930
+< Primordial, Ljava/util/ArrayList, remove(I)Ljava/lang/Object; > 72
+< Extension, Lorg/apache/commons/cli/OptionBuilder, <clinit>()V > 29
+< Primordial, Ljava/text/DecimalFormatSymbols, getPercent()C > 758
+< Extension, Lorg/apache/commons/cli/MissingOptionException, createMessage(Ljava/util/List;)Ljava/lang/String; > 437
+< Primordial, Ljava/lang/RuntimeException, <init>(Ljava/lang/String;)V > 179
+< Primordial, Ljava/io/PrintStream, <init>(ZLjava/io/OutputStream;)V > 299
+< Primordial, Ljava/io/PushbackInputStream, <init>(Ljava/io/InputStream;I)V > 282
+< Primordial, Ljava/util/Locale, hashCode()I > 811
+< Primordial, Ljava/lang/StringBuffer, append(Ljava/lang/Object;)Ljava/lang/StringBuffer; > 529
+< Primordial, Ljava/util/Date, getMinutes()I > 480
+< Primordial, Ljava/text/FieldPosition, <init>(Ljava/text/Format$Field;)V > 997
+< Primordial, Ljava/text/DecimalFormat, getDecimalFormatSymbols()Ljava/text/DecimalFormatSymbols; > 802
+< Primordial, Ljava/io/Writer, write(Ljava/lang/String;)V > 339
+< Primordial, Ljava/lang/String, getChars(II[CI)V > 334
+< Primordial, Ljava/util/Collections, sort(Ljava/util/List;Ljava/util/Comparator;)V > 307
+< Primordial, Ljava/text/DigitList, round(I)V > 974
+< Primordial, Ljava/lang/StringBuffer, <init>()V > 142
+< Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/Writer;Z)V > 304
+< Primordial, Ljava/util/GregorianCalendar, boundsCheck(II)Z > 731
+< Primordial, Ljava/lang/StringBuffer, toString()Ljava/lang/String; > 313
+< Primordial, Ljava/io/FileInputStream, <clinit>()V > 89
+< Primordial, Ljava/util/zip/Inflater, inflateBytes([BII)I > 562
+< Application, Ljzip/JZip, parseAndRun([Ljava/lang/String;)V > 24
+< Primordial, Ljava/lang/Character, <clinit>()V > 408
+< Primordial, Ljava/util/ArrayList, get(I)Ljava/lang/Object; > 423
+< Primordial, Ljava/lang/String, toLowerCase()Ljava/lang/String; > 851
+< Primordial, Ljava/util/zip/Deflater, deflateBytes([BII)I > 881
+< Application, Ljzip/JZip, storeConfig(Ljava/lang/String;)V > 50
+< Primordial, Ljava/lang/String, compareTo(Ljava/lang/String;)I > 913
+< Primordial, Ljava/util/zip/ZipOutputStream, writeCEN(Ljava/util/zip/ZipEntry;)V > 500
+< Primordial, Ljava/util/TimeZone, getSystemTimeZoneID(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; > 448
+< Primordial, Ljava/lang/Character, isJavaIdentifierPart(C)Z > 407
+< Primordial, Ljava/io/FileDescriptor, <clinit>()V > 203
+< Primordial, Ljava/lang/CharacterDataLatin1, <clinit>()V > 507
+< Primordial, Ljava/util/zip/Deflater, getTotalOut()I > 794
+< Primordial, Ljava/lang/Class$3, <init>()V > 962
+< Primordial, Ljava/util/Date, makeStaticCalendars()V > 601
+< Primordial, Ljava/util/TimeZone, <clinit>()V > 346
+< Primordial, Ljava/lang/SecurityManager$1, run()Ljava/lang/Object; > 1004
+< Primordial, Ljava/lang/String, compareToIgnoreCase(Ljava/lang/String;)I > 878
+< Primordial, Ljava/io/IOException, <init>()V > 569
+< Primordial, Ljava/util/zip/ZipOutputStream, finish()V > 391
+< Primordial, Ljava/text/DecimalFormatSymbols, getDigit()C > 763
+< Primordial, Ljava/util/Arrays$ArrayList, get(I)Ljava/lang/Object; > 1012
+< Primordial, Ljava/text/DateFormatSymbols, getZoneIndex(Ljava/lang/String;)I > 623
+< Primordial, Ljava/util/StringTokenizer, <init>(Ljava/lang/String;Ljava/lang/String;)V > 982
+< Primordial, Ljava/util/Calendar, set(II)V > 873
+< Primordial, Ljava/util/AbstractList$Itr, <init>(Ljava/util/AbstractList;Ljava/util/AbstractList$Itr;Ljava/util/AbstractList$Itr;)V > 417
+< Primordial, Ljava/io/File, mkdirs()Z > 58
+< Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;I)V > 338
+< Primordial, Ljava/lang/String, replace(CC)Ljava/lang/String; > 1007
+< Primordial, Ljava/io/PushbackInputStream, unread([BII)V > 781
+< Primordial, Ljava/util/HashMap, resize(I)V > 297
+< Primordial, Ljava/util/Hashtable$Entry, toString()Ljava/lang/String; > 1034
+< Primordial, Ljava/io/FileInputStream, read([BII)I > 483
+< Primordial, Ljava/lang/String, valueOf(F)Ljava/lang/String; > 555
+< Primordial, Ljava/util/Hashtable, getIterator(I)Ljava/util/Iterator; > 955
+< Primordial, Ljava/io/FileSystem, getFileSystem()Ljava/io/FileSystem; > 140
+< Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/io/PrintStream;)V > 635
+< Primordial, Ljava/util/StringTokenizer, skipDelimiters(I)I > 994
+< Primordial, Ljava/io/BufferedInputStream, fill()V > 484
+< Primordial, Ljava/lang/Math, max(II)I > 672
+< Application, Ljzip/JZip, init()V > 11
+< Extension, Lorg/apache/commons/cli/UnrecognizedOptionException, <init>(Ljava/lang/String;Ljava/lang/String;)V > 322
+< Primordial, Ljava/util/LinkedList, addBefore(Ljava/lang/Object;Ljava/util/LinkedList$Entry;)Ljava/util/LinkedList$Entry; > 364
+< Primordial, Ljava/lang/FDBigInt, add(Ljava/lang/FDBigInt;)Ljava/lang/FDBigInt; > 754
+< Primordial, Ljava/lang/StringBuilder, append(Ljava/lang/Object;)Ljava/lang/StringBuilder; > 117
+< Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;)V > 216
+< Primordial, Ljava/io/File, toString()Ljava/lang/String; > 841
+< Primordial, Ljava/io/FileInputStream, open(Ljava/lang/String;)V > 205
+< Primordial, Ljava/util/Vector, <init>(II)V > 470
+< Primordial, Ljava/util/LinkedList, <init>()V > 120
+< Primordial, Ljava/lang/Float, isNaN(F)Z > 472
+< Primordial, Ljava/util/Collections$UnmodifiableCollection, <init>(Ljava/util/Collection;)V > 935
+< Extension, Lorg/apache/commons/cli/Option, isRequired()Z > 69
+< Primordial, Ljava/lang/Object, toString()Ljava/lang/String; > 1036
+< Primordial, Ljava/lang/SecurityManager, checkMemberAccess(Ljava/lang/Class;I)V > 943
+< Primordial, Ljava/util/Hashtable, contains(Ljava/lang/Object;)Z > 816
+< Primordial, Ljava/util/zip/Inflater, getRemaining()I > 492
+< Primordial, Ljava/lang/StringBuilder, <init>()V > 116
+< Primordial, Ljava/lang/Character, toUpperCase(C)C > 527
+< Primordial, Ljava/util/HashMap$ValueIterator, <init>(Ljava/util/HashMap;)V > 980
+< Primordial, Ljava/util/Locale, equals(Ljava/lang/Object;)Z > 823
+< Primordial, Ljava/util/zip/Inflater, reset()V > 788
+< Primordial, Ljava/lang/StringBuffer, append(I)Ljava/lang/StringBuffer; > 184
+< Primordial, Ljava/lang/String, compareTo(Ljava/lang/Object;)I > 852
+< Primordial, Ljava/lang/String, <init>(II[C)V > 103
+< Primordial, Ljava/lang/SecurityManager, <clinit>()V > 36
+< Primordial, Ljava/lang/Throwable, fillInStackTrace()Ljava/lang/Throwable; > 392
+< Primordial, Ljava/io/ObjectStreamField, <init>(Ljava/lang/String;Ljava/lang/Class;Z)V > 551
+< Primordial, Ljava/io/UnixFileSystem, createDirectory(Ljava/io/File;)Z > 838
+< Primordial, Ljava/lang/FloatingDecimal, toJavaFormatString()Ljava/lang/String; > 630
+< Primordial, Ljava/text/DecimalFormat, setDecimalSeparatorAlwaysShown(Z)V > 617
+< Primordial, Ljava/util/AbstractSequentialList, iterator()Ljava/util/Iterator; > 126
+< Primordial, Ljava/text/DecimalFormatSymbols, getDecimalSeparator()C > 764
+< Primordial, Ljava/lang/StringBuffer, length()I > 422
+< Primordial, Ljava/util/LinkedList$ListItr, <init>(Ljava/util/LinkedList;I)V > 475
+< Primordial, Ljava/util/zip/Inflater, <clinit>()V > 283
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printWrapped(Ljava/io/PrintWriter;ILjava/lang/String;)V > 189
+< Primordial, Ljava/text/DecimalFormatSymbols, getMinusSign()C > 756
+< Primordial, Ljava/lang/StackTraceElement, toString()Ljava/lang/String; > 820
+< Primordial, Ljava/lang/System, arraycopy([BI[BII)V > 485
+< Primordial, Ljava/lang/reflect/Array, newInstance(Ljava/lang/Class;I)Ljava/lang/Object; > 429
+< Extension, Lorg/apache/commons/cli/Option, hasArg()Z > 849
+< Primordial, Ljava/util/zip/ZipOutputStream, writeLOC(Ljava/util/zip/ZipEntry;)V > 254
+< Primordial, Ljava/util/zip/ZipEntry, initIDs()V > 249
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printHelp(ILjava/lang/String;Ljava/lang/String;Lorg/apache/commons/cli/Options;Ljava/lang/String;Z)V > 44
+< Primordial, Ljava/util/ArrayList, <init>(Ljava/util/Collection;)V > 305
+< Primordial, Ljava/util/zip/Deflater, getTotalIn()I > 795
+< Primordial, Ljava/util/Hashtable$Entry, <init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/util/Hashtable$Entry;)V > 174
+< Primordial, Ljava/lang/String, <init>(Ljava/lang/StringBuffer;)V > 424
+< Primordial, Ljava/io/EOFException, <init>()V > 503
+< Primordial, Ljava/lang/Object, equals(Ljava/lang/Object;)Z > 741
+< Application, Ljzip/JZip, generateZipEntry(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; > 233
+< Primordial, Ljava/lang/String, valueOf(J)Ljava/lang/String; > 387
+< Primordial, Ljava/lang/StrictMath, floor(D)D > 700
+< Primordial, Ljava/io/FileOutputStream, writeBytes([BII)V > 290
+< Primordial, Ljava/util/HashMap$HashIterator, <init>(Ljava/util/HashMap;)V > 992
+< Primordial, Ljava/util/HashMap, maskNull(Ljava/lang/Object;)Ljava/lang/Object; > 159
+< Primordial, Ljava/lang/ClassLoader, isAncestor(Ljava/lang/ClassLoader;)Z > 981
+< Primordial, Ljava/lang/UnsupportedOperationException, <init>()V > 1031
+< Primordial, Ljava/io/FileSystem, <clinit>()V > 141
+< Primordial, Ljava/util/zip/ZipInputStream, get32([BI)J > 401
+< Primordial, Ljava/text/DigitList, set(JI)V > 952
+< Extension, Lorg/apache/commons/cli/Parser, processOption(Ljava/lang/String;Ljava/util/ListIterator;)V > 199
+< Primordial, Ljava/lang/Thread, <clinit>()V > 168
+< Primordial, Ljava/lang/SecurityManager, checkAccess(Ljava/lang/Thread;)V > 554
+< Extension, Lorg/apache/commons/cli/MissingArgumentException, <init>(Lorg/apache/commons/cli/Option;)V > 434
+< Primordial, Ljava/util/zip/ZipOutputStream, ensureOpen()V > 250
+< Primordial, Ljava/lang/String, regionMatches(ZILjava/lang/String;II)Z > 436
+< Primordial, Ljava/lang/Object, clone()Ljava/lang/Object; > 776 911 954 666 929
+< Primordial, Ljava/io/OutputStreamWriter, flushBuffer()V > 467
+< Primordial, Ljava/lang/InternalError, <init>(Ljava/lang/String;)V > 260
+< Primordial, Ljava/lang/FloatingDecimal, constructPow52(II)Ljava/lang/FDBigInt; > 682
+< Primordial, Ljava/util/Vector$1, nextElement()Ljava/lang/Object; > 771
+< Primordial, Ljava/text/FieldPosition, getFieldDelegate()Ljava/text/Format$FieldDelegate; > 547
+< Extension, Lorg/apache/commons/cli/Option, hasArgs()Z > 914
+< Primordial, Ljava/security/AccessController, getStackAccessControlContext()Ljava/security/AccessControlContext; > 567
+< Primordial, Ljava/util/zip/ZipInputStream, get16([BI)I > 402
+< Primordial, Ljava/io/UnixFileSystem, prefixLength(Ljava/lang/String;)I > 832
+< Extension, Lorg/apache/commons/cli/Options, <init>()V > 25
+< Primordial, Ljava/lang/StringBuffer, copy()V > 729
+< Primordial, Ljava/util/zip/ZipEntry, hashCode()I > 1038
+< Primordial, Ljava/lang/Object, registerNatives()V > 6
+< Primordial, Ljava/lang/VirtualMachineError, <init>()V > 603
+< Primordial, Ljava/lang/Class, getPrimitiveClass(Ljava/lang/String;)Ljava/lang/Class; > 389
+< Primordial, Ljava/lang/CharacterDataLatin1, isJavaIdentifierPart(C)Z > 506
+< Primordial, Ljava/util/zip/Deflater, reset(J)V > 882
+< Primordial, Ljava/io/FileOutputStream, write(I)V > 798
+< Primordial, Ljava/util/Date, <clinit>()V > 218
+< Primordial, Ljava/lang/String, valueOf(I)Ljava/lang/String; > 303
+< Primordial, Ljava/text/NumberFormat, format(J)Ljava/lang/String; > 801
+< Primordial, Ljava/util/zip/Deflater, end()V > 789
+< Primordial, Ljava/text/NumberFormat, getMinimumIntegerDigits()I > 668
+< Primordial, Ljava/io/ObjectStreamClass, <clinit>()V > 497
+< Primordial, Ljava/lang/Thread, registerNatives()V > 298
+< Primordial, Ljava/lang/Exception, <init>()V > 302
+< Primordial, Ljava/util/HashMap$Values, iterator()Ljava/util/Iterator; > 891
+< Primordial, Ljava/util/zip/CRC32, <init>()V > 245
+< Primordial, Ljava/util/AbstractList$Itr, hasNext()Z > 418
+< Primordial, Ljava/io/OutputStreamWriter, flush()V > 744
+< Extension, Lorg/apache/commons/cli/GnuParser, flatten(Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String; > 196
+< Primordial, Ljava/lang/String, <init>([BII)V > 246
+< Primordial, Ljava/util/Currency, toString()Ljava/lang/String; > 1033
+< Primordial, Ljava/util/LinkedList, listIterator(I)Ljava/util/ListIterator; > 372
+< Primordial, Ljava/lang/FloatingDecimal, <init>(F)V > 629
+< Primordial, Ljava/text/FieldPosition, <init>(I)V > 452
+< Primordial, Ljava/lang/Double, <clinit>()V > 460
+< Primordial, Ljava/io/File, getPrefixLength()I > 936
+< Primordial, Ljava/lang/ClassLoader, registerNatives()V > 941
+< Primordial, Ljava/util/zip/ZipEntry, toString()Ljava/lang/String; > 842
+< Extension, Lorg/apache/commons/cli/Option, setType(Ljava/lang/Object;)V > 79
+< Primordial, Ljava/util/StringTokenizer, hasMoreElements()Z > 985
+< Primordial, Ljava/util/Calendar, getFirstDayOfWeek()I > 713
+< Primordial, Ljava/util/Collections, unmodifiableCollection(Ljava/util/Collection;)Ljava/util/Collection; > 898
+< Primordial, Ljava/util/zip/ZipInputStream, read([BII)I > 263
+< Primordial, Ljava/lang/Throwable, getCause()Ljava/lang/Throwable; > 660
+< Extension, Lorg/apache/commons/cli/Parser, parse(Lorg/apache/commons/cli/Options;[Ljava/lang/String;Ljava/util/Properties;Z)Lorg/apache/commons/cli/CommandLine; > 110
+< Primordial, Ljava/util/GregorianCalendar, aggregateStamp(II)I > 734
+< Primordial, Ljava/text/DecimalFormat, setMaximumFractionDigits(I)V > 616
+< Primordial, Ljava/io/WinNTFileSystem, <init>()V > 275
+< Primordial, Ljava/util/GregorianCalendar, <init>()V > 631
+< Primordial, Ljava/util/ConcurrentModificationException, <init>()V > 574
+< Primordial, Ljava/util/Arrays, asList([Ljava/lang/Object;)Ljava/util/List; > 197
+< Primordial, Ljava/lang/Thread, checkAccess()V > 468
+< Primordial, Ljava/lang/Thread, interrupt0()V > 469
+< Primordial, Ljava/util/LinkedList, remove(I)Ljava/lang/Object; > 1020
+< Primordial, Ljava/util/zip/InflaterInputStream, fill()V > 490
+< Primordial, Ljava/util/AbstractList$Itr, remove()V > 877
+< Primordial, Ljava/util/zip/Deflater, <init>(IZ)V > 240
+< Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > 1
+< Primordial, Ljava/util/ArrayList, addAll(Ljava/util/Collection;)Z > 908
+< Primordial, Ljava/lang/SecurityManager, checkWrite(Ljava/lang/String;)V > 280
+< Primordial, Ljava/lang/StringBuffer, expandCapacity(I)V > 183
+< Primordial, Ljava/util/AbstractList$Itr, <init>(Ljava/util/AbstractList;)V > 515
+< Primordial, Ljava/util/Arrays, swap([Ljava/lang/Object;II)V > 573
+< Primordial, Ljava/util/HashMap, init()V > 156
+< Primordial, Ljava/util/Currency, getInstance(Ljava/lang/String;)Ljava/util/Currency; > 648
+< Primordial, Ljava/util/Locale, toString()Ljava/lang/String; > 1035
+< Primordial, Ljava/text/DecimalFormatSymbols, getInternationalCurrencySymbol()Ljava/lang/String; > 760
+< Primordial, Ljava/text/DecimalFormat, getNegativeSuffixFieldPositions()[Ljava/text/FieldPosition; > 971
+< Primordial, Ljava/text/DigitList, <clinit>()V > 642
+< Primordial, Ljava/text/DecimalFormat, format(DLjava/lang/StringBuffer;Ljava/text/Format$FieldDelegate;)Ljava/lang/StringBuffer; > 950
+< Primordial, Ljava/text/DecimalFormat, format(JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer; > 885
+< Primordial, Ljava/text/DecimalFormat, applyPattern(Ljava/lang/String;Z)V > 645
+< Primordial, Ljava/io/FileOutputStream, open(Ljava/lang/String;)V > 336
+< Primordial, Ljava/text/DateFormatSymbols, loadZoneStrings(Ljava/util/Locale;Ljava/util/ResourceBundle;)[[Ljava/lang/String; > 588
+< Primordial, Ljava/io/BufferedOutputStream, <init>(Ljava/io/OutputStream;I)V > 123
+< Extension, Lorg/apache/commons/cli/Options, hasOption(Ljava/lang/String;)Z > 321
+< Primordial, Ljava/util/Vector, <init>()V > 242
+< Primordial, Ljava/lang/Thread, interrupt()V > 362
+< Primordial, Ljava/util/zip/ZipEntry, isDirectory()Z > 808
+< Primordial, Ljava/lang/Class, getReflectionFactory()Lsun/reflect/ReflectionFactory; > 949
+< Primordial, Ljava/util/Calendar, setTimeZone(Ljava/util/TimeZone;)V > 768
+< Primordial, Ljava/lang/StringBuffer, append(J)Ljava/lang/StringBuffer; > 265
+< Primordial, Ljava/lang/Class, isArray()Z > 779
+< Primordial, Ljava/lang/FDBigInt, <init>(I)V > 720
+< Primordial, Ljava/lang/String, startsWith(Ljava/lang/String;)Z > 825
+< Primordial, Ljava/util/Currency, getMainTableEntry(CC)I > 693
+< Primordial, Ljava/lang/Long, <clinit>()V > 268
+< Primordial, Ljava/io/FilterOutputStream, <init>(Ljava/io/OutputStream;)V > 238
+< Primordial, Ljava/lang/FDBigInt, <init>(Ljava/lang/FDBigInt;)V > 705
+< Primordial, Ljava/util/GregorianCalendar, isLeapYear(I)Z > 728
+< Primordial, Ljava/lang/Double, isInfinite(D)Z > 966
+< Primordial, Ljava/lang/String, indexOf(Ljava/lang/String;I)I > 620
+< Primordial, Ljava/util/Vector, toArray([Ljava/lang/Object;)[Ljava/lang/Object; > 608
+< Primordial, Ljava/util/Collections$EmptyList, <init>()V > 464
+< Primordial, Ljava/util/LinkedList$ListItr, next()Ljava/lang/Object; > 827
+< Extension, Lorg/apache/commons/cli/Option, <init>(Ljava/lang/String;Ljava/lang/String;)V > 26
+< Primordial, Ljava/util/Hashtable, rehash()V > 173
+< Primordial, Ljava/util/Calendar, isSet(I)Z > 730
+< Primordial, Ljava/util/HashMap, newValueIterator()Ljava/util/Iterator; > 932
+< Primordial, Ljava/lang/Exception, <init>(Ljava/lang/String;)V > 139
+< Primordial, Ljava/io/IOException, <init>(Ljava/lang/String;)V > 180
+< Primordial, Ljava/lang/String, getBytes()[B > 47
+< Extension, Lorg/apache/commons/cli/Option, getValuesList()Ljava/util/List; > 907
+< Primordial, Ljava/util/Properties, toHex(I)C > 350
+< Extension, Lorg/apache/commons/cli/Parser, <init>()V > 83
+< Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;)V > 93
+< Primordial, Ljava/util/LinkedList$ListItr, checkForComodification()V > 897
+< Primordial, Ljava/text/NumberFormat, setGroupingUsed(Z)V > 670
+< Primordial, Ljava/text/NumberFormat, <clinit>()V > 543
+< Primordial, Ljava/util/zip/Deflater, reset()V > 793
+< Primordial, Ljava/util/Properties, getProperty(Ljava/lang/String;)Ljava/lang/String; > 118
+< Application, Ljzip/JZip, zipIt(Ljava/lang/String;Ljava/lang/String;)V > 53
+< Primordial, Ljava/text/NumberFormat, <init>()V > 641
+< Primordial, Ljava/text/DateFormatSymbols, <clinit>()V > 445
+< Primordial, Ljava/lang/String, equalsIgnoreCase(Ljava/lang/String;)Z > 329
+< Primordial, Ljava/text/DigitList, shouldRoundUp(I)Z > 990
+< Primordial, Ljava/lang/Math, <clinit>()V > 414
+< Primordial, Ljava/util/StringTokenizer, nextToken()Ljava/lang/String; > 984
+< Primordial, Ljava/util/Random, <init>()V > 355
+< Primordial, Ljava/text/SimpleDateFormat, parseAmbiguousDatesAsAfter(Ljava/util/Date;)V > 594
+< Primordial, Ljava/util/Currency, getInstance(Ljava/lang/String;I)Ljava/util/Currency; > 673
+< Primordial, Ljava/util/Collections$SynchronizedCollection, iterator()Ljava/util/Iterator; > 812
+< Primordial, Ljava/lang/Class, getDeclaredFields0(Z)[Ljava/lang/reflect/Field; > 948
+< Primordial, Ljava/util/Collections$EmptySet, <init>(Ljava/util/Collections$EmptySet;)V > 356
+< Primordial, Ljava/lang/String, <clinit>()V > 3
+< Primordial, Ljava/util/AbstractList, iterator()Ljava/util/Iterator; > 308
+< Primordial, Ljava/lang/String, indexOf(I)I > 208
+< Primordial, Ljava/util/HashMap, containsKey(Ljava/lang/Object;)Z > 430
+< Primordial, Ljava/util/Calendar, getTimeZone()Ljava/util/TimeZone; > 689
+< Primordial, Ljava/util/ArrayList, ensureCapacity(I)V > 166
+< Primordial, Ljava/io/PrintStream, print(Ljava/lang/Object;)V > 685
+< Primordial, Ljava/util/Collections$EmptyList, <init>(Ljava/util/Collections$EmptyList;)V > 357
+< Primordial, Ljava/io/UnixFileSystem, canonicalize0(Ljava/lang/String;)Ljava/lang/String; > 901
+< Primordial, Ljava/text/DecimalFormatSymbols, getMonetaryDecimalSeparator()C > 975
+< Extension, Lorg/apache/commons/cli/Parser, getRequiredOptions()Ljava/util/List; > 324
+< Primordial, Ljava/util/GregorianCalendar, internalGetEra()I > 740
+< Primordial, Ljava/util/zip/ZipEntry, <clinit>()V > 127
+< Primordial, Ljava/util/zip/Inflater, getTotalOut(J)I > 563
+< Primordial, Ljava/lang/FloatingDecimal, <clinit>()V > 628
+< Primordial, Ljava/text/DigitList, set(J)V > 978
+< Primordial, Ljava/util/Arrays, mergeSort([Ljava/lang/Object;[Ljava/lang/Object;II)V > 513
+< Primordial, Ljava/lang/Integer, parseInt(Ljava/lang/String;I)I > 708
+< Primordial, Ljava/lang/Integer, intValue()I > 1006
+< Primordial, Ljava/lang/Long, toString(JI)Ljava/lang/String; > 495
+< Extension, Lorg/apache/commons/cli/HelpFormatter, printWrapped(Ljava/io/PrintWriter;IILjava/lang/String;)V > 311
+< Primordial, Ljava/util/zip/DeflaterOutputStream, close()V > 271
+< Primordial, Ljava/lang/reflect/Array, newArray(Ljava/lang/Class;I)Ljava/lang/Object; > 525
+< Primordial, Ljava/text/SimpleDateFormat, initializeDefaultCentury()V > 544
+< Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > 248
+< Primordial, Ljava/lang/System, arraycopy([CI[CII)V > 108
+< Primordial, Ljava/lang/FDBigInt, <init>([II)V > 719
+< Primordial, Ljava/lang/CharacterData, <clinit>()V > 509
+< Primordial, Ljava/util/LinkedList$ListItr, set(Ljava/lang/Object;)V > 829
+< Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > 314
+< Primordial, Ljava/io/File, getAbsolutePath()Ljava/lang/String; > 289
+< Primordial, Ljava/lang/System, arraycopy([II[III)V > 721
+< Primordial, Ljava/util/GregorianCalendar, add(II)V > 775
+< Primordial, Ljava/lang/String, substring(I)Ljava/lang/String; > 751
+< Primordial, Ljava/io/OutputStreamWriter, write([CII)V > 456
+< Primordial, Ljava/io/FileDescriptor, <init>(I)V > 331
+< Primordial, Ljava/io/WinNTFileSystem, <clinit>()V > 273
+< Primordial, Ljava/util/Calendar, adjustStamp()V > 925
+< Primordial, Ljava/lang/NullPointerException, <init>()V > 94
+< Primordial, Ljava/text/DecimalFormatSymbols, getZeroDigit()C > 766
+< Primordial, Ljava/lang/String$CaseInsensitiveComparator, <init>()V > 10
+< Primordial, Ljava/text/DecimalFormatSymbols, getNaN()Ljava/lang/String; > 964
+< Primordial, Ljava/util/AbstractList$ListItr, set(Ljava/lang/Object;)V > 1010
+< Primordial, Ljava/util/AbstractSet, <init>()V > 457
+< Primordial, Ljava/text/NumberFormat, equals(Ljava/lang/Object;)Z > 933
+< Extension, Lorg/apache/commons/cli/ParseException, <init>(Ljava/lang/String;)V > 54
+< Primordial, Ljava/util/zip/Deflater, end(J)V > 880
+< Primordial, Ljava/util/GregorianCalendar, timeToFields(JZ)V > 690
+< Extension, Lorg/apache/commons/cli/HelpFormatter, findWrapPos(Ljava/lang/String;II)I > 518
+< Primordial, Ljava/lang/String, toLowerCase(Ljava/util/Locale;)Ljava/lang/String; > 912
+< Primordial, Ljava/util/HashMap, addEntry(ILjava/lang/Object;Ljava/lang/Object;I)V > 163
+< Extension, Lorg/apache/commons/cli/Options, getOptions()Ljava/util/Collection; > 828
+< Primordial, Ljava/io/BufferedWriter, min(II)I > 530
+< Primordial, Ljava/io/UnixFileSystem, getBooleanAttributes0(Ljava/io/File;)I > 904
+< Primordial, Ljava/util/zip/Deflater, getTotalIn(J)I > 884
+< Primordial, Ljava/lang/Class, <clinit>()V > 390
+< Primordial, Ljava/io/UnixFileSystem, getPathSeparator()C > 839
+< Primordial, Ljava/util/zip/ZipOutputStream, writeEND(JJ)V > 501
+< Primordial, Ljava/lang/FloatingDecimal, big5pow(I)Ljava/lang/FDBigInt; > 702
+< Primordial, Ljava/util/zip/Inflater, <init>(Z)V > 284
+< Primordial, Ljava/util/HashMap$ValueIterator, next()Ljava/lang/Object; > 1009
+< Extension, Lorg/apache/commons/cli/HelpFormatter, getOptionComparator()Ljava/util/Comparator; > 306
+< Primordial, Ljava/text/FieldPosition, access$1(Ljava/text/FieldPosition;Ljava/text/Format$Field;I)Z > 867
+< Primordial, Ljava/util/Hashtable$EmptyEnumerator, nextElement()Ljava/lang/Object; > 806
+< Primordial, Ljava/util/GregorianCalendar, monthLength(II)I > 736
+< Primordial, Ljava/util/GregorianCalendar, validateFields()Z > 722
+< Primordial, Ljava/lang/LinkageError, <init>(Ljava/lang/String;)V > 606
+< Primordial, Ljava/text/DecimalFormat, <init>(Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V > 615
+< Extension, Lorg/apache/commons/cli/Option, clone()Ljava/lang/Object; > 850
+< Primordial, Ljava/util/Calendar, internalSet(II)V > 692
+< Primordial, Ljava/util/zip/Deflater, getTotalOut(J)I > 883
+< Primordial, Ljava/lang/SecurityManager, getClassContext()[Ljava/lang/Class; > 957
+< Primordial, Ljava/io/UnixFileSystem, getSeparator()C > 840
+< Primordial, Ljava/util/zip/Inflater, getTotalIn()I > 494
+< Primordial, Ljava/lang/Double, toString(D)Ljava/lang/String; > 988
+< Primordial, Ljava/text/DecimalFormat, append(Ljava/lang/StringBuffer;Ljava/lang/String;Ljava/text/Format$FieldDelegate;[Ljava/text/FieldPosition;Ljava/text/Format$Field;)V > 968
+< Primordial, Ljava/lang/String, endsWith(Ljava/lang/String;)Z > 888
+< Primordial, Ljava/lang/Boolean, <init>(Z)V > 552
+< Primordial, Ljava/util/Calendar, isLenient()Z > 707
+< Primordial, Ljava/io/FileDescriptor, <init>()V > 204
+< Primordial, Ljava/lang/IndexOutOfBoundsException, <init>()V > 258
+< Primordial, Ljava/util/Collections, synchronizedSet(Ljava/util/Set;Ljava/lang/Object;)Ljava/util/Set; > 226
+< Primordial, Ljava/lang/StringCoding, decode([BII)[C > 371
+< Primordial, Ljava/util/ArrayList, contains(Ljava/lang/Object;)Z > 70
+< Primordial, Ljava/lang/CharacterDataLatin1, digit(CI)I > 737
+< Primordial, Ljava/io/PushbackInputStream, available()I > 824
+< Primordial, Ljava/util/Properties, saveConvert(Ljava/lang/String;Z)Ljava/lang/String; > 223
+< Primordial, Ljava/util/Collections$EmptySet, <init>()V > 463
+< Primordial, Ljava/lang/CharacterData, digit(CI)I > 738
+< Primordial, Ljava/lang/Character, toLowerCase(C)C > 528
+< Primordial, Ljava/lang/String, indexOf([CII[CIII)I > 653
+< Primordial, Ljava/util/HashMap$Entry, recordAccess(Ljava/util/HashMap;)V > 822
+< Primordial, Ljava/lang/SecurityManager, checkPackageAccess(Ljava/lang/String;)V > 946
+< Primordial, Ljava/util/GregorianCalendar, computeFields()V > 662
+< Primordial, Ljava/util/zip/ZipInputStream, ensureOpen()V > 287
+< Primordial, Ljava/util/HashMap$HashIterator, nextEntry()Ljava/util/HashMap$Entry; > 1025
+< Extension, Lorg/apache/commons/cli/Util, stripLeadingAndTrailingQuotes(Ljava/lang/String;)Ljava/lang/String; > 433
+< Primordial, Ljava/util/zip/ZipOutputStream, close()V > 138
+< Primordial, Ljava/util/Hashtable, containsKey(Ljava/lang/Object;)Z > 815
+< Primordial, Ljava/io/UnixFileSystem, parentOrNull(Ljava/lang/String;)Ljava/lang/String; > 902
+< Primordial, Ljava/util/ArrayList, toArray([Ljava/lang/Object;)[Ljava/lang/Object; > 319
+< Primordial, Ljava/util/AbstractList$Itr, <init>(Ljava/util/AbstractList;Ljava/util/AbstractList$Itr;)V > 922
+< Primordial, Ljava/lang/Integer, toString(II)Ljava/lang/String; > 411
+< Primordial, Ljava/util/Properties, <init>()V > 87
+< Primordial, Ljava/lang/Short, <clinit>()V > 625
+< Primordial, Ljava/lang/FloatingDecimal, roundup()V > 683
+< Extension, Lorg/apache/commons/cli/MissingOptionException, <init>(Ljava/util/List;)V > 330
+< Primordial, Ljava/util/Properties, <clinit>()V > 85
+< Primordial, Ljava/lang/SecurityManager, getRootGroup()Ljava/lang/ThreadGroup; > 84
+< Primordial, Ljava/util/zip/InflaterInputStream, <init>(Ljava/io/InputStream;Ljava/util/zip/Inflater;I)V > 285
+< Primordial, Ljava/util/StringTokenizer, setMaxDelimChar()V > 1002
+< Extension, Lorg/apache/commons/cli/Option, getLongOpt()Ljava/lang/String; > 67
+< Primordial, Ljava/lang/Error, <init>(Ljava/lang/String;)V > 482
+< Primordial, Ljava/io/BufferedWriter, <clinit>()V > 214
+< Extension, Lorg/apache/commons/cli/Option, addValueForProcessing(Ljava/lang/String;)V > 847
+< Extension, Lorg/apache/commons/cli/HelpFormatter, <init>()V > 19
+< Primordial, Ljava/lang/Float, <clinit>()V > 473
+< Primordial, Ljava/lang/StringBuffer, append(Ljava/lang/String;)Ljava/lang/StringBuffer; > 209
+< Primordial, Ljava/util/zip/DeflaterOutputStream, write([BII)V > 259
+< Primordial, Ljava/lang/FDBigInt, normalizeMe()I > 752
+< Primordial, Ljava/io/File, getParent()Ljava/lang/String; > 150
+< Primordial, Ljava/util/zip/ZipOutputStream, getUTF8Bytes(Ljava/lang/String;)[B > 376
+< Primordial, Ljava/util/zip/Inflater, needsInput()Z > 489
+< Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > 222
+< Primordial, Ljava/io/File, getPath()Ljava/lang/String; > 202
+< Primordial, Ljava/io/PushbackInputStream, ensureOpen()V > 875
+< Primordial, Ljava/lang/String, indexOf(Ljava/lang/String;)I > 595
+< Primordial, Ljava/io/InputStreamReader, read([CII)I > 181
+< Primordial, Ljava/lang/Throwable, toString()Ljava/lang/String; > 749
+< Primordial, Ljava/lang/CharacterData, isJavaIdentifierPart(C)Z > 508
+< Primordial, Ljava/util/GregorianCalendar, floorDivide(JI[I)I > 710
+< Primordial, Ljava/util/HashMap$Values, size()I > 814
+< Primordial, Ljava/text/DecimalFormat, equals(Ljava/lang/Object;)Z > 892
+< Extension, Lorg/apache/commons/cli/OptionBuilder, <init>()V > 74
+< Primordial, Ljava/lang/Long, toString(J)Ljava/lang/String; > 664
+< Primordial, Ljava/lang/Class, getClassLoader0()Ljava/lang/ClassLoader; > 944
+< Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > 862
+< Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;II)V > 576
+< Primordial, Ljava/lang/System, <clinit>()V > 12
+< Primordial, Ljava/lang/CharacterDataLatin1, toUpperCase(C)C > 578
+< Primordial, Ljava/text/DecimalFormat, getNegativePrefixFieldPositions()[Ljava/text/FieldPosition; > 967
+< Primordial, Ljava/lang/String$CaseInsensitiveComparator, compare(Ljava/lang/Object;Ljava/lang/Object;)I > 926
+< Extension, Lorg/apache/commons/cli/Option, getArgName()Ljava/lang/String; > 855
+< Primordial, Ljava/text/DecimalFormat, hashCode()I > 1042
+< Extension, Lorg/apache/commons/cli/OptionBuilder, hasOptionalArgs(I)Lorg/apache/commons/cli/OptionBuilder; > 33
+< Primordial, Ljava/util/AbstractList$Itr, next()Ljava/lang/Object; > 419
+< Primordial, Ljava/lang/StringIndexOutOfBoundsException, <init>(I)V > 102
+< Primordial, Ljava/util/zip/InflaterInputStream, ensureOpen()V > 486
+< Primordial, Ljava/lang/Error, <init>()V > 636
+< Primordial, Ljava/text/DecimalFormat, getPositiveSuffixFieldPositions()[Ljava/text/FieldPosition; > 972
+< Primordial, Ljava/util/zip/Deflater, init(IIZ)J > 366
+< Primordial, Ljava/util/Date, getField(I)I > 558
+< Extension, Lorg/apache/commons/cli/CommandLine, <init>()V > 194
+< Primordial, Ljava/util/LinkedList, access$1(Ljava/util/LinkedList;)I > 557
+< Primordial, Ljava/lang/SecurityManager$1, <init>(Ljava/lang/SecurityManager;)V > 960
+< Primordial, Ljava/lang/StackTraceElement, hashCode()I > 1043
+< Primordial, Ljava/text/FieldPosition, matchesField(Ljava/text/Format$Field;)Z > 1001
+< Primordial, Ljava/util/Calendar, get(I)I > 634
+< Primordial, Ljava/util/Hashtable$Enumerator, nextElement()Ljava/lang/Object; > 807
+< Primordial, Ljava/io/BufferedOutputStream, flushBuffer()V > 860
+< Extension, Lorg/apache/commons/cli/Util, stripLeadingHyphens(Ljava/lang/String;)Ljava/lang/String; > 317
+< Primordial, Ljava/io/OutputStream, <init>()V > 92
+< Primordial, Ljava/io/UnixFileSystem, getDefaultParent()Ljava/lang/String; > 835
+< Primordial, Ljava/lang/StrictMath, <clinit>()V > 695
+< Primordial, Ljava/lang/Double, isNaN(D)Z > 963
+< Primordial, Ljava/lang/FDBigInt, toString()Ljava/lang/String; > 843
+< Primordial, Ljava/text/DateFormat, format(Ljava/util/Date;)Ljava/lang/String; > 348
+< Primordial, Ljava/lang/CharacterData, toUpperCase(C)C > 579
+< Primordial, Ljava/lang/FDBigInt, quoRemIteration(Ljava/lang/FDBigInt;)I > 755
+< Primordial, Ljava/util/AbstractList$ListItr, previous()Ljava/lang/Object; > 1013
+< Extension, Lorg/apache/commons/cli/Option, getKey()Ljava/lang/String; > 65
+< Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/OutputStream;)V > 105
+< Primordial, Ljava/lang/Object, <clinit>()V > 2
+< Primordial, Ljava/text/DateFormat, setTimeZone(Ljava/util/TimeZone;)V > 347
+< Primordial, Ljava/io/BufferedReader, readLine(Z)Ljava/lang/String; > 40
+< Primordial, Ljava/text/DateFormat, <init>()V > 444
+< Primordial, Ljava/util/zip/Inflater, needsDictionary()Z > 488
+< Primordial, Ljava/util/Vector$1, <init>(Ljava/util/Vector;)V > 566
+< Extension, Lorg/apache/commons/cli/Option, toString()Ljava/lang/String; > 853
+< Primordial, Ljava/lang/Integer, toString(I)Ljava/lang/String; > 510
+< Primordial, Ljava/util/Hashtable$EmptyIterator, next()Ljava/lang/Object; > 1016
+< Primordial, Ljava/lang/Throwable, printStackTrace()V > 602
+< Primordial, Ljava/lang/String, <init>([CII)V > 98
+< Primordial, Ljava/io/OutputStreamWriter, <init>(Ljava/io/OutputStream;Ljava/lang/String;)V > 215
+< Primordial, Ljava/util/zip/ZipOutputStream, closeEntry()V > 137
+< Primordial, Ljava/util/Arrays$ArrayList, size()I > 864
+< Primordial, Ljava/io/Win32FileSystem, initIDs()V > 394
+< Primordial, Ljava/util/GregorianCalendar, floorDivide(JJ)J > 691
+< Primordial, Ljava/text/DecimalFormat, adjustForCurrencyDefaultFractionDigits()V > 619
+< Primordial, Ljava/util/Hashtable, access$2(Ljava/util/Hashtable;)[Ljava/util/Hashtable$Entry; > 549
+< Extension, Lorg/apache/commons/cli/HelpFormatter$OptionComparator, <init>()V > 104
+< Primordial, Ljava/util/GregorianCalendar, floorDivide(II[I)I > 711
+< Primordial, Ljava/io/UnixFileSystem, normalize(Ljava/lang/String;II)Ljava/lang/String; > 903
+< Primordial, Ljava/text/SimpleDateFormat, subFormat(IILjava/text/Format$FieldDelegate;Ljava/lang/StringBuffer;)V > 597
+< Primordial, Ljava/lang/Throwable, getStackTraceDepth()I > 686
+< Primordial, Ljava/text/FieldPosition, <init>(Ljava/text/Format$Field;I)V > 998
+< Primordial, Ljava/io/FileOutputStream, <init>(Ljava/lang/String;)V > 122
+< Primordial, Ljava/util/Date, getTimeImpl()J > 924
+< Primordial, Ljava/lang/IllegalStateException, <init>()V > 899
+< Primordial, Ljava/io/FilterInputStream, <init>(Ljava/io/InputStream;)V > 257
+< Extension, Lorg/apache/commons/cli/Options, addOption(Lorg/apache/commons/cli/Option;)Lorg/apache/commons/cli/Options; > 27
+< Primordial, Ljava/text/SimpleDateFormat, format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/Format$FieldDelegate;)Ljava/lang/StringBuffer; > 548
+< Primordial, Ljava/lang/StrictMath, log(D)D > 694
+< Extension, Lorg/apache/commons/cli/HelpFormatter, rtrim(Ljava/lang/String;)Ljava/lang/String; > 519
+< Primordial, Ljava/util/Calendar, complete()V > 656
+< Primordial, Ljava/util/zip/ZipEntry, javaToDosTime(J)J > 373
+< Primordial, Ljava/text/FieldPosition, setBeginIndex(I)V > 868
+< Primordial, Ljava/lang/String, charAt(I)C > 207
+< Primordial, Ljava/util/Calendar, setTimeInMillis(J)V > 639
+< Primordial, Ljava/text/DigitList, isZero()Z > 976
+< Primordial, Ljava/io/PrintWriter, ensureOpen()V > 191
+< Primordial, Ljava/io/FileInputStream, <init>(Ljava/lang/String;)V > 131
+< Primordial, Ljava/lang/String, <init>(Ljava/lang/String;)V > 210
+< Primordial, Ljava/util/Locale, <clinit>()V > 343
+< Primordial, Ljava/lang/Throwable, getMessage()Ljava/lang/String; > 60
+< Primordial, Ljava/lang/System, currentTimeMillis()J > 251
+< Extension, Lorg/apache/commons/cli/Option, add(Ljava/lang/String;)V > 940
+< Primordial, Ljava/util/StringTokenizer, scanToken(I)I > 995
+< Primordial, Ljava/util/HashMap, get(Ljava/lang/Object;)Ljava/lang/Object; > 432
+< Primordial, Ljava/lang/Class, access$1(Z)V > 1023
+< Primordial, Ljava/util/Arrays, sort([Ljava/lang/Object;Ljava/util/Comparator;)V > 416
+< Primordial, Ljava/io/FileInputStream, readBytes([BII)I > 559
+< Primordial, Ljava/io/FileSystem, getBooleanProperty(Ljava/lang/String;Z)Z > 279
+< Primordial, Ljava/util/zip/ZipOutputStream, writeInt(J)V > 374
+< Primordial, Ljava/io/FileOutputStream, <clinit>()V > 91
+< Primordial, Ljava/util/LinkedList, access$0(Ljava/util/LinkedList;)Ljava/util/LinkedList$Entry; > 556
+< Extension, Lorg/apache/commons/cli/OptionBuilder, withArgName(Ljava/lang/String;)Lorg/apache/commons/cli/OptionBuilder; > 28
+< Primordial, Ljava/lang/Float, floatToIntBits(F)I > 511
+< Primordial, Ljava/util/AbstractCollection, <init>()V > 406
+< Primordial, Ljava/util/Hashtable$KeySet, <init>(Ljava/util/Hashtable;)V > 352
+< Primordial, Ljava/text/DecimalFormat, expandAffixes()V > 671
+< Extension, Lorg/apache/commons/cli/UnrecognizedOptionException, <init>(Ljava/lang/String;)V > 431
+< Primordial, Ljava/text/SimpleDateFormat, initialize(Ljava/util/Locale;)V > 447
+< Primordial, Ljava/util/Hashtable, <init>(I)V > 440
+< Primordial, Ljava/text/DigitList, <init>()V > 643
+< Primordial, Ljava/util/ArrayList, <init>()V > 63
+< Primordial, Ljava/lang/StringBuffer, <init>(Ljava/lang/String;)V > 182
+< Primordial, Ljava/util/Hashtable, access$0(Ljava/util/Hashtable;I)Ljava/util/Iterator; > 931
+< Extension, Lorg/apache/commons/cli/Parser, getOptions()Lorg/apache/commons/cli/Options; > 195
+< Primordial, Ljava/text/NumberFormat, setMinimumFractionDigits(I)V > 675
+< Primordial, Ljava/lang/FloatingDecimal, <init>(D)V > 999
+< Extension, Lorg/apache/commons/cli/Option, hasArgName()Z > 856
+< Primordial, Ljava/lang/StringBuilder, toString()Ljava/lang/String; > 125
+< Primordial, Ljava/lang/NullPointerException, <init>(Ljava/lang/String;)V > 286
+< Primordial, Ljava/util/LinkedList$Entry, <init>(Ljava/lang/Object;Ljava/util/LinkedList$Entry;Ljava/util/LinkedList$Entry;)V > 231
+< Extension, Lorg/apache/commons/cli/Option, hasLongOpt()Z > 66
+< Primordial, Ljava/util/zip/CRC32, updateBytes(I[BII)I > 381
+< Primordial, Ljava/util/AbstractMap, <init>()V > 155
+< Primordial, Ljava/lang/Class, getName()Ljava/lang/String; > 777
+< Primordial, Ljava/lang/Integer, <init>(I)V > 1000
+< Primordial, Ljava/util/HashMap, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > 68
+< Primordial, Ljava/lang/String, length()I > 46
+< Primordial, Ljava/io/FilterInputStream, available()I > 895
+< Primordial, Ljava/lang/StringBuffer, append([CII)Ljava/lang/StringBuffer; > 101
+< Application, Ljzip/JZip, showConfig()V > 52
+< Primordial, Ljava/io/FileSystem, <init>()V > 395
+< Primordial, Ljava/io/BufferedInputStream, read([BII)I > 262
+< Primordial, Ljava/util/zip/ZipOutputStream, writeBytes([BII)V > 377
+< Primordial, Ljava/text/SimpleDateFormat, <clinit>()V > 342
+< Extension, Lorg/apache/commons/cli/CommandLine, getOptionValues(Ljava/lang/String;)[Ljava/lang/String; > 844
+< Primordial, Ljava/util/AbstractList, remove(I)Ljava/lang/Object; > 1021
+< Primordial, Ljava/lang/String, toCharArray()[C > 294
+< Primordial, Ljava/text/FieldPosition, setEndIndex(I)V > 869
+< Primordial, Ljava/io/BufferedWriter, flush()V > 224
+< Extension, Lorg/apache/commons/cli/CommandLine, resolveOption(Ljava/lang/String;)Lorg/apache/commons/cli/Option; > 435
+< Primordial, Ljava/text/SimpleDateFormat, format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer; > 453
+< Primordial, Ljava/io/UnixFileSystem, resolve(Ljava/io/File;)Ljava/lang/String; > 830
+< Primordial, Ljava/util/zip/InflaterInputStream, close()V > 291
+< Primordial, Ljava/util/zip/ZipOutputStream, putNextEntry(Ljava/util/zip/ZipEntry;)V > 129
+< Primordial, Ljava/lang/IndexOutOfBoundsException, <init>(Ljava/lang/String;)V > 185
+< Extension, Lorg/apache/commons/cli/Parser, checkRequiredOptions()V > 201
+< Primordial, Ljava/text/SimpleDateFormat, compile(Ljava/lang/String;)[C > 539
+< Primordial, Ljava/util/Vector, add(Ljava/lang/Object;)Z > 607
+< Primordial, Ljava/util/Locale, getCountry()Ljava/lang/String; > 783
+< Primordial, Ljava/util/Hashtable$Enumerator, hasNext()Z > 1015
+< Primordial, Ljava/util/Calendar, internalGet(I)I > 657
+< Primordial, Ljava/lang/IllegalArgumentException, <init>(Ljava/lang/String;)V > 95
+< Primordial, Ljava/util/Calendar, <init>(Ljava/util/TimeZone;Ljava/util/Locale;)V > 638
+< Primordial, Ljava/util/StringTokenizer, countTokens()I > 983
+< Primordial, Ljava/text/DecimalFormatSymbols, getPatternSeparator()C > 762
+< Primordial, Ljava/text/DecimalFormat, clone()Ljava/lang/Object; > 803
+< Primordial, Ljava/text/NumberFormat$Field, <init>(Ljava/lang/String;)V > 986
+< Primordial, Ljava/util/GregorianCalendar, <init>(Ljava/util/TimeZone;)V > 633
+< Primordial, Ljava/lang/Boolean, <clinit>()V > 461
+1033
+723 734 672 712 735 657 714 711 736 713
+413
+103 4
+826 557
+516 574
+206 286 38
+929
+619 819 652 646 767 651 648 760 616 650
+309 310 307 419 209 306 418 308 305
+1032 313 209 182 777 130 428
+722 733 730 715 732 657 731
+412 389
+102 313 185 182 184
+825 896
+515 4
+205
+928 954
+618
+308 417
+1031 178
+721
+411 510 98
+101 183 108
+824 875 895
+514 514 787 165 573
+204 4
+927 951 953 651 952 950
+617
+307 247 419 416 827 829 415 1010
+1030 517
+720 4
+410 4 392
+100 4
+823 811
+513 513 165 852 573
+203 332 331
+926 528 207 527 46
+616 646 647
+306
+1029 313 209 185 182 184
+719 4
+409 161
+99 182
+822
+512
+202
+925
+615 641 643 645 644
+305 319 813 413 318 292 1019 814 1018
+1028
+718 183 729 102
+408 389
+98 108 102 4
+821 152 821 743
+511
+201 330 324 785
+924
+614 440
+304 248 337
+1027 164
+717 714 713
+407 508 506
+97 181 108
+820 894 313 209 893 182 130 184
+510 103
+200 848 195 327 847 329 323 849 328
+923
+613 640 4
+303 411
+1026 1029
+716 728
+406 4
+96 180
+819
+509 294
+199 849 65 209 321 324 327 142 850 195 69 313 786 322 325 323 326
+922 515
+612 440
+302 410
+1025 517 574
+715 657 728
+405 505
+95 179
+818
+508 572
+198 234
+921 139
+611 638 251 639
+301 216
+1024
+714
+404 128
+94 178
+817
+507 294
+197 320
+920 536 949
+610
+300 337
+1023
+713
+403 504 98
+93 177
+816 741 94 16 892
+506 571
+196 319 63 321 318 16 317 73 208 41 751 825
+919 948 947
+609 185
+299 238 286
+1022 313 143 209 182 777 130 529 428 184
+712
+402
+92 4
+815 172 16 823
+505 570
+195
+918 981 945 944 41 777 144 946 943
+608 428 637 165 429
+298
+1021 1031
+711
+401 402
+91 176
+814
+504 178
+194 63 120 4
+917 942 941 242
+607 378
+297 409
+1020 1029 1030
+710
+400 503 780 483
+90 4
+813 1009 891 428 419 318 637 814 429 308
+503 569
+193 316 305
+916
+606 482
+296 4
+1019 318
+709 691
+399
+89 175
+812 890
+502 313 568 182 567 167 529
+192 315 305
+915
+605 572
+295 407
+1018 319
+708 313 209 727 726 207 184 182 725 46
+398
+88 172 94 16 174 823 173 811
+811 172
+501 376 375 498 377 374
+191 180
+914
+604 571
+294 334
+1017 807 574 550
+707
+397 502
+87 171
+810 313 810 209 660 889 119 182 659 529 184
+500 376 375 377 374
+190 313 312 142 314
+913 646
+603 636
+293 295
+1016 870
+706 707 724 689 657 723 504 722 95
+396
+86 169 170
+809
+499 566
+189 311
+912 103 94 528 16 784 108
+602 635
+292 406
+1015 805
+705 721 4
+395 4
+85
+808 888
+498
+188 313 209 142 208 311 46
+911
+601 632 634 631 633
+291 405 136 782
+1014
+704 721 95
+394
+84 599 167
+807 870
+497 565 4 248
+187 308 305 209 306 309 419 418 63 69 307 310 313 325 828 208 70 73 311 182
+910 785
+600 629 630
+290
+1013 517 1011 516 423 1012
+703 719
+393
+83 4
+806 870
+496
+186 304 300 216
+909 938 940 318 939 208 41 751
+599
+289 830
+1012
+702 701 703 680 720 165 179 702
+392
+82
+805
+495 98
+185 179
+908 166 318 419 308
+598 570 209 779 142 627 777 313 637 143 1007 778 182
+288 402 404 401 403 400 253
+1011 1029
+701 719
+391 250 500 770 137 499 501 498 771 253
+81
+804
+494 94 564
+184 209 303
+907
+597 623 209 689 142 313 739 184 422 143 622 769 772 634
+287 180
+1010 1026 899 574 1028 516 1027
+700
+390 496
+80
+803 887 570 886 644
+493 563 94
+183 108
+906 937
+596 621
+286 179
+1009 1025
+699 4
+389
+79
+802 644
+492
+182 100 209 46
+905 945 751
+595 620
+285 94 257 95
+1008
+698 756 313 143 209 758 759 207 760 757 718 46
+388 98
+78
+801 313 885 142 452
+491 94 562 380
+181
+904
+594 773 634
+284 399 4
+1007 103
+697 672
+387 495
+77
+800 485 151 800 860
+490 560 780 561 486 483
+180 139
+903 313 100 143 209 207 41 46
+593 618 615 617 88 613 619 616 222
+283 398 248
+1006
+696 672
+386 253 209 313 265 492 401 266 184 400 494 493 781 267 182
+76
+799 860
+489
+179 139
+902 207 41 46
+592 784 913 611 783
+282 257 95
+1005 1023 42 16 1024
+695 511 512
+385 491 258 490 487 488 489 486 253
+75
+798
+488
+178 302
+901 546
+591 609 108 102
+281 830 831
+1004
+694
+384
+74 4
+797
+487
+177 301 300 299
+900 936
+590 422 183 591
+280 397
+1003 4
+693 504
+383 485 484 780 483
+73 166
+796
+486 180
+176
+899 178
+589 143
+279 42 329
+1002 207 46
+692
+382 180
+72 165 164
+795 94 884
+485
+175
+898 935
+588 88 608 222 242 607 498
+278 395 248
+1001
+691
+381
+71 16 857
+794 94 883
+484 485 780 483
+174 4
+897 574
+587 88 222
+277 396
+1000 1003
+690 710 692 712 709 717 691 711 714 715 716 713
+380 258
+70 71
+793 882 94
+483 559
+173
+896
+586 45 294 528
+276 395 248
+999 654 4 512
+689
+379 482
+69
+792 94 380
+482 272
+172
+895 824 384
+585 606
+275 276
+998 4
+688 708
+378 165
+68 822 163 160 162 159 161
+791
+481 558
+171 243
+894
+584
+274 394
+997 998
+687
+377 151 800
+67
+790 94 881 380
+480 558
+170 4
+893
+583 533
+273 393
+996 994
+686
+376 294
+66
+789 880
+479 558
+169 4
+892 934 16 933
+582 155 313 474 182 156 472 95 184
+272 4 392
+995 208
+685 360 130
+375 799 798
+65
+788 879 94
+478 558
+168 298
+891 932
+581 572
+271 152 821 789 391
+994 94 208
+684 707 706
+374 799 798
+64 158 63 4
+787 65 878
+477 558
+167
+890 931
+580 571
+270
+993 1002 4
+683
+373 480 477 341 476 479 481 478
+63 157
+786 419 16 418 308 877
+476 558
+166 165
+889 930
+579 572
+269 374
+992 4
+682 704 705 702
+372 475
+62 155 156
+785
+475 313 557 209 556 4 185 182 184
+165
+888 896
+578 571
+268 389
+991 1001
+681 704 701 703 702
+371
+61 4
+784
+474 209 555
+164 313 209 185 182 184
+887 485 570 929
+577 178
+267 388
+990
+680 4
+370 102
+60
+783
+473 389
+163 296 297
+886 928
+576 362 439 191 167
+266
+989 1000 708
+679 700
+369 313 471 474 182 472 95 184
+59 147 154 125 150 56 131 149 152 809 130 58 602 117 23 145 148 151 808 57 119 135 113 153 22
+782 136 782
+472
+162 741 16
+885 868 869 927 547
+575 605 604
+265 209 387
+988 999 630
+678
+368 470
+58 57 146 150 56 145 58
+781 485 180 875
+471 4
+161
+884
+574 178
+264 790 151 800
+987 758 756 759 997 157 207 868 319 46 757 760 998 869 73
+677 313 209 108 182 179 265
+367 238 94 95
+57 363 837 144
+780 258 485 876 875
+470 313 292 182 95 184
+160 750 172
+883
+573
+263 483 385 287 261 258 260 780 386 253
+986 60 583 68 585 584 428
+676
+366
+56 833 94 4 832
+779
+469
+159
+882 570
+572
+262 382 258 824 384 383
+985 996
+675 672
+365
+55 313 839 142 143 140 4 840
+778
+468 554 144
+158 293 313 143 209 295 207 142 294 95 46
+881
+571
+261 94 381 380
+984 517 994 995
+674 4
+364 231
+54 139
+777
+467
+157 313 292 182 95 184
+880 570
+570 603
+260 379
+983 994 995
+673 68 207 504 432 699 693 46
+363 397
+53 122 826 125 128 56 131 134 137 121 124 418 130 133 136 602 23 123 827 126 129 119 419 135 138 22 120
+776
+466 4
+156
+879 570
+569 302
+259 796 264 258 180 792 791
+982 993
+672
+362 468 469
+52 115 118 1014 1017 812 116 119 1015 125 23 117 1016
+775 873 657 740 504 639 656 874
+465 155
+155 4
+878 926
+568 602 139
+258 178
+981
+671 698 142
+361 180
+51 88 87
+774 341 872
+464 292
+154 291
+877 1020 899 574 516 1021 72
+567
+257 90
+980 992
+670
+360 339 351 743 361 362 467 742 208 167
+50 114 56 602 113
+773 871 639
+463 457
+153 287 263
+876 780 483
+566 4
+256
+979
+669 646 697
+359 466
+49 112 57 111 56 602 87 52
+772
+462 4 553
+152
+875 180
+565
+255 378
+978 952
+668
+358 465
+48 110
+771 870
+461 389 552
+151 290
+874 733 873 657
+564
+254 376 375 377 374
+977 868 991 869
+667 646 696
+357 464
+47 109
+770
+460 389
+150 945 41 46
+873 925 692
+563
+253 180
+976
+666
+356 463
+46
+769 868 867 869
+459 551
+149 289 56
+872 684
+562
+252 373
+975
+665 694
+355 462 251
+45 108 4
+768
+458 4
+148 270 287 153 288 788
+871 924
+561 94 380
+251
+974 990
+664 495
+354 459
+44 106 105 107
+767
+457 406
+147 284 286 245 285 282
+870 179
+560 180
+250 180
+973 1006 974 988 207 990 751 989 46
+663 313 251 143 94 207 783 182 504 673 693 46
+353 458
+43 104
+766
+456
+146 281 56
+869
+559
+249
+972 987
+662 692 689 691 690
+352 457
+42
+765
+455 180
+145 838 280 144
+868
+558 634 639 768 601 345
+248 747 1005 746 1004
+971 987
+661 88 688 222
+351 456 455
+41 103 102
+764
+454 549 4 550
+144
+867 923
+557
+247 372 748
+970
+660
+350
+40 422 313 100 97 96 101 98
+763
+453 548 547
+143 183
+866 60
+556
+246 370 4 371
+969 987
+659 687 686
+349 454
+39 38 95
+762
+452 4
+142 100
+865 922
+555 600
+245 4
+968 977 422 209 46
+658 229 685
+348 313 453 142 452
+38 94 4
+761
+451 4
+141 279
+864
+554 286 599 397
+244 248
+967 987
+657
+347 768
+37 88 93 90 87 92
+760
+450 546
+140 278 275 276
+863
+553
+243 369
+966
+656 684 662
+346 440
+36 84
+759
+449 545
+139 272
+862 919 916 921 918 920
+552 4
+242 368
+965 986 531
+655 248 443
+345 451 448 450 248 449
+35 83
+758
+448
+138 271
+861 16 286 397 95
+551 94 536 4 598
+241 367
+964
+654 755 676 679 682 753 677 680 683 701 313 184 704 754 672 678 681 646 179 182 752
+344 447 444 446
+34
+757
+447 540 88 542 539 803 222 544 670 345
+137 250 253 209 313 265 793 794 797 260 266 269 795 184 264 267 270 182 796
+860 151 800
+550
+240 4 366
+963
+653
+343 443
+33
+756
+446 4 538
+136
+859
+549
+239 365 248
+962 4
+652 675 646
+342 440
+32 80 77 82 79 76 81 78 75 26
+755 313 209 182 179 265 95
+445 243 440
+135 263 262
+858 915
+548 773 143 597 101
+238 92
+961 983 985 982 984
+651
+341 4
+31
+754 721 719
+444 537
+134 250 261 258 151 260 800 259 253
+857 428 16
+547 596
+237 833 94 16 835 4 832 834
+960 4
+650
+340 339
+30
+753
+443 534 536 4 535
+133 257 95
+856 46
+546 4
+236 836 363 144
+959
+649 531 674 248
+339 439 46
+29 74
+752 704 95
+442 531 533
+132
+855
+545 595 207 46
+235 363 837 144
+958 916 944 981 144 397
+648 673
+338 248 337 95
+28
+751 41
+441 531 532
+131 111 56
+854
+544 773 594 775 774 219
+234 364
+957
+647 672
+337 94 4
+27 66 71 68 65 73 70 67 72 69
+750
+440 369
+130 820 841 1032 1035 853 256 313 842 1033 1036 1022 749 843 1034
+853 914 313 209 142 849 529
+543 440
+233 41 46
+956 980
+646
+336
+26 64
+749 313 866 209 182 777 130 428
+439 530 455 334 351
+129 250 313 251 209 137 88 252 254 182 255 253
+852 913
+542 593
+232 363 837 144
+955 454
+645 757 766 616 764 763 669 209 182 143 756 762 668 671 142 652 95 758 765 761 617 667 670 16 313
+335
+25 63 62 4
+748 313 318 864 185 182 863 865 184
+438 54
+128 94 4 95 46
+851 655 912
+541 440
+231 4
+954
+644 666 570
+334 108 102
+24 50 53 56 59 118 844 48 51 54 57 60 16 119 328 49 52 58 816 815 845 851
+747 862 570 584
+437 313 419 209 318 418 182 308 529
+127 249 248
+850 313 209 142 911 179 305
+540 592
+230 292
+953 761 764 967 976 650 668 765 968 971 977 651 422 143 979 951 766 769 969 972 975 978
+643 4
+333
+23 47 46
+746 861
+436 528 527
+126 247
+849
+539 46 100 209 591 95 718 207 589 313 745 422 143 208 590 182
+229 351 742 743 361 362 467 340 167
+952 974 485
+642 664 665 207
+332
+22 4 46 23
+745 102
+435 419 16 418 67 317 308 854
+125 246
+848 319 318 910
+538 588 587
+228 360
+951
+641 537
+331 4
+21 45
+744
+434 526 313 209 65 142
+124 241 243 240 245 242
+847 179 909
+537 4
+227 359 356 358 355 357
+950 209 964 967 970 973 953 968 971 651 422 951 769 963 966 969 972
+640 663 88 16 818 648 783 222 817
+330 438 437
+20 44
+743 743 860 742
+433 825 888 41 46
+123 238 95
+846 517 897
+536
+226 353
+949 248
+639 662
+329 436
+19 43 42 4
+742
+432 160 162 159 161
+122 56 213
+845 844
+535 45 527 294
+225 352
+948
+638 661 4
+328 70 435
+18 41
+741
+431 54
+121 235 232 237 234 236 202 121 233
+844 908 785 318 418 63 16 319 419 854 907 67 308
+534 586 536
+224 744 351
+947 962 248
+637
+327 73
+17 40
+740 730 657
+430 160 162 159 161
+120 231 230
+843 313 100 143 209 424 182 906 646 184
+533 60 68 585 4 584 428
+223 313 100 143 207 208 350 46
+946 825 960 313 209 961 286 182 248 130 397
+636 410
+326 1008 826 321 418 847 195 433 1013 827 419 848 434 825 846
+16
+739
+429 525
+119 229 228
+842 809
+532 60 583 68 585 584 428
+222 172 16 823 811
+945 959
+635 313 810 660 658 119 182 659 529
+325 65 432
+15 39
+738 572
+428
+118 222
+841 202
+531 582
+221 349
+944
+634 657 656
+324
+14 38
+737 571
+427 524
+117 130 23
+840
+530
+220 347 344 348 345
+943 957 286 958 397
+633 655 611
+323 432 430 317
+13
+1046
+736 728
+426 523
+116 4
+839
+529 209 130
+219 341 251
+942 242
+632 449
+322 431
+12 37
+1045 172 202
+735
+425 522
+115 226 225
+838
+528 580 581
+218
+941
+631 655 611 345
+321 430 317
+11 34 31 28 25 33 30 27 35 32 26
+1044
+734 672
+424 520 422 4 521
+114 805 209 313 215 221 224 806 216 219 222 804 807 130 217 220 223 182
+837 904 905 207 46
+527 579 578
+217 339 340
+940 318 73 179
+630 646 108 98
+320 94 292
+10 4
+1043
+733 657 740 736
+423 164
+113 213
+836 546
+526 54
+216 338
+939
+629 511 654 4
+319 428 637 165 429
+9 15 18 21 24 16 19 22 119 125 11 14 17 20 23 602
+1042 172 1046
+732
+422
+112 15 206 209 212 41 130 182 207 210 313 46 17 208 211 88
+835
+525 577 4
+215 286 337
+938
+628
+318
+8 4
+1041 750
+731 732 739
+421 313 100 143
+111 204 94 205 363 90 202 144
+834 313 143 209 16 182 130 207
+524 406
+214
+937 98
+627 103
+317 825 41 46
+7 10
+1040 1045
+730
+420 313 41 209 519 421 142 18 751 518 46
+110 194 197 247 858 825 308 321 418 826 192 195 198 201 16 827 419 193 196 199 200
+833 207 903 46
+523 224 362 339 191 167
+213 204 336 94 335 280 202 144 92
+936
+626 389
+316
+6
+1039 750 172 1042 1038
+729 108
+419 517 1011 516 423 1012
+109
+832 207 46
+522 576 46
+212 313 100 143 207 95 46
+935 94 4
+625 389
+315 427
+5 8 9
+1038 172
+728
+418 318 864 863
+108
+831 56 209 130 46 57 902 313 751 143 901 825 182 235
+521
+211 207 46
+934 428 16 823
+624 389
+314 425 426
+4
+1037 172
+727 313 209 182 725
+417 515
+107 224 191
+830 42 202 834 900
+520
+210 108 4
+933 428
+623
+313 424
+3 7
+1036 1037 172 1043 811 209 130 750 1038 1041 1044 906 1039 1040 777 313 428 1042 182
+726 738 737
+416 776 514 513
+106 187 189 188 190 95 46
+829 899 556 897
+519 207 41 575 46
+209 183 130 334 46
+932 956
+622 802 313 143 669 801 766 142 622 667
+312 100 306 854 419 422 1032 209 143 1022 853 418 856 421 859 73 308 67 142 192 842 849 843 256 855 420 423 182 63 307 66 1033 313
+2 6
+1035 313 143 209 182 46
+725 95
+415 165
+105 186
+828 192 898
+518 333 207 46
+208 333
+931 955
+621 4
+311 313 100 314 420 46
+1 610 127 343 273 203 12 965 412 628 342 507 132 227 354 214 36 55 218 614 239 61 277 99 29 442 283 445 86 626 3 346 168 473 244 460 85 390 695 625 91 2 612 917 441 461 497 408 624 141 268 414 541 649 543 274 509 13 642 89
+1034 842 313 209 1036 182 130 256 1035
+724
+414 511 512
+104 4
+827 517 557 897
+517 178
+207 102
+930
+620 653
+310 856 209 855 67 854 849
+0 5 4 1

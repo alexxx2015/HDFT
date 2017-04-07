@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="9522470">
+  <sources>
+    <source>
+      <id>Source1</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:19</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source2</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:33</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source3</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:47</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source4</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:61</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source5</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:76</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source6</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:136</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source7</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:178</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source9</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:259</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source13</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;:52</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source16</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:89</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source17</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:101</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source36</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;:61</location>
+      <possible-signatures>
+        <signature>com.restfb.DefaultFacebookClient.fetchObject(Ljava/lang/String;Ljava/lang/Class;[Lcom/restfb/Parameter;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source37</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;:40</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source43</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.isValid(Ljava/lang/String;)Z:4</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source44</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;:43</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source45</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.updateValid(Ljava/lang/String;I)V:4</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source46</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V:7</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source47</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V:23</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source48</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V:71</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source49</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V:102</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+    <source>
+      <id>Source50</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;:12</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <return/>
+      <context/>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:38</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink1</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:52</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink2</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:66</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink7</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:62</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink10</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:32</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink11</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:54</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink12</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:63</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink13</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:71</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink14</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:82</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink15</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:153</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink16</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:161</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink17</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:169</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink18</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:177</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink19</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:28</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink20</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:37</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink21</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:45</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink22</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:86</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink23</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:105</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink24</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:113</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink25</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:121</location>
+      <possible-signatures>
+        <signature>org.apache.catalina.connector.CoyoteWriter.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink62</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V:176</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <param index="2"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink74</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V:137</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <param index="2"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink75</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V:152</location>
+      <possible-signatures>
+        <signature>java.util.HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</signature>
+      </possible-signatures>
+      <param index="2"/>
+      <context/>
+    </sink>
+  </sinks>
+  <creation-sites>
+    <creation-site>
+      <id>53501</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V:91</location>
+    </creation-site>
+    <creation-site>
+      <id>64272</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;:20</location>
+    </creation-site>
+    <creation-site>
+      <id>53641</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V:130</location>
+    </creation-site>
+    <creation-site>
+      <id>37</id>
+      <location>webservice.BirthdayAppEntryPoint.main([Ljava/lang/String;)V:50</location>
+    </creation-site>
+    <creation-site>
+      <id>80455</id>
+      <location>de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.add([Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V:32</location>
+    </creation-site>
+  </creation-sites>
+  <flows>
+    <sink id="Sink0">
+      <source id="Source2"/>
+      <chop>
+        <chopNode byteCodeIndex="33" label="v89 = p1.getParameter(#(error))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="38" label="v8.println(v89)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+      </chop>
+    </sink>
+    <sink id="Sink1">
+      <source id="Source3"/>
+      <chop>
+        <chopNode byteCodeIndex="47" label="v93 = p1.getParameter(#(error_reason))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="52" label="v8.println(v93)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+      </chop>
+    </sink>
+    <sink id="Sink2">
+      <source id="Source4"/>
+      <chop>
+        <chopNode byteCodeIndex="61" label="v97 = p1.getParameter(#(error_description))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="66" label="v8.println(v97)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+      </chop>
+    </sink>
+    <sink id="Sink15">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="-1" label="fakeWorldClinit()" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeRootMethod()V"/>
+        <chopNode byteCodeIndex="-1" label="&lt;clinit&gt;()" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeWorldClinit()V"/>
+      </chop>
+      <source id="Source13"/>
+      <chop>
+        <chopNode byteCodeIndex="293" label="v74 = this.getAccessToken(v72)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="331" label="this.loggedInWork(p1, p2, v75)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="36" label="v17 = valueOf(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="v15.&lt;init&gt;(v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="44" label="v20 = v15.append(v14)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="47" label="v22 = v20.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="52" label="v14 = v4.readLine()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="65" label="v27 = v23.split(#(access_token\=))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="69" label="v29 = v27[#(1)]" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="75" label="v32 = v29.split(#(\&amp;expires))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="1" label="v7 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="89" label="v33 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="101" label="v35 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="75" label="v46.&lt;init&gt;(#([birthday corrupt] ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="79" label="v50 = v46.append(v13)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="82" label="v52 = v50.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="158" label="v72 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="176" label="v78 = v74.put(v76, v55)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="1" label="v5 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="102" label="updateValid(v26, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="delete(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="19" label="v10 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.updateValid(Ljava/lang/String;I)V"/>
+        <chopNode byteCodeIndex="25" label="v7 = this.getSession(#(1))" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getSession()Ljavax/servlet/http/HttpSession;"/>
+      </chop>
+      <source id="Source36"/>
+      <chop>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="89" label="v33 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="101" label="v35 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="27" label="sort(v8, v9)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="154" label="v48 = v46.getBirthdayMonth()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="307" label="v90 = v88.asHTML()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="381" label="v110 = v107.getBirthdayMonthDay()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="441" label="v130.send(v133, p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="445" label="v138 = v4.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="448" label="return v138" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="61" label="v23 = p2.fetchObject(#(me), v15, v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="64" label="v24 = CHECKCAST v23" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="71" label="v26 = v24.getId()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="112" label="return v26" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+      </chop>
+      <source id="Source37"/>
+      <chop>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="441" label="v130.send(v133, p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="445" label="v138 = v4.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="448" label="return v138" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="213" label="v82 = loadFriends(v80)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="219" label="v85 = v3.add(v55)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="22" label="v14 = fetchAll(v12)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="39" label="v19 = v14.get(#(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="44" label="v20 = CHECKCAST v19" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="47" label="return v20" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="52" label="v21 = v3.add(v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="56" label="v21 = p3.firstname" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="59" label="v23 = valueOf(v21)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="62" label="v20.&lt;init&gt;(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="67" label="v27 = v20.append(#( ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="71" label="v28 = p3.lastname" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="74" label="v30 = v27.append(v28)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="77" label="v32 = v30.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="179" label="v53.&lt;init&gt;(#(d MMM yyyy HH:mm:ss))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="188" label="v61 = v53.format(v59)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="40" label="v21 = p2.userid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="43" label="v23 = v17.append(v21)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="46" label="v25 = v23.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="113" label="v48 = this.createIncidentElement(v36, p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="139" label="v44 = this.createIncidentElement(v36, p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="1" label="v6 = load(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.send(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="42" label="this.logEvilThing(p1, v6)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.send(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="0" label="v3 = new java.lang.String" operation="declaration" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="5" label="v4 = this.value" operation="reference" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="13" label="v3.&lt;init&gt;(v4, #(0), v6)" operation="call" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="16" label="return v3" operation="compound" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="7" label="this.ensureCapacity(v6)" operation="call" ownerMethod="java.util.ArrayList.add(Ljava/lang/Object;)Z"/>
+        <chopNode byteCodeIndex="10" label="v6 = v5[p1]" operation="reference" ownerMethod="java.util.ArrayList.get(I)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="11" label="return v6" operation="compound" ownerMethod="java.util.ArrayList.get(I)Ljava/lang/Object;"/>
+      </chop>
+      <source id="Source44"/>
+      <chop>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="26" label="v13 = v8.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="31" label="v14 = CHECKCAST v13" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="40" label="v16 = v14.friendid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="43" label="v18 = v15.get(v16)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="48" label="v19 = CHECKCAST v18" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="51" label="v21 = v3.add(v19)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+      </chop>
+      <source id="Source46"/>
+      <chop>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="89" label="v33 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="101" label="v35 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+      </chop>
+      <source id="Source47"/>
+      <chop>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="89" label="v33 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="101" label="v35 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="441" label="v130.send(v133, p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="445" label="v138 = v4.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="448" label="return v138" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="48" label="v20 = v2.add(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="213" label="v82 = loadFriends(v80)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="219" label="v85 = v3.add(v55)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="22" label="v14 = fetchAll(v12)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="39" label="v19 = v14.get(#(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="44" label="v20 = CHECKCAST v19" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="47" label="return v20" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="9" label="v6 = loadFriends(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="26" label="v13 = v8.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="31" label="v14 = CHECKCAST v13" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="40" label="v16 = v14.friendid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="43" label="v18 = v15.get(v16)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="48" label="v19 = CHECKCAST v18" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="51" label="v21 = v3.add(v19)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="23" label="v11 = v8.get(v9)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="28" label="v12 = CHECKCAST v11" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="114" label="v39 = v27.add(v12)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="123" label="v41 = v37.add(v7)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="52" label="v21 = v3.add(v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="56" label="v21 = p3.firstname" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="59" label="v23 = valueOf(v21)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="62" label="v20.&lt;init&gt;(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="67" label="v27 = v20.append(#( ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="71" label="v28 = p3.lastname" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="74" label="v30 = v27.append(v28)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="77" label="v32 = v30.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="179" label="v53.&lt;init&gt;(#(d MMM yyyy HH:mm:ss))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="188" label="v61 = v53.format(v59)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="40" label="v21 = p2.userid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="43" label="v23 = v17.append(v21)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="46" label="v25 = v23.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="113" label="v48 = this.createIncidentElement(v36, p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="139" label="v44 = this.createIncidentElement(v36, p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="1" label="v6 = load(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.send(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="42" label="this.logEvilThing(p1, v6)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.send(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="8" label="v8 = v6.length()" operation="call" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="19" label="v10 = this.count" operation="reference" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="23" label="v11 = v10 + v8" operation="assign" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="36" label="this.expandCapacity(v11)" operation="call" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="47" label="v16 = this.count" operation="reference" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="50" label="v6.getChars(#(0), v8, v15, v16)" operation="call" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="55" label="this.count = v11" operation="modify" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="2" label="v5 = p1.length()" operation="call" ownerMethod="java.lang.StringBuilder.&lt;init&gt;(Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="7" label="v7 = v5 + #(16)" operation="assign" ownerMethod="java.lang.StringBuilder.&lt;init&gt;(Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="8" label="this.&lt;init&gt;(v7)" operation="call" ownerMethod="java.lang.StringBuilder.&lt;init&gt;(Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="13" label="v10 = this.append(p1)" operation="call" ownerMethod="java.lang.StringBuilder.&lt;init&gt;(Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="2" label="v5 = this.append(p1)" operation="call" ownerMethod="java.lang.StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="0" label="v3 = new java.lang.String" operation="declaration" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="5" label="v4 = this.value" operation="reference" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="10" label="v6 = this.count" operation="reference" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="13" label="v3.&lt;init&gt;(v4, #(0), v6)" operation="call" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="16" label="return v3" operation="compound" ownerMethod="java.lang.StringBuilder.toString()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="16" label="v10 = p1[v9]" operation="reference" ownerMethod="java.lang.System.arraycopy([Ljava/lang/Object;I[Ljava/lang/Object;II)V"/>
+        <chopNode byteCodeIndex="17" label="p3[v8] = v10" operation="modify" ownerMethod="java.lang.System.arraycopy([Ljava/lang/Object;I[Ljava/lang/Object;II)V"/>
+        <chopNode byteCodeIndex="-1" label="v3 = p1.run()" operation="call" ownerMethod="java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="12" label="v8 = this.format(p1, v4, v6)" operation="call" ownerMethod="java.text.DateFormat.format(Ljava/util/Date;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="15" label="v10 = v8.toString()" operation="call" ownerMethod="java.text.DateFormat.format(Ljava/util/Date;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="5" label="this.&lt;init&gt;(p1, v5)" operation="call" ownerMethod="java.text.SimpleDateFormat.&lt;init&gt;(Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="12" label="v7 = v4.get(v5)" operation="call" ownerMethod="java.util.AbstractList$Itr.next()Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="32" label="return v7" operation="compound" ownerMethod="java.util.AbstractList$Itr.next()Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="6" label="this.add(v5, p1)" operation="call" ownerMethod="java.util.AbstractList.add(Ljava/lang/Object;)Z"/>
+        <chopNode byteCodeIndex="55" label="this.ensureCapacity(v9)" operation="call" ownerMethod="java.util.ArrayList.add(ILjava/lang/Object;)V"/>
+        <chopNode byteCodeIndex="76" label="arraycopy(v11, p1, v12, v13, v15)" operation="call" ownerMethod="java.util.ArrayList.add(ILjava/lang/Object;)V"/>
+        <chopNode byteCodeIndex="7" label="this.ensureCapacity(v6)" operation="call" ownerMethod="java.util.ArrayList.add(Ljava/lang/Object;)Z"/>
+        <chopNode byteCodeIndex="26" label="v8[v9] = p1" operation="modify" ownerMethod="java.util.ArrayList.add(Ljava/lang/Object;)Z"/>
+        <chopNode byteCodeIndex="64" label="arraycopy(v9, #(0), v18, #(0), v19)" operation="call" ownerMethod="java.util.ArrayList.ensureCapacity(I)V"/>
+        <chopNode byteCodeIndex="10" label="v6 = v5[p1]" operation="reference" ownerMethod="java.util.ArrayList.get(I)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="11" label="return v6" operation="compound" ownerMethod="java.util.ArrayList.get(I)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="10" label="v6 = p1.hashCode()" operation="call" ownerMethod="java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="13" label="v8 = hash(v6)" operation="call" ownerMethod="java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="27" label="v13 = indexFor(v8, v11)" operation="call" ownerMethod="java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="30" label="v14 = v9[v13]" operation="reference" ownerMethod="java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="64" label="v22 = v21.value" operation="reference" ownerMethod="java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="67" label="return v22" operation="compound" ownerMethod="java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="69" label="v20 = v21.next" operation="reference" ownerMethod="java.util.HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="7" label="v8 = newHash(p1)" operation="call" ownerMethod="java.util.HashMap.hash(I)I"/>
+        <chopNode byteCodeIndex="14" label="v6 = oldHash(p1)" operation="call" ownerMethod="java.util.HashMap.hash(I)I"/>
+        <chopNode byteCodeIndex="17" label="return v9" operation="compound" ownerMethod="java.util.HashMap.hash(I)I"/>
+        <chopNode byteCodeIndex="4" label="v6 = p1 &amp;&amp; v5" operation="assign" ownerMethod="java.util.HashMap.indexFor(II)I"/>
+        <chopNode byteCodeIndex="5" label="return v6" operation="compound" ownerMethod="java.util.HashMap.indexFor(II)I"/>
+        <chopNode byteCodeIndex="4" label="v4 = p1 ? #(20)" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="8" label="v6 = p1 ? #(12)" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="9" label="v7 = v4 ^ v6" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="10" label="v8 = p1 ^ v7" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="16" label="v10 = v8 ? #(7)" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="17" label="v11 = v8 ^ v10" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="20" label="v13 = v8 ? #(4)" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="21" label="v14 = v11 ^ v13" operation="assign" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="22" label="return v14" operation="compound" ownerMethod="java.util.HashMap.newHash(I)I"/>
+        <chopNode byteCodeIndex="4" label="v4 = p1 ? #(9)" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="6" label="v6 = v4 ^ #(-1)" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="7" label="v7 = p1 + v6" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="13" label="v9 = v7 ? #(14)" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="14" label="v10 = v7 ^ v9" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="19" label="v12 = v10 ? #(4)" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="20" label="v13 = v10 + v12" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="26" label="v15 = v13 ? #(10)" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="27" label="v16 = v13 ^ v15" operation="assign" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="30" label="return v16" operation="compound" ownerMethod="java.util.HashMap.oldHash(I)I"/>
+        <chopNode byteCodeIndex="8" label="this.parseParameters()" operation="call" ownerMethod="org.apache.catalina.connector.Request.getParameter(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="202" label="this.parseParts()" operation="call" ownerMethod="org.apache.catalina.connector.Request.parseParameters()V"/>
+        <chopNode byteCodeIndex="460" label="v114 = v112.add(v110)" operation="call" ownerMethod="org.apache.catalina.connector.Request.parseParts()V"/>
+        <chopNode byteCodeIndex="1" label="v4 = this.run()" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade$GetParameterPrivilegedAction.run()Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="11" label="v7 = v4.getParameter(v5)" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade$GetParameterPrivilegedAction.run()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="38" label="v14 = doPrivileged(v11)" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="50" label="v10 = v8.getParameter(p1)" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;"/>
+      </chop>
+      <source id="Source48"/>
+      <chop>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="89" label="v33 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="101" label="v35 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="25" label="v32 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="62" label="v44 = v42.getTime()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="158" label="v72 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="40" label="v17 = v15.get(v14)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="45" label="v18 = CHECKCAST v17" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="48" label="v20 = v2.add(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="0" label="v4 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.getNewValidDate(I)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="36" label="v14.&lt;init&gt;(#(yyyy-MM-dd HH:mm:ss.0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.getNewValidDate(I)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="42" label="v18 = v14.format(v10)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.getNewValidDate(I)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="9" label="v6 = loadFriends(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="26" label="v13 = v8.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="31" label="v14 = CHECKCAST v13" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="40" label="v16 = v14.friendid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="43" label="v18 = v15.get(v16)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="48" label="v19 = CHECKCAST v18" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="51" label="v21 = v3.add(v19)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="12" label="v7 = v5.get(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="17" label="v8 = CHECKCAST v7" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="20" label="v10 = v8.iterator()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="30" label="v15 = v10.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="35" label="v16 = CHECKCAST v15" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="46" label="v18 = v16.userid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="49" label="v17.&lt;init&gt;(p1, v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="52" label="v21 = v3.add(v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="12" label="v8 = this.format(p1, v4, v6)" operation="call" ownerMethod="java.text.DateFormat.format(Ljava/util/Date;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="15" label="v10 = v8.toString()" operation="call" ownerMethod="java.text.DateFormat.format(Ljava/util/Date;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="5" label="this.&lt;init&gt;(p1, v5)" operation="call" ownerMethod="java.text.SimpleDateFormat.&lt;init&gt;(Ljava/lang/String;)V"/>
+      </chop>
+      <source id="Source49"/>
+      <chop>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="89" label="v33 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="101" label="v35 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="441" label="v130.send(v133, p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="445" label="v138 = v4.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="448" label="return v138" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="delete(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="16" label="v8 = v6.iterator()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="26" label="v13 = v8.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="31" label="v14 = CHECKCAST v13" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="40" label="v17 = v15.get(v14)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="45" label="v18 = CHECKCAST v17" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="48" label="v20 = v2.add(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.fetchAll()Ljava/util/List;"/>
+        <chopNode byteCodeIndex="9" label="v6 = loadFriends(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="26" label="v13 = v8.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="31" label="v14 = CHECKCAST v13" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="40" label="v16 = v14.friendid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="43" label="v18 = v15.get(v16)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="48" label="v19 = CHECKCAST v18" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="51" label="v21 = v3.add(v19)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="38" label="v14 = doPrivileged(v11)" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="50" label="v10 = v8.getParameter(p1)" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getParameter(Ljava/lang/String;)Ljava/lang/String;"/>
+      </chop>
+      <source id="Source50"/>
+      <chop>
+        <chopNode byteCodeIndex="1" label="v6 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="126" label="this.loggedInWork(p1, p2, v84)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="331" label="this.loggedInWork(p1, p2, v75)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="1" label="v7 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="89" label="v33 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="101" label="v35 = p1.getParameter(#(adminAccess))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="115" label="v43 = fetchAll()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="125" label="v41 = loadFriendsEager(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="150" label="v49 = v45.asHTML(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="153" label="v9.println(v49)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="40" label="v18 = v16.asHTML()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BdayMonthRow.asHTML()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="43" label="v20 = v3.append(v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BdayMonthRow.asHTML()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="59" label="v23 = v3.append(#(&lt;/div&gt;))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BdayMonthRow.asHTML()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="64" label="v25 = v3.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BdayMonthRow.asHTML()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="67" label="return v25" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BdayMonthRow.asHTML()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="14" label="v3.&lt;init&gt;(v7)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalUser.getName()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="19" label="v11 = v3.append(#( ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalUser.getName()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="29" label="v15 = v11.append(v13)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalUser.getName()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="32" label="v17 = v15.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalUser.getName()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="35" label="return v17" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalUser.getName()Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="307" label="v90 = v88.asHTML()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="310" label="v92 = v4.append(v90)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="327" label="v96 = v4.append(#(&lt;/div&gt;))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="387" label="v108.&lt;init&gt;(v112)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="392" label="v116 = v108.append(#( ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="397" label="v118 = v107.getName()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="400" label="v120 = v116.append(v118)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="405" label="v123 = v120.append(#(&#10;))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="408" label="v125 = v123.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="411" label="v127 = v98.append(v125)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="437" label="v133 = v98.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="441" label="v130.send(v133, p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="445" label="v138 = v4.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="448" label="return v138" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.birthdaycal.BirthdayCalendar.asHTML(Ljava/lang/String;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="25" label="v32 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="62" label="v44 = v42.getTime()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="75" label="v46.&lt;init&gt;(#([birthday corrupt] ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="79" label="v50 = v46.append(v13)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="82" label="v52 = v50.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="158" label="v72 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="176" label="v78 = v74.put(v76, v55)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="1" label="v5 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="102" label="updateValid(v26, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="36" label="v14.&lt;init&gt;(#(yyyy-MM-dd HH:mm:ss.0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.getNewValidDate(I)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="42" label="v18 = v14.format(v10)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.getNewValidDate(I)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="7" label="v3.&lt;init&gt;(#(userid = '))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="11" label="v7 = v3.append(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="16" label="v10 = v7.append(#('))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="19" label="v12 = v10.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="22" label="v14 = fetchAll(v12)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.load(Ljava/lang/String;)Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;"/>
+        <chopNode byteCodeIndex="9" label="v6 = loadFriends(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="26" label="v13 = v8.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="31" label="v14 = CHECKCAST v13" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="40" label="v16 = v14.friendid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="43" label="v18 = v15.get(v16)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="48" label="v19 = CHECKCAST v18" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="51" label="v21 = v3.add(v19)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.loadFriendsEager(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="19" label="v10 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.updateValid(Ljava/lang/String;I)V"/>
+        <chopNode byteCodeIndex="12" label="v7 = v5.get(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="17" label="v8 = CHECKCAST v7" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="20" label="v10 = v8.iterator()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="30" label="v15 = v10.next()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="35" label="v16 = CHECKCAST v15" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="46" label="v18 = v16.userid" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="49" label="v17.&lt;init&gt;(p1, v18)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.loadFriends(Ljava/lang/String;)Ljava/util/List;"/>
+        <chopNode byteCodeIndex="62" label="v20.&lt;init&gt;(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="67" label="v27 = v20.append(#( ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="74" label="v30 = v27.append(v28)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="77" label="v32 = v30.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="179" label="v53.&lt;init&gt;(#(d MMM yyyy HH:mm:ss))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="188" label="v61 = v53.format(v59)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.createIncidentElement(Lorg/w3c/dom/Document;Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)Lorg/w3c/dom/Element;"/>
+        <chopNode byteCodeIndex="10" label="v6.&lt;init&gt;(#(webapps/data/Birthday...))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="16" label="v11 = v6.append(v9)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="21" label="v14 = v11.append(#(/))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="24" label="v16 = v14.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="33" label="v19 = valueOf(v16)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="36" label="v17.&lt;init&gt;(v19)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="43" label="v23 = v17.append(v21)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="46" label="v25 = v23.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="113" label="v48 = this.createIncidentElement(v36, p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="139" label="v44 = this.createIncidentElement(v36, p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.logEvilThing(Ljava/lang/String;Lde/tum/in/www22/uc/osn/apps/birthday/db/DataObject;)V"/>
+        <chopNode byteCodeIndex="1" label="v6 = load(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.send(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="42" label="this.logEvilThing(p1, v6)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.network.NetworkConnection.send(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="36" label="this.expandCapacity(v11)" operation="call" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="50" label="v6.getChars(#(0), v8, v15, v16)" operation="call" ownerMethod="java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;"/>
+        <chopNode byteCodeIndex="1" label="v4 = this.value" operation="reference" ownerMethod="java.lang.AbstractStringBuilder.expandCapacity(I)V"/>
+        <chopNode byteCodeIndex="4" label="v5 = v4.length" operation="assign" ownerMethod="java.lang.AbstractStringBuilder.expandCapacity(I)V"/>
+        <chopNode byteCodeIndex="6" label="v7 = v5 + #(1)" operation="assign" ownerMethod="java.lang.AbstractStringBuilder.expandCapacity(I)V"/>
+        <chopNode byteCodeIndex="8" label="v9 = v7 * #(2)" operation="assign" ownerMethod="java.lang.AbstractStringBuilder.expandCapacity(I)V"/>
+        <chopNode byteCodeIndex="28" label="v13 = new []" operation="declaration" ownerMethod="java.lang.AbstractStringBuilder.expandCapacity(I)V"/>
+        <chopNode byteCodeIndex="42" label="arraycopy(v14, #(0), v13, #(0), v15)" operation="call" ownerMethod="java.lang.AbstractStringBuilder.expandCapacity(I)V"/>
+        <chopNode byteCodeIndex="47" label="this.value = v13" operation="modify" ownerMethod="java.lang.AbstractStringBuilder.expandCapacity(I)V"/>
+        <chopNode byteCodeIndex="13" label="v10 = this.append(p1)" operation="call" ownerMethod="java.lang.StringBuilder.&lt;init&gt;(Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="2" label="v5 = this.append(p1)" operation="call" ownerMethod="java.lang.StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;"/>
+        <chopNode byteCodeIndex="-1" label="v3 = p1.run()" operation="call" ownerMethod="java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="2" label="v5 = this.doGetSession(p1)" operation="call" ownerMethod="org.apache.catalina.connector.Request.getSession(Z)Ljavax/servlet/http/HttpSession;"/>
+        <chopNode byteCodeIndex="25" label="v7 = this.getSession(#(1))" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getSession()Ljavax/servlet/http/HttpSession;"/>
+        <chopNode byteCodeIndex="38" label="v15 = doPrivileged(v12)" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getSession(Z)Ljavax/servlet/http/HttpSession;"/>
+        <chopNode byteCodeIndex="50" label="v11 = v9.getSession(p1)" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getSession(Z)Ljavax/servlet/http/HttpSession;"/>
+      </chop>
+    </sink>
+    <sink id="Sink23">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="-1" label="fakeWorldClinit()" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeRootMethod()V"/>
+        <chopNode byteCodeIndex="-1" label="&lt;clinit&gt;()" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeWorldClinit()V"/>
+        <chopNode byteCodeIndex="0" label="v3 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.&lt;clinit&gt;()V"/>
+        <chopNode byteCodeIndex="3" label="de.tum.in.www22.uc.osn.apps.birthday.Main.nowCal = v3" operation="modify" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.&lt;clinit&gt;()V"/>
+        <chopNode byteCodeIndex="93" label="this.loggedOutWork(p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="147" label="this.loggedOutWork(p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="340" label="this.loggedOutWork(p1, p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="102" label="v38 = v34.asHTML(#(null))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="105" label="v8.println(v38)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedOutWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="3" label="this.doGet(p1, p2)" operation="call" ownerMethod="webservice.BirthdayAppEntryPoint$MainServletWrapper.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="41" label="v11.doGet(v7, v3)" operation="call" ownerMethod="webservice.BirthdayAppEntryPoint.main([Ljava/lang/String;)V"/>
+      </chop>
+    </sink>
+    <sink id="Sink74">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="-1" label="main(v3)" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeRootMethod()V"/>
+        <chopNode byteCodeIndex="-1" label="&lt;clinit&gt;()" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeWorldClinit()V"/>
+        <chopNode byteCodeIndex="0" label="v3 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.&lt;clinit&gt;()V"/>
+      </chop>
+      <source id="Source13"/>
+      <chop>
+        <chopNode byteCodeIndex="293" label="v74 = this.getAccessToken(v72)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="331" label="this.loggedInWork(p1, p2, v75)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="36" label="v17 = valueOf(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="v15.&lt;init&gt;(v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="44" label="v20 = v15.append(v14)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="47" label="v22 = v20.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="52" label="v14 = v4.readLine()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="65" label="v27 = v23.split(#(access_token\=))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="69" label="v29 = v27[#(1)]" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="75" label="v32 = v29.split(#(\&amp;expires))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="1" label="v7 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="25" label="v32 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="62" label="v44 = v42.getTime()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="75" label="v46.&lt;init&gt;(#([birthday corrupt] ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="79" label="v50 = v46.append(v13)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="82" label="v52 = v50.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="158" label="v72 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="176" label="v78 = v74.put(v76, v55)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="1" label="v5 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="102" label="updateValid(v26, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="delete(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="19" label="v10 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.updateValid(Ljava/lang/String;I)V"/>
+        <chopNode byteCodeIndex="71" label="v25 = v22.get(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="76" label="v26 = CHECKCAST v25" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="137" label="v45 = v42.put(v43, v27)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="25" label="v7 = this.getSession(#(1))" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getSession()Ljavax/servlet/http/HttpSession;"/>
+      </chop>
+      <source id="Source36"/>
+      <chop>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="61" label="v23 = p2.fetchObject(#(me), v15, v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="64" label="v24 = CHECKCAST v23" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="71" label="v26 = v24.getId()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="112" label="return v26" operation="compound" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+      </chop>
+      <source id="Source48"/>
+      <chop>
+        <chopNode byteCodeIndex="25" label="v32 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="62" label="v44 = v42.getTime()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="158" label="v72 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="71" label="v25 = v22.get(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="76" label="v26 = CHECKCAST v25" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="137" label="v45 = v42.put(v43, v27)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+      </chop>
+      <source id="Source49"/>
+      <chop>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="delete(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="4" label="v5 = v3.remove(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.delete(Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="71" label="v25 = v22.get(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="76" label="v26 = CHECKCAST v25" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="137" label="v45 = v42.put(v43, v27)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="2" label="v5 = this.removeEntryForKey(p1)" operation="call" ownerMethod="java.util.HashMap.remove(Ljava/lang/Object;)Ljava/lang/Object;"/>
+        <chopNode byteCodeIndex="6" label="v7 = v5.hashCode()" operation="call" ownerMethod="java.util.HashMap.removeEntryForKey(Ljava/lang/Object;)Ljava/util/HashMap$Entry;"/>
+        <chopNode byteCodeIndex="9" label="v9 = hash(v7)" operation="call" ownerMethod="java.util.HashMap.removeEntryForKey(Ljava/lang/Object;)Ljava/util/HashMap$Entry;"/>
+        <chopNode byteCodeIndex="19" label="v13 = indexFor(v9, v11)" operation="call" ownerMethod="java.util.HashMap.removeEntryForKey(Ljava/lang/Object;)Ljava/util/HashMap$Entry;"/>
+        <chopNode byteCodeIndex="30" label="v15 = v14[v13]" operation="reference" ownerMethod="java.util.HashMap.removeEntryForKey(Ljava/lang/Object;)Ljava/util/HashMap$Entry;"/>
+        <chopNode byteCodeIndex="42" label="v17 = v23.next" operation="reference" ownerMethod="java.util.HashMap.removeEntryForKey(Ljava/lang/Object;)Ljava/util/HashMap$Entry;"/>
+        <chopNode byteCodeIndex="103" label="v30[v13] = v17" operation="modify" ownerMethod="java.util.HashMap.removeEntryForKey(Ljava/lang/Object;)Ljava/util/HashMap$Entry;"/>
+        <chopNode byteCodeIndex="111" label="v24.next = v17" operation="modify" ownerMethod="java.util.HashMap.removeEntryForKey(Ljava/lang/Object;)Ljava/util/HashMap$Entry;"/>
+      </chop>
+    </sink>
+    <sink id="Sink75">
+      <source id="Source0"/>
+      <chop>
+        <chopNode byteCodeIndex="-1" label="main(v3)" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeRootMethod()V"/>
+        <chopNode byteCodeIndex="-1" label="&lt;clinit&gt;()" operation="call" ownerMethod="com.ibm.wala.FakeRootClass.fakeWorldClinit()V"/>
+        <chopNode byteCodeIndex="0" label="v3 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.&lt;clinit&gt;()V"/>
+      </chop>
+      <source id="Source13"/>
+      <chop>
+        <chopNode byteCodeIndex="293" label="v74 = this.getAccessToken(v72)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="331" label="this.loggedInWork(p1, p2, v75)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"/>
+        <chopNode byteCodeIndex="36" label="v17 = valueOf(v23)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="v15.&lt;init&gt;(v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="44" label="v20 = v15.append(v14)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="47" label="v22 = v20.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="52" label="v14 = v4.readLine()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="65" label="v27 = v23.split(#(access_token\=))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="69" label="v29 = v27[#(1)]" operation="reference" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="75" label="v32 = v29.split(#(\&amp;expires))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.getAccessToken(Ljava/io/InputStream;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="1" label="v7 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="19" label="update(p1, p2, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.Main.loggedInWork(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="25" label="v32 = getInstance()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="62" label="v44 = v42.getTime()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="75" label="v46.&lt;init&gt;(#([birthday corrupt] ))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="79" label="v50 = v46.append(v13)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="82" label="v52 = v50.toString()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="158" label="v72 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="176" label="v78 = v74.put(v76, v55)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.insert(Lcom/restfb/types/User;I)V"/>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="1" label="v5 = p1.getSession()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="102" label="updateValid(v26, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="delete(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="19" label="v10 = getNewValidDate(p2)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.DataObjectUtils.updateValid(Ljava/lang/String;I)V"/>
+        <chopNode byteCodeIndex="102" label="v35 = v32.get(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="107" label="v36 = CHECKCAST v35" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="152" label="v49 = v46.put(v47, v37)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="25" label="v7 = this.getSession(#(1))" operation="call" ownerMethod="org.apache.catalina.connector.RequestFacade.getSession()Ljavax/servlet/http/HttpSession;"/>
+      </chop>
+      <source id="Source36"/>
+      <chop>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="61" label="v23 = p2.fetchObject(#(me), v15, v17)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="64" label="v24 = CHECKCAST v23" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="71" label="v26 = v24.getId()" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="94" label="insert(v24, #(4))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="102" label="v35 = v32.get(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="107" label="v36 = CHECKCAST v35" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="152" label="v49 = v46.put(v47, v37)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+      </chop>
+      <source id="Source48"/>
+      <chop>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="39" label="delete(p1)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="102" label="v35 = v32.get(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="107" label="v36 = CHECKCAST v35" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="152" label="v49 = v46.put(v47, v37)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+      </chop>
+      <source id="Source49"/>
+      <chop>
+        <chopNode byteCodeIndex="2" label="v6 = updateCurrentUser(p1, p3)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="9" label="updateFriends(v6, p3, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.update(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lcom/restfb/DefaultFacebookClient;)V"/>
+        <chopNode byteCodeIndex="108" label="updateFriends(v26, p2, #(1))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateCurrentUser(Ljavax/servlet/http/HttpServletRequest;Lcom/restfb/DefaultFacebookClient;)Ljava/lang/String;"/>
+        <chopNode byteCodeIndex="79" label="insert(v27, #(0))" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="95" label="insert(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.Common.updateFriends(Ljava/lang/String;Lcom/restfb/DefaultFacebookClient;Z)V"/>
+        <chopNode byteCodeIndex="102" label="v35 = v32.get(v33)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="107" label="v36 = CHECKCAST v35" operation="assign" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+        <chopNode byteCodeIndex="152" label="v49 = v46.put(v47, v37)" operation="call" ownerMethod="de.tum.in.www22.uc.osn.apps.birthday.db.utils.FriendsRelObjectUtils.insert(Lde/tum/in/www22/uc/osn/apps/birthday/db/FriendsRelObject;)V"/>
+      </chop>
+    </sink>
+  </flows>
+</mapping>

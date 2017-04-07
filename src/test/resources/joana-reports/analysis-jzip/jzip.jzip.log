@@ -1,0 +1,80 @@
+Configuration: class edu.kit.joana.flowanalyzer.AnalysisXMLReader$TestRunData:
+mode = BUILD
+name = analysis-my-jzip
+classpath = examples/classes/bin
+thirdPartyLibs = examples/lib/commons-cli-1.2.jar
+stubs = JRE_14
+entryPoint = jzip.JZip.main([Ljava/lang/String;)V
+sdgFile = jzip.jzip.pdg
+cgFile = jzip.jzip.cg
+multiThreaded = false
+pointsTo = INSTANCE_BASED
+ptsFallBack = 3
+ptsToInclusionPatterns = [Ljava/util/Properties, Ljava/io/ZipOutputStream, LJZip/.*]
+ptsToExclusionPatterns = []
+fieldPropagation = OBJ_GRAPH_NO_MERGE_AT_ALL
+ignoreIndirectFlows = true
+omitIFC = false
+oca = no object-creation context analysis
+reportFile = report-jzip-jzip.xml
+statsFile = null
+computeChops = true
+parallelChops = true
+systemOut = false
+timeline = edu.kit.joana.flowanalyzer.Timeline@e66db21
+stats = edu.kit.joana.flowanalyzer.Statistics@2bc5aea
+logFile = jzip.jzip.log
+logOut = java.io.PrintStream@1bf4ba0d
+cgCache = edu.kit.joana.flowanalyzer.MyObjSensReportTestRuns$CGCache@5fe2b9d1
+
+Setting up analysis scope... (from jar stream jSDG-stubs-jre1.4.jar) done.
+Creating class hierarchy... (638 classes) done.
+Setting up entrypoint jzip.JZip.main([Ljava/lang/String;)V... done.
+Building system dependence graph... 
+	callgraph: 975 nodes and 3049 edges
+	intraproc: calls.mergeable..clinit.statics.heap(if,adj,df,reg).misc.killdef.convert.summary..
+done.
+Time needed: 23774ms - Memory: 2000M used.
+Dumping call graph...
+done.
+enriching sources and sinks with implementations in subclasses...
+done.
+Saturating sources...
+done.
+Saturating sinks...
+done.
+TIME needed: 1051722 ms
+Exporting Report to disk...
+done.
+Durations: 
+overall run: 1051943,662954 ms
+	obtain PDG: 30489,241417 ms
+		strip-control-deps: 5426,471440 ms
+	saturation of sources and sinks: 13,762510 ms
+		enrich source/sinks with overriding methods: 2,171280 ms
+		backwards propagation on call graph: 11,563756 ms
+			backwards propagation of sources: 1,928852 ms
+			backwards propagation of sinks: 3,119856 ms
+	collection of source/sink occurrences in application: 156,050481 ms
+		collection of source occurrences in application: 72,572435 ms
+		collection of sink occurrences in application: 83,430646 ms
+	IFC: 3351,745839 ms
+	postprocess IFC result: 1017705,605296 ms
+		separation of violations: 4,417130 ms
+		compilation of report: 1017701,132315 ms
+	export report: 0,870384 ms
+Statistics:
+name: analysis-my-jzip
+#pdg-nodes: 113178
+#pdg-edges: 1114755
+#sources: 10
+#sinks: 56
+#flows: 410
+#min. influenced per source: 41.0
+#avg. influenced per source: 41.0
+#max. influenced per source: 41.0
+std. deviation of influenced per source: 0.0
+#min. influencers per sink: 0.0
+#avg. influencers per sink: 7.321428571428571
+#max. influencers per sink: 10.0
+std. deviation of influencers per sink: 4.428427417013301

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapping analysistime="4256363">
+  <sources>
+    <source>
+      <id>Source0</id>
+      <location>jzip.JZip.loadConfig(Ljava/lang/String;)V:41</location>
+      <possible-signatures>
+        <signature>java.util.Properties.load(Ljava/io/InputStream;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </source>
+    <source>
+      <id>Source1</id>
+      <location>jzip.JZip.start()V:70</location>
+      <possible-signatures>
+        <signature>java.io.BufferedReader.readLine()Ljava/lang/String;</signature>
+      </possible-signatures>
+      <return/>
+      <context>20</context>
+    </source>
+    <source>
+      <id>Source2</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:49</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipInputStream.getNextEntry()Ljava/util/zip/ZipEntry;</signature>
+      </possible-signatures>
+      <return/>
+      <context>20</context>
+    </source>
+    <source>
+      <id>Source3</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:49</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipInputStream.getNextEntry()Ljava/util/zip/ZipEntry;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </source>
+    <source>
+      <id>Source4</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:167</location>
+      <possible-signatures>
+        <signature>java.io.FilterInputStream.read([B)I</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </source>
+    <source>
+      <id>Source5</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:183</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipInputStream.getNextEntry()Ljava/util/zip/ZipEntry;</signature>
+      </possible-signatures>
+      <return/>
+      <context>20</context>
+    </source>
+    <source>
+      <id>Source6</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:183</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipInputStream.getNextEntry()Ljava/util/zip/ZipEntry;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </source>
+    <source>
+      <id>Source7</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:203</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipInputStream.closeEntry()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </source>
+    <source>
+      <id>Source8</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:217</location>
+      <possible-signatures>
+        <signature>java.io.FilterInputStream.read([B)I</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </source>
+  </sources>
+  <sinks>
+    <sink>
+      <id>Sink0</id>
+      <location>jzip.JZip.generateFileList(Ljava/io/File;Ljava/lang/String;)V:1</location>
+      <possible-signatures>
+        <signature>java.io.File.isFile()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink1</id>
+      <location>jzip.JZip.generateFileList(Ljava/io/File;Ljava/lang/String;)V:27</location>
+      <possible-signatures>
+        <signature>java.io.File.isDirectory()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink2</id>
+      <location>jzip.JZip.generateFileList(Ljava/io/File;Ljava/lang/String;)V:34</location>
+      <possible-signatures>
+        <signature>java.io.File.list()[Ljava/lang/String;</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink3</id>
+      <location>jzip.JZip.loadConfig(Ljava/lang/String;)V:10</location>
+      <possible-signatures>
+        <signature>java.io.File.exists()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink4</id>
+      <location>jzip.JZip.loadConfig(Ljava/lang/String;)V:21</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink5</id>
+      <location>jzip.JZip.loadConfig(Ljava/lang/String;)V:21</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink6</id>
+      <location>jzip.JZip.loadConfig(Ljava/lang/String;)V:61</location>
+      <possible-signatures>
+        <signature>java.lang.Throwable.printStackTrace()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink7</id>
+      <location>jzip.JZip.parseAndRun([Ljava/lang/String;)V:373</location>
+      <possible-signatures>
+        <signature>java.io.File.exists()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink8</id>
+      <location>jzip.JZip.parseAndRun([Ljava/lang/String;)V:381</location>
+      <possible-signatures>
+        <signature>java.io.File.mkdirs()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink9</id>
+      <location>jzip.JZip.parseAndRun([Ljava/lang/String;)V:403</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink10</id>
+      <location>jzip.JZip.parseAndRun([Ljava/lang/String;)V:413</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink11</id>
+      <location>jzip.JZip.showConfig()V:67</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink12</id>
+      <location>jzip.JZip.showConfig()V:88</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink13</id>
+      <location>jzip.JZip.start()V:9</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink14</id>
+      <location>jzip.JZip.start()V:210</location>
+      <possible-signatures>
+        <signature>java.lang.Throwable.printStackTrace()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink15</id>
+      <location>jzip.JZip.storeConfig(Ljava/lang/String;)V:14</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink16</id>
+      <location>jzip.JZip.storeConfig(Ljava/lang/String;)V:14</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink17</id>
+      <location>jzip.JZip.storeConfig(Ljava/lang/String;)V:26</location>
+      <possible-signatures>
+        <signature>java.util.Properties.store(Ljava/io/OutputStream;Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink18</id>
+      <location>jzip.JZip.storeConfig(Ljava/lang/String;)V:26</location>
+      <possible-signatures>
+        <signature>java.util.Properties.store(Ljava/io/OutputStream;Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink19</id>
+      <location>jzip.JZip.storeConfig(Ljava/lang/String;)V:26</location>
+      <possible-signatures>
+        <signature>java.util.Properties.store(Ljava/io/OutputStream;Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="2"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink20</id>
+      <location>jzip.JZip.storeConfig(Ljava/lang/String;)V:34</location>
+      <possible-signatures>
+        <signature>java.lang.Throwable.printStackTrace()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context/>
+    </sink>
+    <sink>
+      <id>Sink21</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:18</location>
+      <possible-signatures>
+        <signature>java.io.File.exists()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink22</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:26</location>
+      <possible-signatures>
+        <signature>java.io.File.mkdir()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink23</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:39</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink24</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:39</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink25</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:122</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink26</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:137</location>
+      <possible-signatures>
+        <signature>java.io.File.mkdirs()Z</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink27</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:147</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink28</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:147</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/io/File;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink29</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:161</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.write([BII)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink30</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:217</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink31</id>
+      <location>jzip.JZip.unZipIt(Ljava/lang/String;Ljava/lang/String;)V:227</location>
+      <possible-signatures>
+        <signature>java.lang.Throwable.printStackTrace()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink32</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:35</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink33</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:35</location>
+      <possible-signatures>
+        <signature>java.io.FileOutputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink34</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:84</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink35</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:134</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink36</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:152</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipOutputStream.putNextEntry(Ljava/util/zip/ZipEntry;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink37</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:152</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipOutputStream.putNextEntry(Ljava/util/zip/ZipEntry;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink38</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:184</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink39</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:184</location>
+      <possible-signatures>
+        <signature>java.io.FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink40</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:211</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipOutputStream.write([BII)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink41</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:243</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipOutputStream.closeEntry()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink42</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:248</location>
+      <possible-signatures>
+        <signature>java.util.zip.ZipOutputStream.close()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink43</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:257</location>
+      <possible-signatures>
+        <signature>java.io.PrintStream.println(Ljava/lang/String;)V</signature>
+      </possible-signatures>
+      <param index="1"/>
+      <context>20</context>
+    </sink>
+    <sink>
+      <id>Sink44</id>
+      <location>jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V:267</location>
+      <possible-signatures>
+        <signature>java.lang.Throwable.printStackTrace()V</signature>
+      </possible-signatures>
+      <param index="0"/>
+      <context>20</context>
+    </sink>
+  </sinks>
+  <creation-sites>
+    <creation-site>
+      <id>20</id>
+      <location>jzip.JZip.main([Ljava/lang/String;)V:24</location>
+    </creation-site>
+  </creation-sites>
+  <flows>
+    <sink id="Sink40">
+      <source id="Source8"/>
+      <chop>
+        <chopNode byteCodeIndex="39" label="v11.start()" operation="call" ownerMethod="jzip.JZip.main([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="234" label="this.zipIt(v64, v65)" operation="call" ownerMethod="jzip.JZip.parseAndRun([Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="169" label="this.parseAndRun(v37)" operation="call" ownerMethod="jzip.JZip.start()V"/>
+        <chopNode byteCodeIndex="152" label="v17.putNextEntry(v46)" operation="call" ownerMethod="jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="211" label="v17.write(v11, #(0), v66)" operation="call" ownerMethod="jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="217" label="v66 = v62.read(v11)" operation="call" ownerMethod="jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="243" label="v17.closeEntry()" operation="call" ownerMethod="jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V"/>
+        <chopNode byteCodeIndex="248" label="v17.close()" operation="call" ownerMethod="jzip.JZip.zipIt(Ljava/lang/String;Ljava/lang/String;)V"/>
+      </chop>
+    </sink>
+  </flows>
+</mapping>

@@ -1,0 +1,19 @@
+<xs:schema xmlns:tns="http://mytest.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://mytest.com/" version="1.0">
+
+  <xs:element name="getName" type="tns:getName"/>
+
+  <xs:element name="getNameResponse" type="tns:getNameResponse"/>
+
+  <xs:complexType name="getName">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
