@@ -73,9 +73,8 @@ public class InstrumDelegate {
 		sinksAndSources.addAll(StaticAnalysis.getSources());
 		sinksAndSources.addAll(StaticAnalysis.getSinks());
 		EVENTTIMER = Boolean.parseBoolean(ConfigProperties.getProperty(ConfigProperties.PROPERTIES.EVENTTIMER));
-	}	
+	}
 	private static IExtractor FileExt = new FileDescriptorExtractor();
-
 
 	/**
 	 * Returns true if the class with the given name is instrumented.
@@ -439,6 +438,7 @@ public class InstrumDelegate {
 			Object parentObject, Object caller) {
 		instanceMethodInvoked(parentMethod, label, calledMethod, args, parentObject, caller, null);
 	}
+
 	public static void instanceMethodInvoked(String parentMethod, String label, String calledMethod, Object[] args,
 			Object parentObject, Object callee, String p_label) {
 		// System.out.println("Instance method invoked!!");
@@ -462,7 +462,8 @@ public class InstrumDelegate {
 		eventParams.put("calleeObjectIsInstrumented",
 				String.valueOf(classIsInstrumented(getClass(callee, calledMethod))));
 		eventParams.put("chopLabel", label);
-		if(p_label != null) eventParams.put("methodLabel", p_label);
+		if (p_label != null)
+			eventParams.put("methodLabel", p_label);
 		createEvent(JavaEventName.CALL_INSTANCE_METHOD, eventParams);
 	}
 
@@ -488,6 +489,7 @@ public class InstrumDelegate {
 			Object parentObject) {
 		staticMethodInvoked(parentMethod, label, calledMethod, args, parentObject, null);
 	}
+
 	public static void staticMethodInvoked(String parentMethod, String label, String calledMethod, Object[] args,
 			Object parentObject, String p_label) {
 
@@ -508,7 +510,8 @@ public class InstrumDelegate {
 		eventParams.put("methodArgTypes", JSONArray.toJSONString(Arrays.asList(getClasses(args))));
 		eventParams.put("methodArgAddresses", JSONArray.toJSONString(Arrays.asList(getAddresses(args))));
 		eventParams.put("chopLabel", label);
-		if(p_label != null) eventParams.put("methodLabel", p_label);
+		if (p_label != null)
+			eventParams.put("methodLabel", p_label);
 		createEvent(JavaEventName.CALL_STATIC_METHOD, eventParams);
 
 		// System.out.println();
@@ -757,7 +760,8 @@ public class InstrumDelegate {
 	}
 
 	public static void mainMethodInvoked() {
-		if(true) return;//AF-added
+		if (true)
+			return;// AF-added
 		UcCommunicator.getInstance().initPDP();
 	}
 
@@ -820,14 +824,14 @@ public class InstrumDelegate {
 		allParams.put("threadId", Utility.getThreadId());
 		allParams.put("processId", Utility.getPID());
 		IEvent event = new EventBasic(eventName, allParams, isActual);
-		if(EVENTTIMER)
-		StatisticsUtil.endEventCreation(eventName);
+		if (EVENTTIMER)
+			StatisticsUtil.endEventCreation(eventName);
 		// boolean success = ucCom.sendEvent2Pdp(event);
 		IResponse response = ucCom.sendEvent(event, false); // send event to
 															// PDP/PIP
 		boolean success = (response != null && (response.getAuthorizationAction().isStatus(EStatus.ALLOW)
 				|| response.getAuthorizationAction().isStatus(EStatus.MODIFY))) ? true : false;
-		if(EVENTTIMER)
+		if (EVENTTIMER)
 			StatisticsUtil.stopEventTimer(eventName);
 		if (!isActual && success) {
 			createEvent(eventName, specificParams, true);

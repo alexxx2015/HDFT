@@ -6,42 +6,41 @@ import org.objectweb.asm.ClassWriter;
 import edu.tum.uc.jvm.MyUcTransformer;
 
 public class MyClassWriter extends ClassWriter {
-	
+
 	public MyClassWriter(ClassReader arg0, int arg1) {
 		super(arg0, arg1);
 	}
 
 	@Override
 	protected String getCommonSuperClass(final String type1, final String type2) {
-		if(MyUcTransformer.getMyClassLoader() == null){
+		if (MyUcTransformer.getMyClassLoader() == null) {
 			return super.getCommonSuperClass(type1, type2);
 		}
-		
+
 		Class<?> c, d;
-        ClassLoader classLoader = MyUcTransformer.getMyClassLoader();
-        
-        
-        try {
-            c = Class.forName(type1.replace('/', '.'), false, classLoader);
-            d = Class.forName(type2.replace('/', '.'), false, classLoader);
-        } catch (Exception e) {
-            throw new RuntimeException(e.toString());
-        } 
+		ClassLoader classLoader = MyUcTransformer.getMyClassLoader();
 
-        if (c.isAssignableFrom(d)) {
-            return type1;
-        }
+		try {
+			c = Class.forName(type1.replace('/', '.'), false, classLoader);
+			d = Class.forName(type2.replace('/', '.'), false, classLoader);
+		} catch (Exception e) {
+			throw new RuntimeException(e.toString());
+		}
 
-        if (d.isAssignableFrom(c)) {
-            return type2;
-        }
-        if (c.isInterface() || d.isInterface()) {
-            return "java/lang/Object";
-        } else {
-            do {
-                c = c.getSuperclass();
-            } while (!c.isAssignableFrom(d));
-            return c.getName().replace('.', '/');
-        }
-    }
+		if (c.isAssignableFrom(d)) {
+			return type1;
+		}
+
+		if (d.isAssignableFrom(c)) {
+			return type2;
+		}
+		if (c.isInterface() || d.isInterface()) {
+			return "java/lang/Object";
+		} else {
+			do {
+				c = c.getSuperclass();
+			} while (!c.isAssignableFrom(d));
+			return c.getName().replace('.', '/');
+		}
+	}
 }

@@ -59,7 +59,7 @@ public class MyClassVisitor extends ClassVisitor {
 	 */
 	public MethodVisitor visitMethod(int p_access, String p_name, String p_desc, String p_signature,
 			String[] p_exceptions) {
-		
+
 		// Get chop nodes list from analysis report
 		String k = this.className.replace("/", ".") + "." + p_name + p_desc;
 		List<Chop> chopNodes = StaticAnalysis.getChop(k);
@@ -85,8 +85,9 @@ public class MyClassVisitor extends ClassVisitor {
 				// actual instrumentation for tracking events
 				mv = new MyMethodVisitor(Opcodes.ASM4, myAa, p_access, p_name, p_desc, p_signature, this.className,
 						chopNodes, this.classWriter, this.superName);
-//				mv = new MyMethodVisitorSAP(Opcodes.ASM4, myAa, p_access, p_name, p_desc, p_signature, this.className,
-//						chopNodes, this.classWriter, this.superName);
+				// mv = new MyMethodVisitorSAP(Opcodes.ASM4, myAa, p_access,
+				// p_name, p_desc, p_signature, this.className,
+				// chopNodes, this.classWriter, this.superName);
 			} else {
 				// only timers for methods, no other additional bytecode
 				TimerAdviceAdapter timeAa = new TimerAdviceAdapter(Opcodes.ASM4, mv, p_access, p_name, p_desc,
